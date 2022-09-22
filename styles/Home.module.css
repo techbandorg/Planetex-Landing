@@ -1,5 +1,36 @@
 .container {
-  padding: 0 2rem;
+  width: 1512px;
+  margin: 0 auto;
+  background-image: url('/images/mainBG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  height: 115px;
+  padding: 0 50px;
+}
+
+.main_nav_ul {
+  display: flex;
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+.main_nav_a {
+  text-decoration: none;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
 }
 
 .main {
