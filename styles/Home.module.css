@@ -9,8 +9,20 @@
 .header {
   display: flex;
   align-content: center;
+  justify-content: space-between;
   height: 115px;
   padding: 0 50px;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_nav {
+  display: flex;
+  align-items: center;
 }
 
 .main_nav_ul {
@@ -20,12 +32,16 @@
   padding-left: 0; /*убираем левый отступ, равный 40px*/
 }
 
+.main_nav_li {
+ margin-right: 30px;
+}
+
 .main_nav_a {
   text-decoration: none;
 
-  font-family: "Montserrat";
+  font-family: "Montserrat-Bold";
   font-style: normal;
-  /* font-weight: 700; */
+  font-weight: 700;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
@@ -33,14 +49,112 @@
   color: #D4E5FF;
 }
 
+.header_join_button_container {
+  display: flex;
+  align-items: center;
+}
+.header_join_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 217px;
+  height: 50px;
+  border: 2px solid #9E40B5;
+  border-radius: 45px;
+
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #9E40B5;
+
+  cursor: pointer;
+}
+
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  width: 100%;
+  padding: 0 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.first_section {
+  width: 100%;
+}
+
+.first_title {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 103.19%;
+  /* or 66px */
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  margin: 90px 0 0 0;
+}
+
+.first_subtitle {
+  max-width: 533px;
+  font-family: 'Montserrat-Light';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  margin: 13px 0 0 0;
+}
+
+.first_buttons_block {
+  display: flex;
+  align-items: center;
+  margin: 55px 0 0 0;
+}
+
+.join_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 217px;
+  height: 60px;
+  background: #9E40B5;
+  border-radius: 38px;
+
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.download_WhitePaper_button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margiN: 0 0 0 140px;
+  height: 60px;
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+
+  color: #D4E5FF;
+}
+
+.download_logo {
+  position: absolute;
+  left: -70px;
+  top: -8px;
 }
 
 .footer {

@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <header className={styles.header}>
-        <div>
+        <div className={styles.logo_container}>
           <Image 
             src="/images/logo.svg"
             height={28}
@@ -23,15 +23,53 @@ const Home: NextPage = () => {
         </div>
         <nav className={styles.main_nav}>
           <ul className={styles.main_nav_ul}>
-            <li><a href="" className={styles.main_nav_a}>Project benefits</a></li>
-            <li><a href="" className={styles.main_nav_a}>Product Suite</a></li>
-            <li><a href="" className={styles.main_nav_a}>Tokenomics</a></li>
+            <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Project benefits</a></li>
+            <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Product Suite</a></li>
+            <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Tokenomics</a></li>
             <li><a href="" className={styles.main_nav_a}>Sale Details</a></li>
           </ul>
         </nav>
+        <div className={styles.header_join_button_container}>
+          <div className={styles.header_join_button}>
+            Join IDO
+          </div>
+        </div>
       </header>
 
       <main className={styles.main}>
+        <section className={styles.first_section}>
+          <div className={styles.first_content}>
+            <h1 className={styles.first_title}>
+              Buy and Sell<br/>
+              cryptocurrency<br/>
+              on the Planetex
+            </h1>
+            <p className={styles.first_subtitle}>
+              Trading on Planetex is quite simple and requires only signing up for a Planetex account and wallet creation.
+            </p>
+            <div className={styles.first_buttons_block}>
+              <div className={styles.join_button}>
+                Join IDO
+              </div>
+              <div className={styles.download_WhitePaper_button}>
+                <div className={styles.download_logo}>
+                  <Image 
+                    src="/images/download.svg"
+                    height={75}
+                    width={75}
+                    alt="Download icon"
+                  />
+                </div>
+                Download WhitePaper
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        
+        
+        
+        
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
