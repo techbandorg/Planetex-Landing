@@ -8,20 +8,27 @@
 @font-face {
   font-family: 'Montserrat-Medium';
   src: url('../asset/Montserrat/Montserrat-Medium.ttf');
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat-Regular';
   src: url('../asset/Montserrat/Montserrat-Regular.ttf');
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat-Light';
   src: url('../asset/Montserrat/Montserrat-Light.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archivo-Regular';
+  src: url('../asset/Archivo/Archivo-Regular.ttf');
   font-weight: 400;
   font-style: normal;
 }

@@ -65,6 +65,75 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
+        <section className={styles.partners_section}>
+          <div className={styles.partners_block}>
+            <div className={styles.partners_item}>
+              <div className={styles.partners_logo}>
+                <Image 
+                  src="/images/image195.png"
+                  height={64}
+                  width={64}
+                  alt="Partners icon"
+                />
+              </div>
+              <div className={styles.partners_name}>
+                DATE LOIF
+              </div>
+            </div>
+            <div className={styles.partners_item}>
+              <div className={styles.partners_logo}>
+                <Image 
+                  src="/images/image196.png"
+                  height={64}
+                  width={64}
+                  alt="Partners icon"
+                />
+              </div>
+              <div className={styles.partners_name}>
+                DATE LOIF
+              </div>
+            </div>
+            <div className={styles.partners_item}>
+              <div className={styles.partners_logo}>
+                <Image 
+                  src="/images/image197.png"
+                  height={64}
+                  width={64}
+                  alt="Partners icon"
+                />
+              </div>
+              <div className={styles.partners_name}>
+                DATE LOIF
+              </div>
+            </div>
+            <div className={styles.partners_item}>
+              <div className={styles.partners_logo}>
+                <Image 
+                  src="/images/image198.png"
+                  height={64}
+                  width={64}
+                  alt="Partners icon"
+                />
+              </div>
+              <div className={styles.partners_name}>
+                DATE LOIF
+              </div>
+            </div>
+            <div className={styles.partners_item}>
+              <div className={styles.partners_logo}>
+                <Image 
+                  src="/images/image199.png"
+                  height={64}
+                  width={64}
+                  alt="Partners icon"
+                />
+              </div>
+              <div className={styles.partners_name}>
+                DATE LOIF
+              </div>
+            </div>
+          </div>
+        </section>
         
         
         

@@ -74,17 +74,19 @@
 }
 
 .main {
-  min-height: 100vh;
-  width: 100%;
-  padding: 0 120px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:flex-start;
   align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  /* padding: 0 120px; */
+  padding: 0;
 }
 
 .first_section {
   width: 100%;
+  padding: 0 120px;
 }
 
 .first_title {
@@ -125,6 +127,7 @@
   height: 60px;
   background: #9E40B5;
   border-radius: 38px;
+  cursor: pointer;
 
   font-family: 'Montserrat-Bold';
   font-style: normal;
@@ -147,14 +150,51 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.015em;
-
   color: #D4E5FF;
+  cursor: pointer;
 }
 
 .download_logo {
   position: absolute;
   left: -70px;
   top: -8px;
+}
+
+.partners_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 140px 0 0 0;
+  min-height: 198px;
+  background: linear-gradient(90deg, #8F244D 0%, rgba(22, 153, 201, 0.53) 64.18%, #030B2F 93.05%, #03042A 100%);
+  border: 1px solid #2E2B70;
+  backdrop-filter: blur(14.5px);
+}
+
+.partners_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 970px;
+}
+
+.partners_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners_name {
+  margin: 10px 0 0 0;
+  font-family: 'Archivo-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  color: #D4C2DC;
 }
 
 .footer {
