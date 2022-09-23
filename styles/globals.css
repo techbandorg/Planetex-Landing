@@ -33,6 +33,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Druk-Wide-Bold';
+  src: url('../asset/Druk/Druk-Wide-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
