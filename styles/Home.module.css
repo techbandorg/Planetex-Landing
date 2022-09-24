@@ -226,7 +226,11 @@
 
 .benefits_first_block {
   display: flex;
-  margiN: 64px 0 0 0;
+  margin: 64px 0 0 0;
+}
+
+.benefits_second_block {
+  display: flex;
 }
 
 .benefits_text_container {
