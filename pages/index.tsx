@@ -65,71 +65,38 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
-        <section className={styles.partners_section}>
-          <div className={styles.partners_block}>
-            <div className={styles.partners_item}>
-              <div className={styles.partners_logo}>
-                <Image 
-                  src="/images/image195.png"
-                  height={64}
-                  width={64}
-                  alt="Partners icon"
-                />
-              </div>
-              <div className={styles.partners_name}>
-                DATE LOIF
-              </div>
+        <section className={styles.win_countdown_section}>
+          <div className={styles.win_countdown_timer_block}>
+            <div className={styles.win_countdown_timer_item}>
+              <div className={styles.win_countdown_timer_cell}>1</div>
+              <div className={styles.win_countdown_timer_caption}>Days</div>
             </div>
-            <div className={styles.partners_item}>
-              <div className={styles.partners_logo}>
-                <Image 
-                  src="/images/image196.png"
-                  height={64}
-                  width={64}
-                  alt="Partners icon"
-                />
-              </div>
-              <div className={styles.partners_name}>
-                DATE LOIF
-              </div>
+            <div className={styles.win_countdown_timer_item}>
+              <div className={styles.win_countdown_timer_cell}>21</div>
+              <div className={styles.win_countdown_timer_caption}>Hours</div>
             </div>
-            <div className={styles.partners_item}>
-              <div className={styles.partners_logo}>
-                <Image 
-                  src="/images/image197.png"
-                  height={64}
-                  width={64}
-                  alt="Partners icon"
-                />
-              </div>
-              <div className={styles.partners_name}>
-                DATE LOIF
-              </div>
+            <div className={styles.win_countdown_timer_item}>
+              <div className={styles.win_countdown_timer_cell}>46</div>
+              <div className={styles.win_countdown_timer_caption}>Minutes</div>
             </div>
-            <div className={styles.partners_item}>
-              <div className={styles.partners_logo}>
-                <Image 
-                  src="/images/image198.png"
-                  height={64}
-                  width={64}
-                  alt="Partners icon"
-                />
-              </div>
-              <div className={styles.partners_name}>
-                DATE LOIF
-              </div>
+            <div className={styles.win_countdown_timer_item}>
+              <div className={styles.win_countdown_timer_cell}>11</div>
+              <div className={styles.win_countdown_timer_caption}>Seconds</div>
             </div>
-            <div className={styles.partners_item}>
-              <div className={styles.partners_logo}>
-                <Image 
-                  src="/images/image199.png"
-                  height={64}
-                  width={64}
-                  alt="Partners icon"
-                />
+          </div>
+          <div className={styles.win_countdown_progress_block}>
+            <div className={styles.win_countdown_progress_container}>
+              <div className={styles.win_countdown_progress_caption}>
+                Trading on Planetex is quite ssigning up for a Planetex accounchance 
+                of winning your open contracts. We provided with you all the tools 
+                you need.
               </div>
-              <div className={styles.partners_name}>
-                DATE LOIF
+              <div className={styles.win_countdown_progress_bar}>
+                <div className={styles.win_countdown_progress_external}>
+                  <div className={styles.win_countdown_progress_internal}>
+
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -223,6 +190,86 @@ const Home: NextPage = () => {
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className={styles.product_section}>
+          <div className={styles.benefits_container}>
+            <h2 className={styles.benefits_title}>
+              Product Suite
+            </h2>
+          </div>
+        </section>
+
+
+
+
+        <section className={styles.partners_section}>
+          <div className={styles.partners_block}>
+            <div className={styles.partners_item}>
+              <div className={styles.partners_logo}>
+                <Image 
+                  src="/images/image195.png"
+                  height={64}
+                  width={64}
+                  alt="Partners icon"
+                />
+              </div>
+              <div className={styles.partners_name}>
+                DATE LOIF
+              </div>
+            </div>
+            <div className={styles.partners_item}>
+              <div className={styles.partners_logo}>
+                <Image 
+                  src="/images/image196.png"
+                  height={64}
+                  width={64}
+                  alt="Partners icon"
+                />
+              </div>
+              <div className={styles.partners_name}>
+                DATE LOIF
+              </div>
+            </div>
+            <div className={styles.partners_item}>
+              <div className={styles.partners_logo}>
+                <Image 
+                  src="/images/image197.png"
+                  height={64}
+                  width={64}
+                  alt="Partners icon"
+                />
+              </div>
+              <div className={styles.partners_name}>
+                DATE LOIF
+              </div>
+            </div>
+            <div className={styles.partners_item}>
+              <div className={styles.partners_logo}>
+                <Image 
+                  src="/images/image198.png"
+                  height={64}
+                  width={64}
+                  alt="Partners icon"
+                />
+              </div>
+              <div className={styles.partners_name}>
+                DATE LOIF
+              </div>
+            </div>
+            <div className={styles.partners_item}>
+              <div className={styles.partners_logo}>
+                <Image 
+                  src="/images/image199.png"
+                  height={64}
+                  width={64}
+                  alt="Partners icon"
+                />
+              </div>
+              <div className={styles.partners_name}>
+                DATE LOIF
               </div>
             </div>
           </div>
