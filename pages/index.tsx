@@ -195,10 +195,74 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section className={styles.product_section}>
-          <div className={styles.benefits_container}>
+          <div className={styles.product_container}>
             <h2 className={styles.benefits_title}>
               Product Suite
             </h2>
+            <div className={styles.product_content}>
+              <div className={styles.product_left_content}>
+                <p className={styles.product_left_text}>
+                  Echoing Astar Network's vision to be the heart of the multi-chain 
+                  future, Starfish aims to be collaborative, convenient and 
+                  communal to build our product suites and become the one-stop-shop 
+                  on Astar Network to provide you with DeFi, NFT-Fi and new project 
+                  discovery.
+                </p>
+                <div className={styles.buy_button}>
+                  Buy Token
+                </div>
+              </div>
+              <div className={styles.product_right_content}>
+                <div className={styles.product_right_item}>
+                  <div className={styles.product_right_icon}>
+                    <img src="/images/swap.png" alt="Swap icon" />
+                  </div>
+                  <p className={styles.product_right_caption}>Swap</p>
+                </div>
+                <div className={styles.product_right_item}>
+                  <div className={styles.product_right_icon}>
+                    <img src="/images/staking.png" alt="Staking icon" />
+                  </div>
+                  <p className={styles.product_right_caption}>Staking</p>
+                </div>
+                <div className={styles.product_right_item}>
+                  <div className={styles.product_right_icon}>
+                    <img src="/images/trading.png" alt="Trading icon" />
+                  </div>
+                  <p className={styles.product_right_caption}>Trading</p>
+                </div>
+                <div className={styles.product_right_item}>
+                  <div className={styles.product_right_icon}>
+                    <img src="/images/launchpad.png" alt="Launchpad icon" />
+                  </div>
+                  <p className={styles.product_right_caption}>Launchpad</p>
+                </div>
+                <div className={styles.product_right_item}>
+                  <div className={styles.product_right_icon}>
+                    <img src="/images/swap.png" alt="Swap icon" />
+                  </div>
+                  <p className={styles.product_right_caption}>Swap</p>
+                </div>
+                <div className={styles.product_right_item}>
+                  <div className={styles.product_right_icon}>
+                    <img src="/images/staking.png" alt="Staking icon" />
+                  </div>
+                  <p className={styles.product_right_caption}>Staking</p>
+                </div>
+                <div className={styles.product_right_item}>
+                  <div className={styles.product_right_icon}>
+                    <img src="/images/trading.png" alt="Trading icon" />
+                  </div>
+                  <p className={styles.product_right_caption}>Trading</p>
+                </div>
+                <div className={styles.product_right_item}>
+                  <div className={styles.product_right_icon}>
+                    <img src="/images/launchpad.png" alt="Launchpad icon" />
+                  </div>
+                  <p className={styles.product_right_caption}>Launchpad</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
