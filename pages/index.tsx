@@ -202,7 +202,7 @@ const Home: NextPage = () => {
             <div className={styles.product_content}>
               <div className={styles.product_left_content}>
                 <p className={styles.product_left_text}>
-                  Echoing Astar Network's vision to be the heart of the multi-chain 
+                  Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
                   future, Starfish aims to be collaborative, convenient and 
                   communal to build our product suites and become the one-stop-shop 
                   on Astar Network to provide you with DeFi, NFT-Fi and new project 
