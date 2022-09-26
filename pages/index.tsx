@@ -215,49 +215,89 @@ const Home: NextPage = () => {
               <div className={styles.product_right_content}>
                 <div className={styles.product_right_item}>
                   <div className={styles.product_right_icon}>
-                    <img src="/images/swap.png" alt="Swap icon" />
+                    <Image 
+                      src="/images/swap.png"
+                      width={55}
+                      height={52}
+                      alt="Swap icon"
+                    />
                   </div>
                   <p className={styles.product_right_caption}>Swap</p>
                 </div>
                 <div className={styles.product_right_item}>
                   <div className={styles.product_right_icon}>
-                    <img src="/images/staking.png" alt="Staking icon" />
+                    <Image 
+                      src="/images/staking.png"
+                      width={59}
+                      height={56}
+                      alt="Staking icon"
+                    />
                   </div>
                   <p className={styles.product_right_caption}>Staking</p>
                 </div>
                 <div className={styles.product_right_item}>
                   <div className={styles.product_right_icon}>
-                    <img src="/images/trading.png" alt="Trading icon" />
+                    <Image 
+                      src="/images/trading.png"
+                      width={49}
+                      height={49}
+                      alt="Trading icon"
+                    />
                   </div>
                   <p className={styles.product_right_caption}>Trading</p>
                 </div>
                 <div className={styles.product_right_item}>
                   <div className={styles.product_right_icon}>
-                    <img src="/images/launchpad.png" alt="Launchpad icon" />
+                    <Image 
+                      src="/images/launchpad.png"
+                      width={52}
+                      height={52}
+                      alt="Launchpad icon"
+                    />
                   </div>
                   <p className={styles.product_right_caption}>Launchpad</p>
                 </div>
                 <div className={styles.product_right_item}>
                   <div className={styles.product_right_icon}>
-                    <img src="/images/swap.png" alt="Swap icon" />
+                    <Image 
+                      src="/images/swap.png"
+                      width={55}
+                      height={52}
+                      alt="Swap icon"
+                    />
                   </div>
                   <p className={styles.product_right_caption}>Swap</p>
                 </div>
                 <div className={styles.product_right_item}>
                   <div className={styles.product_right_icon}>
-                    <img src="/images/staking.png" alt="Staking icon" />
+                    <Image 
+                      src="/images/staking.png"
+                      width={59}
+                      height={56}
+                      alt="Staking icon"
+                    />
                   </div>
                   <p className={styles.product_right_caption}>Staking</p>
                 </div>
                 <div className={styles.product_right_item}>
                   <div className={styles.product_right_icon}>
-                    <img src="/images/trading.png" alt="Trading icon" />
+                    <Image 
+                      src="/images/trading.png"
+                      width={49}
+                      height={49}
+                      alt="Trading icon"
+                    />
                   </div>
                   <p className={styles.product_right_caption}>Trading</p>
                 </div>
                 <div className={styles.product_right_item}>
                   <div className={styles.product_right_icon}>
-                    <img src="/images/launchpad.png" alt="Launchpad icon" />
+                    <Image 
+                      src="/images/launchpad.png"
+                      width={52}
+                      height={52}
+                      alt="Launchpad icon"
+                    />
                   </div>
                   <p className={styles.product_right_caption}>Launchpad</p>
                 </div>
