@@ -713,6 +713,27 @@
   box-shadow: 0px 0px 5px 5px #34175C;
 }
 
+.tokenomics_section {
+  margin: 285px 0 0 0;
+}
+
+.tokenomics_title {
+  margin: 0;
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.tokenomics_container {
+  height: 1025px;
+  width: 100%;
+}
+
 
 
 

@@ -440,6 +440,13 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
+        <section className={styles.tokenomics_section}>
+          <h2 className={styles.tokenomics_title}>
+            Tokenomics
+          </h2>
+          <div className={styles.tokenomics_container}>
+          </div>
+        </section>
 
 
 
