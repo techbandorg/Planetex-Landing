@@ -164,7 +164,7 @@ const Home: NextPage = () => {
         <section className={styles.benefits_section}>
           <div className={styles.benefits_container}>
             <h2 className={styles.benefits_title}>
-              Project benefits
+              Business model
             </h2>
             <div className={styles.benefits_first_block}>
               <div className={styles.benefits_text_container}>
@@ -363,6 +363,37 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        <section className={styles.p2egame_section}>
+          <div className={styles.p2egame_text_block}>
+            <h2 className={styles.p2egame_text_title}>
+              New dynamic P2E game!<br/>
+              Be the winner among the rest!
+            </h2>
+            <p className={styles.p2egame_text_paragraph}>
+            A spaceship that was transporting heroes from different planets 
+            crashes on the planet Supreme X-132 as a result of an unsuccessful 
+            Intergalactic hyper-jump and a malfunction of the spacecraft engine. 
+            The spaceship is on fire and only one working capsule remains on 
+            board for an emergency return. The goal of your hero is to find 
+            weapons, defeat rivals in the royal battle and return alive, taking 
+            Planetex tokens with them in each of their rounds!<br/>
+            <br/>
+            10 characters from the NFT collection have additional upgrades that 
+            will give you an edge over your opponents, and therefore an 
+            increased chance of winning in this exciting P2E game!<br/>
+            <br/>
+            Get your own card!
+            </p>
+          </div>
+          <div className={styles.p2egame_image_block}>
+            <Image 
+              src="/images/P2Egame.png"
+              width={579}
+              height={579}
+              alt="P2E game illustration"
+            />
           </div>
         </section>
 
