@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                 src="/images/Diagram.png"
                 height={122}
                 width={207}
-                alt="Planetex token info"
+                alt="Planetex token diagram"
               />
             </div>
             <div className={styles.planetex_tok_stat}>
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
                 src="/images/PlantexTokStat.png"
                 height={87}
                 width={218}
-                alt="Planetex token info"
+                alt="Planetex token statistic"
               />
             </div>
           </div>
@@ -113,14 +113,48 @@ const Home: NextPage = () => {
           <div className={styles.win_countdown_progress_block}>
             <div className={styles.win_countdown_progress_container}>
               <div className={styles.win_countdown_progress_caption}>
-                Trading on Planetex is quite ssigning up for a Planetex accounchance 
-                of winning your open contracts. We provided with you all the tools 
-                you need.
+                Pre-sale
+              </div>
+              <div className={styles.win_countdown_progress_initial}>
+                <div className={styles.win_countdown_progress_initial_caption}>Initial sales amount:</div>
+                <div className={styles.win_countdown_progress_initial_amount}>0,04$ per token</div>
+              </div>
+              <div className={styles.win_countdown_progress_networks}>
+                <div className={styles.win_countdown_progress_network_button}>
+                  Ethereum Network
+                </div>
+                <div className={styles.win_countdown_progress_network_button}>
+                  BSC Network
+                </div>
               </div>
               <div className={styles.win_countdown_progress_bar}>
                 <div className={styles.win_countdown_progress_external}>
                   <div className={styles.win_countdown_progress_internal}>
 
+                  </div>
+                </div>
+              </div>
+              <div className={styles.win_countdown_progress_range}>
+                <div className={styles.win_countdown_progress_range_left}>
+                  <div>0</div>
+                  <div className={styles.win_countdown_progress_picon}>
+                    <Image
+                      src="/images/Picon.svg"
+                      height={17}
+                      width={17}
+                      alt="Planetex token icon"
+                    />
+                  </div>
+                </div>
+                <div className={styles.win_countdown_progress_range_right}>
+                  <div>28 000 000</div>
+                  <div className={styles.win_countdown_progress_picon}>
+                    <Image
+                      src="/images/Picon.svg"
+                      height={17}
+                      width={17}
+                      alt="Planetex token icon"
+                    />
                   </div>
                 </div>
               </div>
