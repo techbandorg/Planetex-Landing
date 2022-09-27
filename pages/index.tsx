@@ -64,6 +64,32 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
+          <div className={styles.first_right}>
+            <div className={styles.planetex_tok}>
+              <Image
+                src="/images/PlantexTok.png"
+                height={42}
+                width={188}
+                alt="Planetex token info"
+              />
+            </div>
+            <div className={styles.diagram}>
+              <Image
+                src="/images/Diagram.png"
+                height={122}
+                width={207}
+                alt="Planetex token info"
+              />
+            </div>
+            <div className={styles.planetex_tok_stat}>
+              <Image
+                src="/images/PlantexTokStat.png"
+                height={87}
+                width={218}
+                alt="Planetex token info"
+              />
+            </div>
+          </div>
         </section>
         <section className={styles.win_countdown_section}>
           <div className={styles.win_countdown_timer_block}>

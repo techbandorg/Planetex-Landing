@@ -85,8 +85,15 @@
 }
 
 .first_section {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
   width: 100%;
   padding: 0 120px;
+}
+
+.first_content {
+  height: 488px;
 }
 
 .first_title {
@@ -158,6 +165,30 @@
   position: absolute;
   left: -70px;
   top: -8px;
+}
+
+.first_right {
+  position: relative;
+  width: 50%;
+  height: 488px;
+}
+
+.planetex_tok {
+  position: absolute;
+  top: 50px;
+  right: -70px;
+}
+
+.diagram {
+  position: absolute;
+  bottom: -50px;
+  left: 65px;
+}
+
+.planetex_tok_stat {
+  position: absolute;
+  right: -70px;
+  bottom: 10px;
 }
 
 .win_countdown_section {
