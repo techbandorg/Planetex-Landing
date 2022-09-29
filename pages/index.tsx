@@ -21,17 +21,19 @@ const Home: NextPage = () => {
             alt="Plantex logo"
           />
         </div>
-        <nav className={styles.main_nav}>
-          <ul className={styles.main_nav_ul}>
-            <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Project benefits</a></li>
-            <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Product Suite</a></li>
-            <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Tokenomics</a></li>
-            <li><a href="" className={styles.main_nav_a}>Sale Details</a></li>
-          </ul>
-        </nav>
-        <div className={styles.header_join_button_container}>
-          <div className={styles.header_join_button}>
-            Join IDO
+        <div className={styles.header_nav_wrapper}>
+          <nav className={styles.main_nav}>
+            <ul className={styles.main_nav_ul}>
+              <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Project benefits</a></li>
+              <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Product Suite</a></li>
+              <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Tokenomics</a></li>
+              <li><a href="" className={styles.main_nav_a}>Sale Details</a></li>
+            </ul>
+          </nav>
+          <div className={styles.header_join_button_container}>
+            <div className={styles.header_join_button}>
+              Join IDO
+            </div>
           </div>
         </div>
       </header>
@@ -163,7 +165,7 @@ const Home: NextPage = () => {
         </section>
         <section className={styles.benefits_section}>
           <div className={styles.benefits_container}>
-            <h2 className={styles.benefits_title}>
+            <h2 className={styles.section_title}>
               Business model
             </h2>
             <div className={styles.benefits_first_block}>
@@ -256,7 +258,7 @@ const Home: NextPage = () => {
         </section>
         <section className={styles.product_section}>
           <div className={styles.product_container}>
-            <h2 className={styles.benefits_title}>
+            <h2 className={styles.section_title}>
               Product Suite
             </h2>
             <div className={styles.product_content}>
@@ -366,38 +368,46 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section className={styles.p2egame_section}>
-          <div className={styles.p2egame_text_block}>
-            <h2 className={styles.p2egame_text_title}>
-              New dynamic P2E game!<br/>
-              Be the winner among the rest!
-            </h2>
-            <p className={styles.p2egame_text_paragraph}>
-            A spaceship that was transporting heroes from different planets 
-            crashes on the planet Supreme X-132 as a result of an unsuccessful 
-            Intergalactic hyper-jump and a malfunction of the spacecraft engine. 
-            The spaceship is on fire and only one working capsule remains on 
-            board for an emergency return. The goal of your hero is to find 
-            weapons, defeat rivals in the royal battle and return alive, taking 
-            Planetex tokens with them in each of their rounds!<br/>
-            <br/>
-            10 characters from the NFT collection have additional upgrades that 
-            will give you an edge over your opponents, and therefore an 
-            increased chance of winning in this exciting P2E game!<br/>
-            <br/>
-            Get your own card!
-            </p>
-          </div>
-          <div className={styles.p2egame_image_block}>
-            <Image 
-              src="/images/P2Egame.png"
-              width={579}
-              height={579}
-              alt="P2E game illustration"
-            />
+          <h2 className={styles.section_title}>
+            Game
+          </h2>
+          <div className={styles.p2egame_section_content}>
+            <div className={styles.p2egame_text_block}>
+              <h3 className={styles.p2egame_text_title}>
+                New dynamic P2E game!<br/>
+                Be the winner among the rest!
+              </h3>
+              <p className={styles.p2egame_text_paragraph}>
+              A spaceship that was transporting heroes from different planets 
+              crashes on the planet Supreme X-132 as a result of an unsuccessful 
+              Intergalactic hyper-jump and a malfunction of the spacecraft engine. 
+              The spaceship is on fire and only one working capsule remains on 
+              board for an emergency return. The goal of your hero is to find 
+              weapons, defeat rivals in the royal battle and return alive, taking 
+              Planetex tokens with them in each of their rounds!<br/>
+              <br/>
+              10 characters from the NFT collection have additional upgrades that 
+              will give you an edge over your opponents, and therefore an 
+              increased chance of winning in this exciting P2E game!<br/>
+              <br/>
+              Get your own card!
+              </p>
+              <div className={styles.buy_button}>
+                Buy Token
+              </div>
+            </div>
+            <div className={styles.p2egame_image_block}>
+              <Image 
+                src="/images/P2Egame.png"
+                width={579}
+                height={579}
+                alt="P2E game illustration"
+              />
+            </div>
           </div>
         </section>
         <section className={styles.roadmap_section}>
-          <h2 className={styles.roadmap_title}>
+          <h2 className={`${styles.section_title} ${styles.roadmap_title}`}>
             Roadmap
           </h2>
           <div className={styles.roadmap_content}>
@@ -441,14 +451,14 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section className={styles.tokenomics_section}>
-          <h2 className={styles.tokenomics_title}>
+          <h2 className={styles.section_title}>
             Tokenomics
           </h2>
           <div className={styles.tokenomics_container}>
           </div>
         </section>
         <section className={styles.team_section}>
-          <h2 className={styles.team_title}>
+          <h2 className={styles.section_title}>
             The Team
           </h2>
           <div className={styles.team_persons_container}>
