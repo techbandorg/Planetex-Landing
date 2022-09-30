@@ -870,6 +870,29 @@
   justify-content: flex-end;
 }
 
+.sale_NFTSale {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  height: 510px;
+  padding: 50px 90px;
+  background-image: url('/images/NFTSale.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 30px;
+}
+
+.sale_divider {
+  height: 100%;
+  border: 1px solid #1C2353;
+}
+
+.sale_NFTSale_tokensinfo {
+  width: 408px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 
 
 
