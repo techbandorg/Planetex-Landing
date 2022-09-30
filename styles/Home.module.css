@@ -791,6 +791,86 @@
   margin: 8px 0 0 0;
 }
 
+.sale_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 140px 0 0 0;
+  width: 100%;
+  padding: 0 120px;
+}
+
+.sale_presale {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  height: 510px;
+  background-image: url('/images/rectangle180.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 85px 0 0 0;
+  padding: 50px 90px;
+}
+
+.sale_presale_left {
+  width: 408px;
+}
+
+.sale_presale_title {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  margin: 0;
+}
+
+.sale_presale_paragr {
+  margin: 45px 0 0 0;
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+
+  color: #BDCCEA;
+}
+
+.sale_presale_divider {
+  /* width: 2px; */
+  /* height: 429px; */
+  height: 100%;
+  border: 1px solid #6A4D9B;
+}
+
+.sale_presale_tokensinfo {
+  width: 408px;
+}
+
+.sale_presale_tokensinfo_item {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  margin: 30px 0;
+}
+
+.sale_presale_tokensinfo_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 
 
 
