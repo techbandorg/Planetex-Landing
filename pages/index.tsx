@@ -607,6 +607,45 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
+          <div className={styles.sale_MainSale}>
+            <div className={styles.sale_presale_left}>
+              <h3 className={styles.sale_presale_title}>Main Sale</h3>
+              <div className={styles.sale_presale_paragr}>
+                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
+                future, Starfish aims to be collaborative, convenient and communal 
+                to build our product suites and become the one-stop-shop on Astar 
+                Network to provide you with DeFi, NFT-Fi and new project discovery.
+              </div>
+            </div>
+            <div className={styles.sale_divider}></div>
+            <div className={styles.sale_presale_tokensinfo}>
+              <div className={styles.sale_presale_tokensinfo_item}>
+                <div># OF TOKENS</div>
+                <div>150.000.000</div>
+              </div>
+              <div className={styles.sale_presale_tokensinfo_item}>
+                <div>PRICE IN USD</div>
+                <div>0,009</div>
+              </div>
+              <div className={styles.sale_presale_tokensinfo_item}>
+                <div>FUNDING</div>
+                <div>1.350.000</div>
+              </div>
+              <div className={styles.sale_presale_tokensinfo_item}>
+                <div>SALE DATE</div>
+                <div>20 January</div>
+              </div>
+              <div className={styles.sale_presale_tokensinfo_item}>
+                <div>LOCKED</div>
+                <div>6 months</div>
+              </div>
+              <div className={styles.sale_presale_tokensinfo_button}>
+                <div className={styles.buy_button}>
+                  Buy Token
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
 
