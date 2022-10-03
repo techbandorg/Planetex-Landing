@@ -40,6 +40,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../asset/Roboto/Roboto-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../asset/Roboto/Roboto-Medium.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../asset/Roboto/Roboto-Regular.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
