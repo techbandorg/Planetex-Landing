@@ -808,7 +808,7 @@
   height: 510px;
   background-image: url('/images/rectangle180.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   margin: 85px 0 0 0;
   padding: 50px 90px;
 }
@@ -878,7 +878,7 @@
   padding: 50px 90px;
   background-image: url('/images/NFTSale.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   margin: 30px 0 0 0;
 }
 
@@ -902,7 +902,7 @@
   padding: 50px 90px;
   background-image: url('/images/MainSale.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   margin: 30px 0 0 0;
 }
 
@@ -914,8 +914,76 @@
   padding: 50px 90px;
   background-image: url('/images/PrivateSale.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   margin: 30px 0 0 0;
+}
+
+.sale_listing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1170px;
+  height: 510px;
+  padding: 50px 90px;
+  background-image: url('/images/PrivateSale.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 30px 0 0 0;
+}
+
+.sale_listing_title {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  margin: 10px 0 0 0;
+}
+
+.sale_listing_timer_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 780px;
+  margiN: 72px 0 0 0;
+}
+
+.sale_listing_timer_cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 120px;
+  background: rgba(64, 31, 43, 0.6);
+  border: 1.5px solid #000000;
+  backdrop-filter: blur(23px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 6px;
+
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.sale_listing_timer_caption {
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  text-align: center;
+  margin: 16px 0 0 0;
 }
 
 
