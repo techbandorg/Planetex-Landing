@@ -21,6 +21,14 @@ const Home: NextPage = () => {
             alt="Plantex logo"
           />
         </div>
+        <div className={styles.menu}>
+          <div className={styles.gamburger_menu}>
+            <div className={`${styles.menu_line} ${styles.first_line}`}></div>
+            <div className={`${styles.menu_line} ${styles.second_line}`}></div>
+            <div className={`${styles.menu_line} ${styles.third_line}`}></div>
+            <div className={`${styles.menu_line} ${styles.fourth_line}`}></div>
+          </div>
+        </div>
         <div className={styles.header_nav_wrapper}>
           <nav className={styles.main_nav}>
             <ul className={styles.main_nav_ul}>
@@ -90,6 +98,22 @@ const Home: NextPage = () => {
                 width={218}
                 alt="Planetex token statistic"
               />
+            </div>
+          </div>
+          <div className={styles.second_buttons_block}>
+            <div className={styles.join_button}>
+              Join IDO
+            </div>
+            <div className={styles.download_WhitePaper_button}>
+              <div className={styles.download_logo}>
+                <Image 
+                  src="/images/download.svg"
+                  height={75}
+                  width={75}
+                  alt="Download icon"
+                />
+              </div>
+              WhitePaper
             </div>
           </div>
         </section>
