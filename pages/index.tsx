@@ -209,8 +209,8 @@ const Home: NextPage = () => {
                     </p>
                   </div>
                 </div>
-                <div className={`${styles.benefits_text_block}, ${styles.benefits_text_block2}`}>
-                  <div className={styles.benefits_number_container}>
+                <div className={`${styles.benefits_text_block} ${styles.benefits_text_block2}`}>
+                  <div className={styles.benefits_number_container2}>
                     <span className={styles.benefits_number}>02</span>
                   </div>
                   <h3 className={styles.benefits_text_title}>Staking</h3>
@@ -260,8 +260,8 @@ const Home: NextPage = () => {
                     </p>
                   </div>
                 </div>
-                <div className={`${styles.benefits_text_block}, ${styles.benefits_text_block2}`}>
-                  <div className={styles.benefits_number_container}>
+                <div className={`${styles.benefits_text_block} ${styles.benefits_text_block2}`}>
+                  <div className={styles.benefits_number_container2}>
                     <span className={styles.benefits_number}>04</span>
                   </div>
                   <h3 className={styles.benefits_text_title}>Trading</h3>
