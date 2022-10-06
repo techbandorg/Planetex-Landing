@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import ProductSlider from '../components/ProductSlider/ProductSlider'
 
 const Home: NextPage = () => {
   return (
@@ -298,6 +299,7 @@ const Home: NextPage = () => {
                   Buy Token
                 </div>
               </div>
+              <ProductSlider />
               <div className={styles.product_right_content}>
                 <div className={styles.product_right_item}>
                   <div className={styles.product_right_icon}>

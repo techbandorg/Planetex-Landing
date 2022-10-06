@@ -543,7 +543,6 @@
 
 .product_left_text {
   margin: 0 0 36px 0;
-
   font-family: 'Montserrat-Regular';
   font-style: normal;
   font-weight: 500;
@@ -1282,5 +1281,28 @@
   .benefits_second_block {
     flex-direction: column-reverse;
     margin: -50px 0 0 0;
+  }
+  .product_section {
+    background-image: url('/images/landing/Group357991.svg');
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-position: -185px -165px;
+    overflow-y: visible;
+  }
+  .product_container {
+    padding: 0;
+    margin: 0;
+  }
+  .product_content {
+    flex-direction: column;
+    margin: 58px 0 0 0;
+  }
+  .product_left_text {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 0 35px 0;
   }
 }
