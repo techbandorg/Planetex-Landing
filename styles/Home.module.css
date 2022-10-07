@@ -1401,4 +1401,21 @@
   .roadmap_text {
     text-align: center;
   }
+  .roadmap_scale_container {
+    display: none;
+  }
+  .tokenomics_section {
+    margin: 0;
+    width: 100%;
+    background-image: url('/images/landing/tokenomics.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .tokenomics_section .section_title {
+    margin: 55px 0 0 0;
+  }
+  .tokenomics_container {
+    height: 685px;
+    width: 100%;
+  }
 }
