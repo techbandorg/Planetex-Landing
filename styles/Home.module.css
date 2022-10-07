@@ -114,7 +114,6 @@
   height: 50px;
   border: 2px solid #9E40B5;
   border-radius: 45px;
-
   font-family: 'Montserrat-Bold';
   font-style: normal;
   font-weight: 700;
@@ -122,7 +121,6 @@
   line-height: 24px;
   letter-spacing: 0.015em;
   color: #9E40B5;
-
   cursor: pointer;
 }
 
@@ -541,6 +539,10 @@
   max-width: 365px;
 }
 
+.mobile_version {
+  display: none;
+}
+
 .product_left_text {
   margin: 0 0 36px 0;
   font-family: 'Montserrat-Regular';
@@ -649,6 +651,10 @@
   align-items: center;
   justify-content: flex-end;
   width: 50%;
+}
+
+.p2egame_image_block_mobile {
+  display: none;
 }
 
 .roadmap_section {
@@ -1122,6 +1128,10 @@
   min-height: 122px;
 }
 
+.mobile_slider {
+  display: none;
+}
+
 
 @media screen and (max-width: 1507px) {
   .container {
@@ -1304,5 +1314,91 @@
     line-height: 22px;
     text-align: center;
     margin: 0 0 35px 0;
+  }
+  .desctop_version {
+    display: none;
+  }
+  .mobile_slider {
+    display: block;
+  }
+  .mobile_version {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+  }
+  .product_right_content {
+    display: none;
+  }
+  .p2egame_section {
+    padding: 0 20px;
+    /* margin: 178px 0 0 0; */
+    margin: 89px 0 0 0;
+  }
+  .p2egame_section  .section_title {
+    display: none;
+  }
+  .p2egame_section_content {
+    flex-direction: column;
+  }
+  .p2egame_text_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .p2egame_text_title {
+    text-align: center;
+  }
+  .p2egame_image_block {
+    display: none;
+  }
+  .p2egame_image_block_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0 0 0;
+  }
+  .p2egame_text_paragraph {
+    margin: 35px 0 35px 0;
+  }
+  .buy_button {
+    width: 268px;
+    height: 58px;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .join_button {
+    width: 268px;
+    height: 58px;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+  }
+  .p2egame_text_paragraph {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.015em;
+  }
+  .roadmap_section {
+    padding: 0 20px;
+    margin: 55px 0 0 0;
+  }
+  .roadmap_text_block {
+    width: 100%;
+    padding: 0;
+  }
+  .roadmap_text_subtitle {
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .roadmap_text {
+    text-align: center;
   }
 }
