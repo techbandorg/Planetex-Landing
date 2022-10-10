@@ -470,6 +470,11 @@
   z-index: 0;
 }
 
+.benefits_number_container2 {
+  position: absolute;
+  z-index: 0;
+}
+
 .benefits_number {
   font-family: 'Druk-Wide-Bold';
   font-style: normal;
