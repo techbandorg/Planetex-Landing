@@ -16,10 +16,10 @@ export default class RoadmapSlider extends Component {
       arrows: false
     };
     return (
-      <div className={styles.product_slider_container_mobile}>
+      <div className={styles.roadmap_slider_container_mobile}>
         <Slider {...settings}>
-          <div className={styles.product_right_item_mobile} style={{"width": "320px", "height": "45px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "320px", "height": "45px"}}>
+          <div className={styles.roadmap_slider_item_mobile} style={{"width": "320px", "height": "45px"}}>
+            <div className={styles.roadmap_slider_item_content} style={{"width": "320px", "height": "45px"}}>
               <div className={styles.roadmap_quarter}>
                 Quarter 1 2023
               </div>
@@ -28,24 +28,24 @@ export default class RoadmapSlider extends Component {
               </div>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "320px", "height": "45px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "320px", "height": "45px"}}>
+          <div className={styles.roadmap_slider_item_mobile} style={{"width": "320px", "height": "45px"}}>
+            <div className={styles.roadmap_slider_item_content} style={{"width": "320px", "height": "45px"}}>
               <div className={styles.roadmap_quarter}>
                 Quarter 2 2023
               </div>
               <div className={styles.roadmap_scale}></div>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "320px", "height": "45px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "320px", "height": "45px"}}>
+          <div className={styles.roadmap_slider_item_mobile} style={{"width": "320px", "height": "45px"}}>
+            <div className={styles.roadmap_slider_item_content} style={{"width": "320px", "height": "45px"}}>
               <div className={styles.roadmap_quarter}>
                 Quarter 3 2023
               </div>
               <div className={styles.roadmap_scale}></div>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "320px", "height": "45px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "320px", "height": "45px"}}>
+          <div className={styles.roadmap_slider_item_mobile} style={{"width": "320px", "height": "45px"}}>
+            <div className={styles.roadmap_slider_item_content} style={{"width": "320px", "height": "45px"}}>
               <div className={styles.roadmap_quarter}>
                 Quarter 4 2023
               </div>
