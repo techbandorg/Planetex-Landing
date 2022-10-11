@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import ProductSlider from '../components/ProductSlider/ProductSlider'
+import RoadmapSlider from '../components/RoadmapSlider/RoadmapSlider'
 
 const Home: NextPage = () => {
   return (
@@ -472,6 +473,7 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
+          <RoadmapSlider />
           <div className={styles.roadmap_scale_container}>
             <div className={styles.roadmap_quarters}>
               <div className={styles.roadmap_quarter}>

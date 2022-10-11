@@ -8,123 +8,72 @@ import "slick-carousel/slick/slick-theme.css"
 export default class RoadmapSlider extends Component {
   render() {
     const settings = {
-      className: "center",
-      centerMode: true,
-      infinite: true,
-      centerPadding: "60px",
-      slidesToShow: 1,
+      dots: false,
+      infinite: false,
       speed: 500,
-      arrows: false,
-      variableWidth: true
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false
     };
     return (
       <div className={styles.product_slider_container_mobile}>
         <Slider {...settings}>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/swap.png"
-                  width={55}
-                  height={52}
-                  alt="Swap icon"
-                />
+          <div className={styles.product_right_item_mobile} style={{"width": "320px", "height": "45px"}}>
+            <div className={styles.product_right_item_content} style={{"width": "320px", "height": "45px"}}>
+              <div className={styles.roadmap_quarter}>
+                Quarter 1 2023
               </div>
-              <p className={styles.product_right_caption}>Swap</p>
+              <div className={styles.roadmap_scale}>
+                <div className={styles.roadmap_internal}></div>
+              </div>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/staking.png"
-                  width={59}
-                  height={56}
-                  alt="Staking icon"
-                />
+          <div className={styles.product_right_item_mobile} style={{"width": "320px", "height": "45px"}}>
+            <div className={styles.product_right_item_content} style={{"width": "320px", "height": "45px"}}>
+              <div className={styles.roadmap_quarter}>
+                Quarter 2 2023
               </div>
-              <p className={styles.product_right_caption}>Staking</p>
+              <div className={styles.roadmap_scale}></div>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/trading.png"
-                  width={49}
-                  height={49}
-                  alt="Trading icon"
-                />
+          <div className={styles.product_right_item_mobile} style={{"width": "320px", "height": "45px"}}>
+            <div className={styles.product_right_item_content} style={{"width": "320px", "height": "45px"}}>
+              <div className={styles.roadmap_quarter}>
+                Quarter 3 2023
               </div>
-              <p className={styles.product_right_caption}>Trading</p>
+              <div className={styles.roadmap_scale}></div>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/launchpad.png"
-                  width={52}
-                  height={52}
-                  alt="Launchpad icon"
-                />
+          <div className={styles.product_right_item_mobile} style={{"width": "320px", "height": "45px"}}>
+            <div className={styles.product_right_item_content} style={{"width": "320px", "height": "45px"}}>
+              <div className={styles.roadmap_quarter}>
+                Quarter 4 2023
               </div>
-              <p className={styles.product_right_caption}>Launchpad</p>
-            </div>
-          </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon} style={{}}>
-                <Image 
-                  src="/images/swap.png"
-                  width={55}
-                  height={52}
-                  alt="Swap icon"
-                />
-              </div>
-              <p className={styles.product_right_caption}>Swap</p>
-            </div>
-          </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/staking.png"
-                  width={59}
-                  height={56}
-                  alt="Staking icon"
-                />
-              </div>
-              <p className={styles.product_right_caption}>Staking</p>
-            </div>
-          </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/trading.png"
-                  width={49}
-                  height={49}
-                  alt="Trading icon"
-                />
-              </div>
-              <p className={styles.product_right_caption}>Trading</p>
-            </div>
-          </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/launchpad.png"
-                  width={52}
-                  height={52}
-                  alt="Launchpad icon"
-                />
-              </div>
-              <p className={styles.product_right_caption}>Launchpad</p>
+              <div className={styles.roadmap_scale}></div>
             </div>
           </div>
         </Slider>
+        <div className={styles.roadmap_slider_caption_wrapper}>
+          <div className={styles.roadmap_slider_left_arrow}>
+            <Image 
+              src="/images/landing/leftArrow.png"
+              height={18}
+              width={34}
+              alt="Left arrow"
+            />
+          </div>
+          <div className={styles.roadmap_slider_caption}>
+            scroll
+          </div>
+          <div className={styles.roadmap_slider_right_arrow}>
+            <Image 
+              src="/images/landing/rightArrow.png"
+              height={18}
+              width={34}
+              alt="Right arrow"
+            />
+          </div>
+        </div>
       </div>
     );
   }
