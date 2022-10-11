@@ -1,62 +1,62 @@
 @font-face {
   font-family: 'Montserrat-Bold';
-  src: url('../asset/Montserrat/Montserrat-Bold.ttf');
+  src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url('../asset/Montserrat/Montserrat-Medium.ttf');
+  src: url('../assets/fonts/Montserrat/Montserrat-Medium.ttf');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat-Regular';
-  src: url('../asset/Montserrat/Montserrat-Regular.ttf');
+  src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat-Light';
-  src: url('../asset/Montserrat/Montserrat-Light.ttf');
+  src: url('../assets/fonts/Montserrat/Montserrat-Light.ttf');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Archivo-Regular';
-  src: url('../asset/Archivo/Archivo-Regular.ttf');
+  src: url('../assets/fonts/Archivo/Archivo-Regular.ttf');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Druk-Wide-Bold';
-  src: url('../asset/Druk/Druk-Wide-Bold.ttf');
+  src: url('../assets/fonts/Druk/Druk-Wide-Bold.ttf');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto-Bold';
-  src: url('../asset/Roboto/Roboto-Bold.ttf');
+  src: url('../assets/fonts/Roboto/Roboto-Bold.ttf');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto-Medium';
-  src: url('../asset/Roboto/Roboto-Medium.ttf');
+  src: url('../assets/fonts/Roboto/Roboto-Medium.ttf');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto-Regular';
-  src: url('../asset/Roboto/Roboto-Regular.ttf');
+  src: url('../assets/fonts/Roboto/Roboto-Regular.ttf');
   font-weight: 500;
   font-style: normal;
 }
