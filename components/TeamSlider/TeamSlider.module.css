@@ -1,7 +1,11 @@
-.product_slider_container_mobile {
+.team_slider_container_mobile {
+  max-height: 315px;
   margin: 60px 0 0 0;
+  overflow: hidden;
 }
-
+.team_slider_container_mobile .slick-track {
+  max-height: 315px;
+}
 
 .team_person {
   display: flex;

@@ -18,9 +18,9 @@ export default class TeamSlider extends Component {
       variableWidth: true
     };
     return (
-      <div className={styles.product_slider_container_mobile}>
+      <div className={styles.team_slider_container_mobile}>
         <Slider {...settings}>
-          <div>
+          <div style={{"height": "313px"}}>
             <div className={styles.team_person}>
               <div className={styles.team_person_caption}>
                 <div className={styles.team_person_name}>
@@ -32,7 +32,7 @@ export default class TeamSlider extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div style={{"height": "313px"}}>
             <div className={styles.team_person}>
               <div className={styles.team_person_caption}>
                 <div className={styles.team_person_name}>
@@ -44,7 +44,7 @@ export default class TeamSlider extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div style={{"height": "313px"}}>
             <div className={styles.team_person}>
               <div className={styles.team_person_caption}>
                 <div className={styles.team_person_name}>
@@ -56,7 +56,7 @@ export default class TeamSlider extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div style={{"height": "313px"}}>
             <div className={styles.team_person}>
               <div className={styles.team_person_caption}>
                 <div className={styles.team_person_name}>
@@ -68,7 +68,7 @@ export default class TeamSlider extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div style={{"height": "313px"}}>
             <div className={styles.team_person}>
               <div className={styles.team_person_caption}>
                 <div className={styles.team_person_name}>
@@ -80,7 +80,7 @@ export default class TeamSlider extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div style={{"height": "313px"}}>
             <div className={styles.team_person}>
               <div className={styles.team_person_caption}>
                 <div className={styles.team_person_name}>
@@ -92,7 +92,7 @@ export default class TeamSlider extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div style={{"height": "313px"}}>
             <div className={styles.team_person}>
               <div className={styles.team_person_caption}>
                 <div className={styles.team_person_name}>
@@ -104,7 +104,7 @@ export default class TeamSlider extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div style={{"height": "313px"}}>
             <div className={styles.team_person}>
               <div className={styles.team_person_caption}>
                 <div className={styles.team_person_name}>

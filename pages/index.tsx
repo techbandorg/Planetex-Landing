@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import ProductSlider from '../components/ProductSlider/ProductSlider'
 import RoadmapSlider from '../components/RoadmapSlider/RoadmapSlider'
 import TeamSlider from '../components/TeamSlider/TeamSlider'
+import SaleSlider from '../components/SaleSlider/SaleSlider'
 
 const Home: NextPage = () => {
   return (
@@ -474,7 +475,9 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-          <RoadmapSlider />
+          <div className={styles.mobile_slider}>
+            <RoadmapSlider />
+          </div>
           <div className={styles.roadmap_scale_container}>
             <div className={styles.roadmap_quarters}>
               <div className={styles.roadmap_quarter}>
@@ -589,7 +592,9 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-          <TeamSlider />
+          <div className={styles.mobile_slider}>
+            <TeamSlider />
+          </div>
         </section>
         <section className={styles.sale_section}>
           <h2 className={styles.section_title}>
@@ -754,6 +759,9 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className={styles.mobile_slider}>
+            <SaleSlider />
           </div>
         </section>
 
