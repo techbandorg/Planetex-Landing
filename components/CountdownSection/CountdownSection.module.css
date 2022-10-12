@@ -1,0 +1,176 @@
+.win_countdown_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 140px 0 0 0;
+  min-height: 198px;
+  background: linear-gradient(90deg, #8F244D 0%, rgba(22, 153, 201, 0.53) 64.18%, #030B2F 93.05%, #03042A 100%);
+  border: 1px solid #2E2B70;
+  backdrop-filter: blur(14.5px);
+}
+
+.win_countdown_timer_block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 45%;
+  margin: 0 100px 0 0;
+}
+
+.win_countdown_timer_item {
+  margin: 0 32px 0 0;
+}
+
+.win_countdown_timer_cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 60px;
+  background: rgba(64, 31, 43, 0.6);
+  border: 0.731868px solid #000000;
+  backdrop-filter: blur(10.6121px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 3px;
+  
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.win_countdown_timer_caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0 0 0;
+
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.win_countdown_progress_block {
+  display: flex;
+  width: 55%;
+}
+
+.win_countdown_progress_container {
+  width: 500px;
+}
+
+.win_countdown_progress_caption {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.win_countdown_progress_initial {
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+  margin: 8px 0 0 0;
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #D1E2FD;
+}
+
+.win_countdown_progress_networks {
+  display: flex;
+  justify-content: flex-end;
+  width: 440px;
+  margin: 8px 0 0 0;
+}
+
+.win_countdown_progress_network_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 8px;
+  width: 82.46px;
+  height: 19px;
+  border: 1px solid #D3D3D3;
+  border-radius: 17px;
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.84px;
+  line-height: 8px;
+  letter-spacing: 0.015em;
+  color: #D3D3D3;
+}
+
+.win_countdown_progress_bar {
+  margin: 14px 0 0 0;
+}
+
+.win_countdown_progress_external {
+  width: 440px;
+  height: 21px;
+  background: #1D1938;
+  border: 1px solid #535A74;
+  border-radius: 43.75px;
+}
+
+.win_countdown_progress_internal {
+  width: 139.06px;
+  height: 21px;
+  background: linear-gradient(270deg, #A73795 34.13%, rgba(149, 51, 96, 0.8) 100%);
+  border-radius: 43.75px;
+}
+
+.win_countdown_progress_range {
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+  padding: 0 10px;
+
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  color: #D1E2FD;
+}
+
+.win_countdown_progress_range_left {
+  display: flex;
+  align-items: center;
+  padding: 4px 0 0 0;
+}
+
+.win_countdown_progress_range_right {
+  display: flex;
+  align-items: center;
+  padding: 4px 0 0 0;
+}
+
+.win_countdown_progress_picon {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 7px;
+}
+
+@media screen and (max-width: 1507px) {
+  .win_countdown_section {
+    display: none;
+  }
+}
