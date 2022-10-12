@@ -49,58 +49,6 @@
   color: #D4E5FF;
 }
 
-.p2egame_section {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 0 120px;
-  /* margin: 178px 0 0 0; */
-  margin: 65px 0 0 0;
-}
-
-.p2egame_section_content {
-  display: flex;
-  margin: 35px 0 0 0;
-}
-
-.p2egame_text_block {
-  width: 50%;
-}
-
-.p2egame_text_title {
-  margin: 0;
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
-  letter-spacing: 0.015em;
-  color: #D4E5FF;
-}
-
-.p2egame_text_paragraph {
-  margin: 45px 0 44px 0;
-  max-width: 580px;
-  font-family: 'Montserrat-Regular';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: 0.015em;
-  color: #D4E5FF;
-}
-
-.p2egame_image_block {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 50%;
-}
-
-.p2egame_image_block_mobile {
-  display: none;
-}
-
 .roadmap_section {
   width: 100%;
   padding: 0 120px;
@@ -612,40 +560,6 @@
     justify-content: center;
     align-items: center;
     margin: 50px 0 0 0;
-  }
-  .p2egame_section {
-    padding: 0 20px;
-    /* margin: 178px 0 0 0; */
-    margin: 89px 0 0 0;
-  }
-  .p2egame_section  .section_title {
-    display: none;
-  }
-  .p2egame_section_content {
-    flex-direction: column;
-  }
-  .p2egame_text_block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-  }
-  .p2egame_text_title {
-    text-align: center;
-  }
-  .p2egame_image_block {
-    display: none;
-  }
-  .p2egame_image_block_mobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 40px 0 0 0;
-  }
-  .p2egame_text_paragraph {
-    margin: 35px 0 35px 0;
   }
   .buy_button {
     width: 268px;
