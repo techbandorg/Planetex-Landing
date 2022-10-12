@@ -1,75 +1,102 @@
-.roadmap_slider_container_mobile {
-    margin: 50px 0 0 0;
-    width: 320px;
-  }
-  .roadmap_slider_container_mobile .roadmap_slider_item_mobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 320px;
-    height: 45px;
-    /* background-image: url('/images/Rectangle187.png');
-    background-repeat: no-repeat;
-    background-size: cover; */
-  }
-  .roadmap_slider_item_content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-  }
-  .roadmap_quarter {
-    font-family: 'Montserrat-Regular';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    text-align: center;
-    letter-spacing: 0.015em;
-    color: #D4E5FF;
-  }
-  .roadmap_scale {
-    width: 100%;
-    border: 1px solid #595362;
-    border-radius: 1px;
-    margin: 3px 0 0 0;
-  }
-  .roadmap_internal {
-    width: 100%;
-    border: 1px solid #C49CFD;
-    border-radius: 1px;
-    box-shadow: 0px 0px 5px 5px #34175C;
-  }
-  .roadmap_slider_caption_wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0 10px 0;
-  }
-  .roadmap_slider_caption {
-    font-family: 'Montserrat-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    text-align: center;
-    letter-spacing: 0.015em;
-    color: #FFFFFF;
-  }
-  .roadmap_slider_left_arrow {
-    margin: 0 20px 0 0;
-  }
-  .roadmap_slider_right_arrow {
-    margin: 0 0 0 20px;
-  }
-  .roadmap_slider_left_arrow,
-  .roadmap_slider_right_arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.sale_slider_container_mobile {
+  margin: 25px 0 0 0;
+  width: 346px;
+}
+.sale_slider_caption_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 10px 0;
+}
+.sale_slider_caption {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+}
+.sale_slider_left_arrow {
+  margin: 0 20px 0 0;
+}
+.sale_slider_right_arrow {
+  margin: 0 0 0 20px;
+}
+.sale_slider_left_arrow,
+.sale_slider_right_arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sale_NFTSale {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 346px;
+  height: 672px;
+  padding: 30px 22px;
+  background-image: url('/images/landing/NFTSaleMobile.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 17px 0 0 0;
+}
+.sale_presale_left {
+  width: 100%;
+}
+.sale_presale_title {
+  text-align: center;
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  margin: 0;
+}
+.sale_presale_paragr {
+  margin: 22px 0 0 0;
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  color: #BDCCEA;
+  text-align: center;
+}
+.sale_presale_tokensinfo {
+  width: 408px;
+}
+.sale_presale_tokensinfo_button {
+  display: flex;
+  justify-content: flex-end;
+}
+.sale_NFTSale_tokensinfo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+.buy_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #9E40B5;
+  cursor: pointer;
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  width: 268px;
+  height: 58px;
+  border-radius: 20px;
+}

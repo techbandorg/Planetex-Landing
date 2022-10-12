@@ -9,52 +9,16 @@ export default class SaleSlider extends Component {
   render() {
     const settings = {
       dots: false,
-      infinite: false,
+      infinite: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false
     };
     return (
-      <div className={styles.roadmap_slider_container_mobile}>
-        <Slider {...settings}>
-          <div className={styles.roadmap_slider_item_mobile} style={{"width": "320px", "height": "45px"}}>
-            <div className={styles.roadmap_slider_item_content} style={{"width": "320px", "height": "45px"}}>
-              <div className={styles.roadmap_quarter}>
-                Quarter 1 2023
-              </div>
-              <div className={styles.roadmap_scale}>
-                <div className={styles.roadmap_internal}></div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.roadmap_slider_item_mobile} style={{"width": "320px", "height": "45px"}}>
-            <div className={styles.roadmap_slider_item_content} style={{"width": "320px", "height": "45px"}}>
-              <div className={styles.roadmap_quarter}>
-                Quarter 2 2023
-              </div>
-              <div className={styles.roadmap_scale}></div>
-            </div>
-          </div>
-          <div className={styles.roadmap_slider_item_mobile} style={{"width": "320px", "height": "45px"}}>
-            <div className={styles.roadmap_slider_item_content} style={{"width": "320px", "height": "45px"}}>
-              <div className={styles.roadmap_quarter}>
-                Quarter 3 2023
-              </div>
-              <div className={styles.roadmap_scale}></div>
-            </div>
-          </div>
-          <div className={styles.roadmap_slider_item_mobile} style={{"width": "320px", "height": "45px"}}>
-            <div className={styles.roadmap_slider_item_content} style={{"width": "320px", "height": "45px"}}>
-              <div className={styles.roadmap_quarter}>
-                Quarter 4 2023
-              </div>
-              <div className={styles.roadmap_scale}></div>
-            </div>
-          </div>
-        </Slider>
-        <div className={styles.roadmap_slider_caption_wrapper}>
-          <div className={styles.roadmap_slider_left_arrow}>
+      <div className={styles.sale_slider_container_mobile}>
+        <div className={styles.sale_slider_caption_wrapper}>
+          <div className={styles.sale_slider_left_arrow}>
             <Image 
               src="/images/landing/leftArrow.png"
               height={18}
@@ -62,10 +26,10 @@ export default class SaleSlider extends Component {
               alt="Left arrow"
             />
           </div>
-          <div className={styles.roadmap_slider_caption}>
+          <div className={styles.sale_slider_caption}>
             scroll
           </div>
-          <div className={styles.roadmap_slider_right_arrow}>
+          <div className={styles.sale_slider_right_arrow}>
             <Image 
               src="/images/landing/rightArrow.png"
               height={18}
@@ -74,6 +38,114 @@ export default class SaleSlider extends Component {
             />
           </div>
         </div>
+        <Slider {...settings}>
+          <div style={{"height": "672px"}}>
+            <div className={styles.sale_NFTSale}>
+              <div className={styles.sale_presale_left}>
+                <h3 className={styles.sale_presale_title}>NFT Sale</h3>
+                <div className={styles.sale_presale_paragr}>
+                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
+                future, Starfish aims to be collaborative, convenient and 
+                communal to build our product suites and become the one-stop-shop 
+                on Astar Network to provide you with DeFi, NFT-Fi and new project 
+                discovery.
+                </div>
+              </div>
+              <div className={styles.sale_NFTSale_tokensinfo}>
+                <div className={styles.sale_presale_tokensinfo_button}>
+                  <div className={styles.buy_button}>
+                    Buy Token
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style={{"height": "672px"}}>
+            <div className={styles.sale_NFTSale}>
+              <div className={styles.sale_presale_left}>
+                <h3 className={styles.sale_presale_title}>NFT Sale</h3>
+                <div className={styles.sale_presale_paragr}>
+                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
+                future, Starfish aims to be collaborative, convenient and 
+                communal to build our product suites and become the one-stop-shop 
+                on Astar Network to provide you with DeFi, NFT-Fi and new project 
+                discovery.
+                </div>
+              </div>
+              <div className={styles.sale_NFTSale_tokensinfo}>
+                <div className={styles.sale_presale_tokensinfo_button}>
+                  <div className={styles.buy_button}>
+                    Buy Token
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style={{"height": "672px"}}>
+            <div className={styles.sale_NFTSale}>
+              <div className={styles.sale_presale_left}>
+                <h3 className={styles.sale_presale_title}>NFT Sale</h3>
+                <div className={styles.sale_presale_paragr}>
+                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
+                future, Starfish aims to be collaborative, convenient and 
+                communal to build our product suites and become the one-stop-shop 
+                on Astar Network to provide you with DeFi, NFT-Fi and new project 
+                discovery.
+                </div>
+              </div>
+              <div className={styles.sale_NFTSale_tokensinfo}>
+                <div className={styles.sale_presale_tokensinfo_button}>
+                  <div className={styles.buy_button}>
+                    Buy Token
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style={{"height": "672px"}}>
+            <div className={styles.sale_NFTSale}>
+              <div className={styles.sale_presale_left}>
+                <h3 className={styles.sale_presale_title}>NFT Sale</h3>
+                <div className={styles.sale_presale_paragr}>
+                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
+                future, Starfish aims to be collaborative, convenient and 
+                communal to build our product suites and become the one-stop-shop 
+                on Astar Network to provide you with DeFi, NFT-Fi and new project 
+                discovery.
+                </div>
+              </div>
+              <div className={styles.sale_NFTSale_tokensinfo}>
+                <div className={styles.sale_presale_tokensinfo_button}>
+                  <div className={styles.buy_button}>
+                    Buy Token
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style={{"height": "672px"}}>
+            <div className={styles.sale_NFTSale}>
+              <div className={styles.sale_presale_left}>
+                <h3 className={styles.sale_presale_title}>NFT Sale</h3>
+                <div className={styles.sale_presale_paragr}>
+                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
+                future, Starfish aims to be collaborative, convenient and 
+                communal to build our product suites and become the one-stop-shop 
+                on Astar Network to provide you with DeFi, NFT-Fi and new project 
+                discovery.
+                </div>
+              </div>
+              <div className={styles.sale_NFTSale_tokensinfo}>
+                <div className={styles.sale_presale_tokensinfo_button}>
+                  <div className={styles.buy_button}>
+                    Buy Token
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Slider>
+        
       </div>
     );
   }
