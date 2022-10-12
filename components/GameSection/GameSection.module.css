@@ -116,6 +116,12 @@
   .p2egame_text_title {
     text-align: center;
   }
+  .p2egame_text_paragraph {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.015em;
+  }
   .p2egame_image_block {
     display: none;
   }
