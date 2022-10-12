@@ -1,0 +1,133 @@
+.header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  height: 115px;
+  padding: 0 50px;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0 0 20px;
+  height: 64px;
+}
+
+.gamburger_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1px;
+}
+.gamburger_menu:hover {
+  cursor: pointer;
+}
+.menu_line {
+  height: 3px;
+  width: 33px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 1.5px;
+  transition: 0.5s;
+}
+.first_line {
+  margin-bottom: 7px;
+}
+.first_line_active {
+  height: 0px;
+  width: 0px;
+}
+.second_line_active {
+  transform: rotate(45deg);
+}
+.third_line {
+  bottom: 3px;
+  margin-bottom: 5px;
+}
+.third_line_active {
+  transform: rotate(-45deg);
+}
+.fourth_line_active {
+  height: 0px;
+  width: 0px;
+}
+
+.header_nav_wrapper {
+  display: flex;
+}
+
+.main_nav {
+  display: flex;
+  align-items: center;
+}
+
+.main_nav_ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.main_nav_li {
+  margin-right: 30px;
+}
+
+.main_nav_a {
+  text-decoration: none;
+
+  font-family: "Montserrat-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.header_join_button_container {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 44px;
+}
+.header_join_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 217px;
+  height: 50px;
+  border: 2px solid #9E40B5;
+  border-radius: 45px;
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #9E40B5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1507px) {
+  .header {
+    width: 390px;
+    height: 66px;
+    padding: 0 20px;
+  }
+  .menu {
+    display: flex;
+  }
+  .header_nav_wrapper {
+    display: none;
+    width: 0px;
+    overflow: hidden;
+  }
+}
