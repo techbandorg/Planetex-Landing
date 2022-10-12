@@ -1,0 +1,182 @@
+.section_title {
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.buy_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 217px;
+  height: 60px;
+  background: #9E40B5;
+  border-radius: 38px;
+  cursor: pointer;
+
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.product_section {
+  width: 100%;
+}
+
+.product_container {
+  width: 100%;
+  padding: 0 120px;
+  margin: 56px 0 0 0;
+}
+
+.product_content {
+  display: flex;
+  margin: 68px 0 0 0;
+}
+
+.product_left_content {
+  min-width: 365px;
+  max-width: 365px;
+}
+
+.mobile_version {
+  display: none;
+}
+
+.mobile_version {
+  display: none;
+}
+
+.product_left_text {
+  margin: 0 0 36px 0;
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+  color: #BDCCEA;
+}
+
+.product_right_content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 25px;
+}
+
+.product_right_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 195px;
+  height: 178px;
+  background-image: url('/images/Rectangle187.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product_right_caption {
+  margin: 0px;
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.buy_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 217px;
+  height: 60px;
+  background: #9E40B5;
+  border-radius: 38px;
+  cursor: pointer;
+
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.mobile_slider {
+  display: none;
+}
+
+@media screen and (max-width: 1507px) {
+  .product_section {
+    background-image: url('/images/landing/Group357991.svg');
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-position: -185px -165px;
+    overflow-y: visible;
+  }
+  .product_container {
+    padding: 0;
+    margin: 0;
+  }
+  .product_content {
+    flex-direction: column;
+    margin: 58px 0 0 0;
+  }
+  .section_title {
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+  }
+  .product_left_content {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .product_left_text {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 0 35px 0;
+  }
+  .desctop_version {
+    display: none;
+  }
+  .mobile_slider {
+    display: block;
+  }
+  .mobile_version {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+  }
+  .product_right_content {
+    display: none;
+  }
+}
