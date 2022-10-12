@@ -1,31 +1,56 @@
-.product_slider_container_mobile .product_right_item_mobile {
+.product_slider_container_mobile {
+  margin: 60px 0 0 0;
+}
+
+
+.team_person {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  width: 195px;
-  height: 178px;
-  /* background-image: url('/images/Rectangle187.png'); */
+  justify-content: flex-end;
+  width: 281px;
+  height: 313px;
+  margin: 58px 0 0 0;
+  background-image: url('/images/teamPerson.png');
   background-repeat: no-repeat;
   background-size: cover;
-}
-.product_right_item_content {
+  margin: 0 20px;}
+
+.team_person_caption {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  background-image: url('/images/Rectangle187.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 12.5px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 281px;
+  height: 91px;
+  left: 135px;
+  top: 6484px;
+  padding: 0 14px;
+  background: rgba(106, 100, 143, 0.41);
+  border-radius: 4px;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to bottom, rgba(251, 228, 255, 1), rgba(129, 31, 255, 1));
 }
-.product_right_caption {
-  margin: 0px;
-  font-family: 'Montserrat-Bold';
+
+.team_person_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 26px;
+  border: 1px solid #DCDBDD;
+  border-radius: 28px;
+}
+
+.team_person_position {
+  font-family: 'Montserrat-Regular';
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
   letter-spacing: 0.015em;
-  color: #D4E5FF;
+  color: #FFFFFF;
+  margin: 8px 0 0 0;
 }

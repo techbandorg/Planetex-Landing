@@ -20,108 +20,100 @@ export default class TeamSlider extends Component {
     return (
       <div className={styles.product_slider_container_mobile}>
         <Slider {...settings}>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/swap.png"
-                  width={55}
-                  height={52}
-                  alt="Swap icon"
-                />
+          <div>
+            <div className={styles.team_person}>
+              <div className={styles.team_person_caption}>
+                <div className={styles.team_person_name}>
+                  Dmitriy
+                </div>
+                <div className={styles.team_person_position}>
+                  Chief Executive Officer
+                </div>
               </div>
-              <p className={styles.product_right_caption}>Swap</p>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/staking.png"
-                  width={59}
-                  height={56}
-                  alt="Staking icon"
-                />
+          <div>
+            <div className={styles.team_person}>
+              <div className={styles.team_person_caption}>
+                <div className={styles.team_person_name}>
+                  Dmitriy
+                </div>
+                <div className={styles.team_person_position}>
+                  Chief Executive Officer
+                </div>
               </div>
-              <p className={styles.product_right_caption}>Staking</p>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/trading.png"
-                  width={49}
-                  height={49}
-                  alt="Trading icon"
-                />
+          <div>
+            <div className={styles.team_person}>
+              <div className={styles.team_person_caption}>
+                <div className={styles.team_person_name}>
+                  Dmitriy
+                </div>
+                <div className={styles.team_person_position}>
+                  Chief Executive Officer
+                </div>
               </div>
-              <p className={styles.product_right_caption}>Trading</p>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/launchpad.png"
-                  width={52}
-                  height={52}
-                  alt="Launchpad icon"
-                />
+          <div>
+            <div className={styles.team_person}>
+              <div className={styles.team_person_caption}>
+                <div className={styles.team_person_name}>
+                  Dmitriy
+                </div>
+                <div className={styles.team_person_position}>
+                  Chief Executive Officer
+                </div>
               </div>
-              <p className={styles.product_right_caption}>Launchpad</p>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon} style={{}}>
-                <Image 
-                  src="/images/swap.png"
-                  width={55}
-                  height={52}
-                  alt="Swap icon"
-                />
+          <div>
+            <div className={styles.team_person}>
+              <div className={styles.team_person_caption}>
+                <div className={styles.team_person_name}>
+                  Dmitriy
+                </div>
+                <div className={styles.team_person_position}>
+                  Chief Executive Officer
+                </div>
               </div>
-              <p className={styles.product_right_caption}>Swap</p>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/staking.png"
-                  width={59}
-                  height={56}
-                  alt="Staking icon"
-                />
+          <div>
+            <div className={styles.team_person}>
+              <div className={styles.team_person_caption}>
+                <div className={styles.team_person_name}>
+                  Dmitriy
+                </div>
+                <div className={styles.team_person_position}>
+                  Chief Executive Officer
+                </div>
               </div>
-              <p className={styles.product_right_caption}>Staking</p>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/trading.png"
-                  width={49}
-                  height={49}
-                  alt="Trading icon"
-                />
+          <div>
+            <div className={styles.team_person}>
+              <div className={styles.team_person_caption}>
+                <div className={styles.team_person_name}>
+                  Dmitriy
+                </div>
+                <div className={styles.team_person_position}>
+                  Chief Executive Officer
+                </div>
               </div>
-              <p className={styles.product_right_caption}>Trading</p>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
-            <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
-              <div className={styles.product_right_icon}>
-                <Image 
-                  src="/images/launchpad.png"
-                  width={52}
-                  height={52}
-                  alt="Launchpad icon"
-                />
+          <div>
+            <div className={styles.team_person}>
+              <div className={styles.team_person_caption}>
+                <div className={styles.team_person_name}>
+                  Dmitriy
+                </div>
+                <div className={styles.team_person_position}>
+                  Chief Executive Officer
+                </div>
               </div>
-              <p className={styles.product_right_caption}>Launchpad</p>
             </div>
           </div>
         </Slider>
