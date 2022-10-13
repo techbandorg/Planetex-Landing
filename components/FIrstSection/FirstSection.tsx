@@ -13,7 +13,8 @@ export default class FirstSection extends Component {
             on the Planetex
           </h1>
           <p className={styles.first_subtitle}>
-            Trading on Planetex is quite simple and requires only signing up for a Planetex account and wallet creation.
+            Trading on Planetex is quite simple and requires only signing up 
+            for a Planetex account and wallet creation.
           </p>
           <div className={styles.first_buttons_block}>
             <div className={styles.join_button}>
