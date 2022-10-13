@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+//import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header/Header'
 import FirstSection from '../components/FirstSection/FirstSection'
@@ -12,6 +12,7 @@ import RoadmapSection from '../components/RoadmapSection/RoadmapSection'
 import TokenomicsSection from '../components/TokenomicsSection/TokenomicsSection'
 import TeamSection from '../components/TeamSection/TeamSection'
 import SaleSection from '../components/SaleSection/SaleSection'
+import PartnersSection from '../components/PartnersSection/PartnersSection'
 
 const Home: NextPage = () => {
   return (
@@ -34,80 +35,7 @@ const Home: NextPage = () => {
         <TokenomicsSection />
         <TeamSection />
         <SaleSection />
-
-
-        <section className={styles.partners_section}>
-          <h2 className={styles.partners_title}>
-            Partners
-          </h2>
-          <div className={styles.partners_block}>
-            <div className={styles.partners_item}>
-              <div className={styles.partners_logo}>
-                <Image 
-                  src="/images/image195.png"
-                  height={64}
-                  width={64}
-                  alt="Partners icon"
-                />
-              </div>
-              <div className={styles.partners_name}>
-                DATE LOIF
-              </div>
-            </div>
-            <div className={styles.partners_item}>
-              <div className={styles.partners_logo}>
-                <Image 
-                  src="/images/image196.png"
-                  height={64}
-                  width={64}
-                  alt="Partners icon"
-                />
-              </div>
-              <div className={styles.partners_name}>
-                DATE LOIF
-              </div>
-            </div>
-            <div className={styles.partners_item}>
-              <div className={styles.partners_logo}>
-                <Image 
-                  src="/images/image197.png"
-                  height={64}
-                  width={64}
-                  alt="Partners icon"
-                />
-              </div>
-              <div className={styles.partners_name}>
-                DATE LOIF
-              </div>
-            </div>
-            <div className={styles.partners_item}>
-              <div className={styles.partners_logo}>
-                <Image 
-                  src="/images/image198.png"
-                  height={64}
-                  width={64}
-                  alt="Partners icon"
-                />
-              </div>
-              <div className={styles.partners_name}>
-                DATE LOIF
-              </div>
-            </div>
-            <div className={styles.partners_item}>
-              <div className={styles.partners_logo}>
-                <Image 
-                  src="/images/image199.png"
-                  height={64}
-                  width={64}
-                  alt="Partners icon"
-                />
-              </div>
-              <div className={styles.partners_name}>
-                DATE LOIF
-              </div>
-            </div>
-          </div>
-        </section>
+        <PartnersSection />
       </main>
 
       <footer className={styles.footer}>
