@@ -8,9 +8,9 @@ export default class FirstSection extends Component {
       <section className={styles.first_section}>
         <div className={styles.first_content}>
           <h1 className={styles.first_title}>
-            Buy and Sell<br/>
-            cryptocurrency<br/>
-            on the Planetex
+            Meet Planetex - world&#39;s<br /> 
+            first artificial intelligence<br /> 
+            decentralized ecosystem
           </h1>
           <p className={styles.first_subtitle}>
             Trading on Planetex is quite simple and requires only signing up 

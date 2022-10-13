@@ -14,12 +14,21 @@ export default class Header extends Component {
             alt="Plantex logo"
           />
         </div>
-        <div className={styles.menu}>
-          <div className={styles.gamburger_menu}>
-            <div className={`${styles.menu_line} ${styles.first_line}`}></div>
-            <div className={`${styles.menu_line} ${styles.second_line}`}></div>
-            <div className={`${styles.menu_line} ${styles.third_line}`}></div>
-            <div className={`${styles.menu_line} ${styles.fourth_line}`}></div>
+        <div className={styles.header_right}>
+          <div className={styles.header_join_button_container_tablet}>
+            <div className={styles.header_join_button_container}>
+              <div className={styles.header_join_button}>
+                Join IDO
+              </div>
+            </div>
+          </div>
+          <div className={styles.menu}>
+            <div className={styles.gamburger_menu}>
+              <div className={`${styles.menu_line} ${styles.first_line}`}></div>
+              <div className={`${styles.menu_line} ${styles.second_line}`}></div>
+              <div className={`${styles.menu_line} ${styles.third_line}`}></div>
+              <div className={`${styles.menu_line} ${styles.fourth_line}`}></div>
+            </div>
           </div>
         </div>
         <div className={styles.header_nav_wrapper}>

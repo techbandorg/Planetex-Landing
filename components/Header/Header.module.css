@@ -116,7 +116,38 @@
   cursor: pointer;
 }
 
+.header_join_button_container_tablet {
+  display: none;
+}
+
+.header_right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 @media screen and (max-width: 1507px) {
+  .header {
+    width: 100%;
+    height: 100px;
+    padding: 0 40px;
+  }
+  .menu {
+    display: flex;
+  }
+  .header_nav_wrapper {
+    display: none;
+    width: 0px;
+    overflow: hidden;
+  }
+  .header_join_button_container_tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 739px) {
   .header {
     width: 390px;
     height: 66px;
@@ -129,5 +160,8 @@
     display: none;
     width: 0px;
     overflow: hidden;
+  }
+  .header_join_button_container_tablet {
+    display: none;
   }
 }

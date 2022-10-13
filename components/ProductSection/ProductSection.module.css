@@ -179,4 +179,11 @@
   .product_right_content {
     display: none;
   }
+  .buy_button {
+    width: 268px;
+    height: 58px;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
