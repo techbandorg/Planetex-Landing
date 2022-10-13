@@ -9,6 +9,7 @@ import BenefitsSection from '../components/BenefitsSection/BenefitsSection'
 import ProductSection from '../components/ProductSection/ProductSection'
 import GameSection from '../components/GameSection/GameSection'
 import RoadmapSection from '../components/RoadmapSection/RoadmapSection'
+import TokenomicsSection from '../components/TokenomicsSection/TokenomicsSection'
 import TeamSlider from '../components/TeamSlider/TeamSlider'
 import SaleSlider from '../components/SaleSlider/SaleSlider'
 
@@ -30,15 +31,9 @@ const Home: NextPage = () => {
         <ProductSection />
         <GameSection />
         <RoadmapSection />
+        <TokenomicsSection />
 
         
-        <section className={styles.tokenomics_section}>
-          <h2 className={styles.section_title}>
-            Tokenomics
-          </h2>
-          <div className={styles.tokenomics_container}>
-          </div>
-        </section>
         <section className={styles.team_section}>
           <h2 className={styles.section_title}>
             The Team

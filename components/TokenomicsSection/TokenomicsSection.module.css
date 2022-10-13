@@ -1,0 +1,50 @@
+.section_title {
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.tokenomics_section {
+  margin: 250px 0 0 0;
+}
+
+.tokenomics_container {
+  height: 995px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1507px) {
+  .section_title {
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+  }
+  .tokenomics_section {
+    margin: 0;
+    width: 100%;
+    background-image: url('/images/landing/tokenomics.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .tokenomics_section .section_title {
+    margin: 40px 0 0 0;
+  }
+  .tokenomics_container {
+    height: 685px;
+    width: 100%;
+  }
+}

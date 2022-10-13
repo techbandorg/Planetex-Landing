@@ -49,15 +49,6 @@
   color: #D4E5FF;
 }
 
-.tokenomics_section {
-  margin: 250px 0 0 0;
-}
-
-.tokenomics_container {
-  height: 995px;
-  width: 100%;
-}
-
 .team_section {
   width: 100%;
 }
@@ -491,20 +482,6 @@
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.015em;
-  }
-  .tokenomics_section {
-    margin: 0;
-    width: 100%;
-    background-image: url('/images/landing/tokenomics.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-  .tokenomics_section .section_title {
-    margin: 40px 0 0 0;
-  }
-  .tokenomics_container {
-    height: 685px;
-    width: 100%;
   }
   .team_persons_container {
     display: none;
