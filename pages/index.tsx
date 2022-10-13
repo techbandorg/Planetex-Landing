@@ -10,7 +10,8 @@ import ProductSection from '../components/ProductSection/ProductSection'
 import GameSection from '../components/GameSection/GameSection'
 import RoadmapSection from '../components/RoadmapSection/RoadmapSection'
 import TokenomicsSection from '../components/TokenomicsSection/TokenomicsSection'
-import TeamSlider from '../components/TeamSlider/TeamSlider'
+import TeamSection from '../components/TeamSection/TeamSection'
+//import TeamSlider from '../components/TeamSlider/TeamSlider'
 import SaleSlider from '../components/SaleSlider/SaleSlider'
 
 const Home: NextPage = () => {
@@ -32,98 +33,9 @@ const Home: NextPage = () => {
         <GameSection />
         <RoadmapSection />
         <TokenomicsSection />
+        <TeamSection />
 
         
-        <section className={styles.team_section}>
-          <h2 className={styles.section_title}>
-            The Team
-          </h2>
-          <div className={styles.team_persons_container}>
-            <div className={styles.team_person}>
-              <div className={styles.team_person_caption}>
-                <div className={styles.team_person_name}>
-                  Dmitriy
-                </div>
-                <div className={styles.team_person_position}>
-                  Chief Executive Officer
-                </div>
-              </div>
-            </div>
-            <div className={styles.team_person}>
-              <div className={styles.team_person_caption}>
-                <div className={styles.team_person_name}>
-                  Dmitriy
-                </div>
-                <div className={styles.team_person_position}>
-                  Chief Executive Officer
-                </div>
-              </div>
-            </div>
-            <div className={styles.team_person}>
-              <div className={styles.team_person_caption}>
-                <div className={styles.team_person_name}>
-                  Dmitriy
-                </div>
-                <div className={styles.team_person_position}>
-                  Chief Executive Officer
-                </div>
-              </div>
-            </div>
-            <div className={styles.team_person}>
-              <div className={styles.team_person_caption}>
-                <div className={styles.team_person_name}>
-                  Dmitriy
-                </div>
-                <div className={styles.team_person_position}>
-                  Chief Executive Officer
-                </div>
-              </div>
-            </div>
-            <div className={styles.team_person}>
-              <div className={styles.team_person_caption}>
-                <div className={styles.team_person_name}>
-                  Dmitriy
-                </div>
-                <div className={styles.team_person_position}>
-                  Chief Executive Officer
-                </div>
-              </div>
-            </div>
-            <div className={styles.team_person}>
-              <div className={styles.team_person_caption}>
-                <div className={styles.team_person_name}>
-                  Dmitriy
-                </div>
-                <div className={styles.team_person_position}>
-                  Chief Executive Officer
-                </div>
-              </div>
-            </div>
-            <div className={styles.team_person}>
-              <div className={styles.team_person_caption}>
-                <div className={styles.team_person_name}>
-                  Dmitriy
-                </div>
-                <div className={styles.team_person_position}>
-                  Chief Executive Officer
-                </div>
-              </div>
-            </div>
-            <div className={styles.team_person}>
-              <div className={styles.team_person_caption}>
-                <div className={styles.team_person_name}>
-                  Dmitriy
-                </div>
-                <div className={styles.team_person_position}>
-                  Chief Executive Officer
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.mobile_slider}>
-            <TeamSlider />
-          </div>
-        </section>
         <section className={styles.sale_section}>
           <h2 className={styles.section_title}>
             Sale Details

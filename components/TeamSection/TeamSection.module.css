@@ -1,0 +1,102 @@
+.team_section {
+  width: 100%;
+}
+
+.team_persons_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 120px; 
+}
+
+.section_title {
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.team_person {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 281px;
+  height: 313px;
+  margin: 58px 0 0 0;
+  background-image: url('/images/teamPerson.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team_person_caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 281px;
+  height: 91px;
+  left: 135px;
+  top: 6484px;
+  padding: 0 14px;
+  background: rgba(106, 100, 143, 0.41);
+  border-radius: 4px;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to bottom, rgba(251, 228, 255, 1), rgba(129, 31, 255, 1));
+}
+
+.team_person_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 26px;
+  border: 1px solid #DCDBDD;
+  border-radius: 28px;
+}
+
+.team_person_position {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+  margin: 8px 0 0 0;
+}
+
+.mobile_slider {
+  display: none;
+}
+
+@media screen and (max-width: 1507px) {
+  .team_persons_container {
+    display: none;
+  }
+  .section_title {
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+  }
+  .mobile_slider {
+    display: block;
+  }
+}
