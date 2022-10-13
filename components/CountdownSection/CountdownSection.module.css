@@ -171,6 +171,41 @@
 
 @media screen and (max-width: 1507px) {
   .win_countdown_section {
+    flex-direction: column;
+    min-height: 312px;
+    justify-content: space-between;
+    padding: 30px 0 35px 0;
+    margin: 30px 0 0 0;
+  }
+  .win_countdown_timer_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 387px;
+    margin: 0;
+  }
+  .win_countdown_timer_item {
+    margin: 0 30px 0 0;
+  }
+  .win_countdown_progress_initial {
+    margin: 0;
+  }
+  .win_countdown_progress_bar {
+    margin: 5px 0 0 0;
+  }
+  .win_countdown_progress_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .win_countdown_progress_container {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 739px) {
+  .win_countdown_section {
     display: none;
   }
 }
