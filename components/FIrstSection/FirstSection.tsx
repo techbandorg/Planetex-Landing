@@ -6,7 +6,8 @@ export default class FirstSection extends Component {
   render() {
     return (
       <section className={styles.first_section}>
-        <div className={styles.first_content}>
+        akfgl;dsfj;bdbnl;dsnb;ldnblsgnb;dnfb;ldzknfbl;ngbl;gnl
+        {/* <div className={styles.first_content}>
           <h1 className={styles.first_title}>
             Buy and Sell<br/>
             cryptocurrency<br/>
@@ -74,7 +75,7 @@ export default class FirstSection extends Component {
             </div>
             WhitePaper
           </div>
-        </div>
+        </div> */}
       </section>
     );
   }
