@@ -80,4 +80,3 @@ export default class PartnersSection extends Component {
     );
   }
 }
-
