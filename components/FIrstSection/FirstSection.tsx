@@ -1,11 +1,12 @@
 import React, { Component } from "react"
-import Image from 'next/image'
-import styles from './FirstSection.module.css'
+//import Image from 'next/image'
+//import styles from './FirstSection.module.css'
 
 export default class FirstSection extends Component {
   render() {
     return (
-      <section className={styles.first_section}>
+      <div>
+      {/* <section className={styles.first_section}> */}
         akfgl;dsfj;bdbnl;dsnb;ldnblsgnb;dnfb;ldzknfbl;ngbl;gnl
         {/* <div className={styles.first_content}>
           <h1 className={styles.first_title}>
@@ -76,7 +77,8 @@ export default class FirstSection extends Component {
             WhitePaper
           </div>
         </div> */}
-      </section>
+      {/* </section> */}
+      </div>
     );
   }
 }
