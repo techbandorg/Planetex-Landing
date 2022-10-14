@@ -12,7 +12,7 @@
 }
 
 .tokenomics_section {
-  margin: 250px 0 0 0;
+  margin: 170px 0 0 0;
 }
 
 .tokenomics_container {
@@ -21,6 +21,19 @@
 }
 
 @media screen and (max-width: 1507px) {
+  .tokenomics_section {
+    margin: 50px 0 0 0;
+  }
+  .section_title {
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .tokenomics_container {
+    height: 675px;
+  }
+}
+
+@media screen and (max-width: 739px) {
   .section_title {
     text-align: center;
     margin: 0;
