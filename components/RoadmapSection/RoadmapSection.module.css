@@ -101,6 +101,39 @@
 
 @media screen and (max-width: 1507px) {
   .section_title {
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .roadmap_section {
+    padding: 0 40px;
+  }
+  .roadmap_title {
+    margin: 64px 0 0 0;
+  }
+  .roadmap_content {
+    margin: 110px 0 0 0;
+  }
+  .roadmap_text_block {
+    width: 50%;
+    padding: 0px;
+  }
+  .roadmap_text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .roadmap_scale_container {
+    width: 100%;
+    margin: 148px 0px 100px 0px;
+  }
+  .roadmap_quarter {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 14px 0;
+  }
+}
+
+@media screen and (max-width: 739px) {
+  .section_title {
     text-align: center;
     margin: 0;
     font-family: 'Montserrat-Bold';

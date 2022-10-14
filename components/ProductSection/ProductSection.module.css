@@ -58,10 +58,6 @@
   display: none;
 }
 
-.mobile_version {
-  display: none;
-}
-
 .product_left_text {
   margin: 0 0 36px 0;
   font-family: 'Montserrat-Regular';
@@ -176,6 +172,9 @@
     display: flex;
     margin: 45px 0 0 0;
   }
+  .mobile_version {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 739px) {
@@ -223,6 +222,9 @@
   }
   .mobile_slider {
     display: block;
+  }
+  .tablet_version {
+    display: none;
   }
   .mobile_version {
     display: flex;
