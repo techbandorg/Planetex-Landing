@@ -8,7 +8,7 @@ export default class CountdownSection extends Component {
       <section className={styles.benefits_section}>
         <div className={styles.benefits_container}>
           <h2 className={styles.section_title}>
-            Business model
+            Ecosystem
           </h2>
           <div className={styles.benefits_first_block}>
             <div className={styles.benefits_text_container}>
@@ -16,14 +16,12 @@ export default class CountdownSection extends Component {
                 <div className={styles.benefits_number_container}>
                   <span className={styles.benefits_number}>01</span>
                 </div>
-                <h3 className={styles.benefits_text_title}>NFT</h3>
+                <h3 className={styles.benefits_text_title}>Planetex Token</h3>
                 <div>
                   <p className={styles.benefits_text}>
-                  Trading on Planetex is quite simple and requires only signing 
-                  up for a Planetex account and wallet creation. Keep track of 
-                  your orders in real time with in depth market analysis. 
-                  Increase your chance of winning your open contracts. We 
-                  provided with you all the tools you need.
+                  PLTEX token is a service token for all our future products. 
+                  Among its advantages are low exchange fees, highly profitable 
+                  staking, higher referral fees and much more.
                   </p>
                 </div>
               </div>
@@ -31,19 +29,33 @@ export default class CountdownSection extends Component {
                 <div className={styles.benefits_number_container2}>
                   <span className={styles.benefits_number}>02</span>
                 </div>
-                <h3 className={styles.benefits_text_title}>Staking</h3>
+                <h3 className={styles.benefits_text_title}>Planetex NFT</h3>
                 <div>
                   <p className={styles.benefits_text}>
-                  Trading on Planetex is quite simple and requires only signing 
-                  up for a Planetex account and wallet creation. Keep track of 
-                  your orders in real time with in depth market analysis. 
-                  Increase your chance of winning your open contracts. We 
-                  provided with you all the tools you need.
+                  Our nft collection is not just pictures. They are the ticket 
+                  to our game, which will allow you to enjoy an exciting game 
+                  and earn money at the same time. Choose your character and 
+                  get ready for a space battle.
+                  </p>
+                </div>
+              </div>
+              <div className={`${styles.benefits_text_block} ${styles.benefits_text_block2}`}>
+                <div className={styles.benefits_number_container2}>
+                  <span className={styles.benefits_number}>03</span>
+                </div>
+                <h3 className={styles.benefits_text_title}>Planetex DEX</h3>
+                <div>
+                  <p className={styles.benefits_text}>
+                  Our dex exchange will delight you not only with wide 
+                  functionality among other exchanges, but also with a 
+                  revolutionary algorithm based on AI for the most profitable 
+                  and convenient interaction with the platform. Fasten your 
+                  seat belts, we're taking off!
                   </p>
                 </div>
               </div>
             </div>
-            <div className={styles.benefits_img_container}>
+            <div className={styles.benefits_img_container_first}>
               <Image 
                 src="/images/Group357965.png"
                 width={725}
@@ -53,7 +65,7 @@ export default class CountdownSection extends Component {
             </div>
           </div>
           <div className={styles.benefits_second_block}>
-            <div className={styles.benefits_img_container}>
+            <div className={styles.benefits_img_container_second}>
               <Image 
                 src="/images/Group357989.png"
                 width={725}
@@ -64,33 +76,31 @@ export default class CountdownSection extends Component {
             <div className={styles.benefits_text_container}>
               <div className={styles.benefits_text_block}>
                 <div className={styles.benefits_number_container}>
-                  <span className={styles.benefits_number}>03</span>
+                  <span className={styles.benefits_number}>04</span>
                 </div>
-                <h3 className={styles.benefits_text_title}>Trading</h3>
+                <h3 className={styles.benefits_text_title}>Planetex P2E Game</h3>
                 <div>
                   <p className={styles.benefits_text}>
-                    Trading on Planetex is quite simple and requires only 
-                    signing up for a Planetex account and wallet creation. 
-                    Keep track of your orders in real time with in depth 
-                    market analysis. Increase your chance of winning your 
-                    open contracts. We provided with you all the tools you 
-                    need.
+                  Our game will allow you not only to participate in a unique 
+                  space battle, but also the opportunity to earn our PLTEX 
+                  tokens. The cooler your character is, the more chances you 
+                  have to defeat other players. Upgrade your character, learn 
+                  new skills, surprise players with your desire to win.
                   </p>
                 </div>
               </div>
               <div className={`${styles.benefits_text_block} ${styles.benefits_text_block2}`}>
                 <div className={styles.benefits_number_container2}>
-                  <span className={styles.benefits_number}>04</span>
+                  <span className={styles.benefits_number}>05</span>
                 </div>
-                <h3 className={styles.benefits_text_title}>Trading</h3>
+                <h3 className={styles.benefits_text_title}>Planetex Metaverse</h3>
                 <div>
                   <p className={styles.benefits_text}>
-                    Trading on Planetex is quite simple and requires only 
-                    signing up for a Planetex account and wallet creation. 
-                    Keep track of your orders in real time with in depth 
-                    market analysis. Increase your chance of winning your 
-                    open contracts. We provided with you all the tools you 
-                    need.
+                  The Planetex Metaverse is an amazing world with no limits. 
+                  You will have the opportunity to run your online business 
+                  in our metaverse by opening your office or store there. 
+                  Explore new planets, build space stations, have fun with 
+                  your friends. Ready Player One!
                   </p>
                 </div>
               </div>

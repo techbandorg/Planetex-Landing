@@ -4,6 +4,7 @@
   background-image: url('/images/mainBG.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
+  overflow: hidden;
 }
 
 .main {
