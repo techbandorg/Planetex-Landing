@@ -7,7 +7,7 @@ export default class GameSection extends Component {
     return (
       <section className={styles.p2egame_section}>
         <h2 className={styles.section_title}>
-          Game
+          P2E Game
         </h2>
         <div className={styles.p2egame_section_content}>
           <div className={styles.p2egame_text_block}>
@@ -44,7 +44,7 @@ export default class GameSection extends Component {
           </div>
           <div className={styles.p2egame_image_block}>
             <Image 
-              src="/images/P2Egame.png"
+              src="/images/P2Egame.svg"
               width={579}
               height={579}
               alt="P2E game illustration"

@@ -84,6 +84,39 @@
 
 @media screen and (max-width: 1507px) {
   .section_title {
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .p2egame_section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 40px;
+    margin: 65px 0 0 0;
+  }
+  .p2egame_text_block {
+    width: 407px;
+    z-index: 1;
+  }
+  .p2egame_text_title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .p2egame_text_paragraph {
+    max-width: 351px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 25px 0px 20px 0px;
+  }
+  .p2egame_image_block {
+    position: relative;
+    width: 244px;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 739px) {
+  .section_title {
     text-align: center;
     margin: 0;
     font-family: 'Montserrat-Bold';
@@ -121,6 +154,7 @@
     line-height: 22px;
     text-align: center;
     letter-spacing: 0.015em;
+    margin: 35px 0 35px 0;
   }
   .p2egame_image_block {
     display: none;
@@ -131,9 +165,6 @@
     justify-content: center;
     width: 100%;
     margin: 40px 0 0 0;
-  }
-  .p2egame_text_paragraph {
-    margin: 35px 0 35px 0;
   }
   .buy_button {
     width: 268px;
