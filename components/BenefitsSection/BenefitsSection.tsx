@@ -50,7 +50,7 @@ export default class CountdownSection extends Component {
                   functionality among other exchanges, but also with a 
                   revolutionary algorithm based on AI for the most profitable 
                   and convenient interaction with the platform. Fasten your 
-                  seat belts, we're taking off!
+                  seat belts, we&apos;re taking off!
                   </p>
                 </div>
               </div>
