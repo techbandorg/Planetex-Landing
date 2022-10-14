@@ -9,16 +9,14 @@ export default class ProductSection extends Component {
       <section className={styles.product_section}>
         <div className={styles.product_container}>
           <h2 className={styles.section_title}>
-            Product Suite
+            Enjoy DEX Functionality
           </h2>
           <div className={styles.product_content}>
             <div className={styles.product_left_content}>
               <p className={styles.product_left_text}>
-                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
-                future, Starfish aims to be collaborative, convenient and 
-                communal to build our product suites and become the one-stop-shop 
-                on Astar Network to provide you with DeFi, NFT-Fi and new project 
-                discovery.
+              Our dex exchange will compete even with top exchanges. Wide 
+              functionality along with an innovative artificial intelligence 
+              algorithm will not leave anyone indifferent.
               </p>
               <div className={styles.desctop_version}>
                 <div className={styles.buy_button}>
@@ -124,6 +122,11 @@ export default class ProductSection extends Component {
                 <p className={styles.product_right_caption}>Launchpad</p>
               </div>
             </div>
+            <div className={styles.tablet_version}>
+                <div className={styles.buy_button}>
+                  Buy Token
+                </div>
+              </div>
           </div>
         </div>
       </section>
