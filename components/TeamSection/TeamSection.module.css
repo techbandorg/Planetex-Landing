@@ -82,6 +82,13 @@
 
 @media screen and (max-width: 1507px) {
   .team_persons_container {
+    padding: 0 40px;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 739px) {
+  .team_persons_container {
     display: none;
   }
   .section_title {
