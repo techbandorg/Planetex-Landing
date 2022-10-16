@@ -37,6 +37,10 @@
   width: 408px;
 }
 
+.sale_NFTsale_left {
+  width: 440px;
+}
+
 .sale_presale_title {
   font-family: 'Montserrat-Bold';
   font-style: normal;
@@ -57,6 +61,17 @@
   line-height: 29px;
   letter-spacing: 0.015em;
   color: #BDCCEA;
+}
+
+.sale_presale_subtitle {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  margin: 20px 0 0 0;
 }
 
 .sale_presale_divider_wrapper {
@@ -112,16 +127,56 @@
   margin: 30px 0 0 0;
 }
 
+.sale_NFTsale_paragr {
+  margin: 5px 0 0 0;
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+  color: #BDCCEA;   
+}
+
 .sale_divider {
   height: 100%;
   border: 1px solid #1C2353;
 }
 
 .sale_NFTSale_tokensinfo {
-  width: 408px;
+  width: 440px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+.sale_presale_skills_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+  height: 140px;
+}
+
+.sale_presale_skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 211px;
+  height: 60px;
+  border: 1px solid #FBE4FF;
+  border-radius: 60px;
+  padding: 0 20px;
+}
+
+.sale_presale_skill_text {
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #BDCCEA;
 }
 
 .sale_MainSale {
@@ -295,6 +350,10 @@
     width: 290px;
     margin: 65px 0 0 0;
   }
+  .sale_NFTSale_tokensinfo {
+    width: 290px;
+    display: flex;
+  }
   .sale_presale_tokensinfo_item {
       margin: 22px 0;
   }
@@ -322,10 +381,24 @@
     line-height: 22px;
   }
   .sale_presale_divider {
-    /* width: 2px; */
-    /* height: 429px; */
     height: 262px;
     border: 1px solid #6A4D9B;
+  }
+  .sale_divider {
+    height: 262px;
+    border: 1px solid #1C2353;
+  }
+  .sale_NFTsale_paragr {
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    color: #BDCCEA;
+  }
+  .sale_presale_subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0 0 0;
   }
 }
 

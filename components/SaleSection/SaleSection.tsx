@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import Image from 'next/image'
 import styles from './SaleSection.module.css'
 import SaleSlider from '../SaleSlider/SaleSlider'
 
@@ -45,17 +46,73 @@ export default class SaleSection extends Component {
             </div>
           </div>
           <div className={styles.sale_NFTSale}>
-            <div className={styles.sale_presale_left}>
+            <div className={styles.sale_NFTsale_left}>
               <h3 className={styles.sale_presale_title}>NFT Sale</h3>
-              <div className={styles.sale_presale_paragr}>
-              Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
-              future, Starfish aims to be collaborative, convenient and 
-              communal to build our product suites and become the one-stop-shop 
-              on Astar Network to provide you with DeFi, NFT-Fi and new project 
-              discovery.
+              <div className={styles.sale_NFTsale_paragr}>
+              Echoing Astar Network&apos;s vision to be the heart of the Network to 
+              provide you with DeFi, NFT-Fi and new project discovery.
+              </div>
+              <h2 className={styles.sale_presale_subtitle}>
+                Сharacter skills
+              </h2>
+              <div className={styles.sale_presale_skills_block}>
+                <div className={styles.sale_presale_skill}>
+                  <div>
+                    <Image 
+                      src="/images/damageSkill.png"
+                      width={34}
+                      height={41}
+                      alt="Damage skill"
+                    />
+                  </div>
+                  <div className={styles.sale_presale_skill_text}>
+                    Damage
+                  </div>
+                </div>
+                <div className={styles.sale_presale_skill}>
+                  <div>
+                    <Image 
+                      src="/images/speedSkill.png"
+                      width={42}
+                      height={41}
+                      alt="Speed skill"
+                    />
+                  </div>
+                  <div className={styles.sale_presale_skill_text}>
+                    Speed
+                  </div>
+                </div>
+                <div className={styles.sale_presale_skill}>
+                  <div>
+                    <Image 
+                      src="/images/healthSkill.png"
+                      width={61}
+                      height={32}
+                      alt="Health skill"
+                    />
+                  </div>
+                  <div className={styles.sale_presale_skill_text}>
+                    Health
+                  </div>
+                </div>
+                <div className={styles.sale_presale_skill}>
+                  <div>
+                    <Image 
+                      src="/images/armorSkill.png"
+                      width={37}
+                      height={45}
+                      alt="Armor skill"
+                    />
+                  </div>
+                  <div className={styles.sale_presale_skill_text}>
+                    Armor
+                  </div>
+                </div>
               </div>
             </div>
-            <div className={styles.sale_divider}></div>
+            <div className={styles.sale_presale_divider_wrapper}>
+              <div className={styles.sale_divider}></div>
+            </div>
             <div className={styles.sale_NFTSale_tokensinfo}>
               <div className={styles.sale_presale_tokensinfo_button}>
                 <div className={styles.buy_button}>
