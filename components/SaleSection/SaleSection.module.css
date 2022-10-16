@@ -43,7 +43,6 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
-  /* identical to box height */
   letter-spacing: 0.015em;
   color: #D4E5FF;
   margin: 0;
@@ -57,8 +56,12 @@
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.015em;
-
   color: #BDCCEA;
+}
+
+.sale_presale_divider_wrapper {
+  display: flex;
+  align-items: center;  
 }
 
 .sale_presale_divider {
@@ -69,12 +72,20 @@
 }
 
 .sale_presale_tokensinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 408px;
+  margin: 80px 0 0 0;
 }
 
 .sale_presale_tokensinfo_item {
   display: flex;
   justify-content: space-between;
+  margin: 25px 0 0 0;
+}
+.sale_presale_name,
+.sale_presale_value {
   font-family: 'Montserrat-Medium';
   font-style: normal;
   font-weight: 600;
@@ -82,7 +93,6 @@
   line-height: 29px;
   letter-spacing: 0.015em;
   color: #D4E5FF;
-  margin: 30px 0;
 }
 
 .sale_presale_tokensinfo_button {
@@ -212,7 +222,7 @@
   justify-content: center;
   width: 217px;
   height: 60px;
-  background: #9E40B5;
+  background: #933DF6;
   border-radius: 38px;
   cursor: pointer;
 
@@ -230,6 +240,96 @@
 }
 
 @media screen and (max-width: 1507px) {
+  .sale_section {
+    padding: 0 25px;
+    margin: 95px 0 0 0;
+  }
+  .section_title {
+    text-align: center;
+    margin: 0;
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .sale_presale {
+    width: 689px;
+    height: 557px;
+    background-image: url('/images/landingTablet/PreSaleTabletBG.svg');
+    padding: 60px 40px;
+    margin: 105px 0 0 0;
+  }
+  .sale_NFTSale {
+    width: 689px;
+    height: 557px;
+    background-image: url('/images/landingTablet/NFTSaleTabletBG.svg');
+    padding: 60px 40px;
+  }
+  .sale_MainSale {
+    width: 689px;
+    height: 557px;
+    background-image: url('/images/landingTablet/MainSaleTabletBG.svg');
+    padding: 60px 40px;
+  }
+  .sale_PrivateSale {
+    width: 689px;
+    height: 557px;
+    background-image: url('/images/landingTablet/PrivateSaleTabletBG.svg');
+    padding: 60px 40px;
+  }
+  .sale_listing {
+    width: 689px;
+    height: 557px;
+    background-image: url('/images/landingTablet/ListingTabletBG.svg');
+    padding: 60px 40px;
+  }
+  .sale_presale_title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .sale_presale_left {
+    width: 290px;
+  }
+  .sale_presale_tokensinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 290px;
+    margin: 65px 0 0 0;
+  }
+  .sale_presale_tokensinfo_item {
+      margin: 22px 0;
+  }
+  .sale_presale_name {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+  }
+  .sale_presale_value {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+  }
+  .sale_presale_paragr {
+    margin: 45px 0 0 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .sale_presale_divider {
+    /* width: 2px; */
+    /* height: 429px; */
+    height: 262px;
+    border: 1px solid #6A4D9B;
+  }
+}
+
+@media screen and (max-width: 739px) {
   .section_title {
     text-align: center;
     margin: 0;

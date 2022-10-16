@@ -85,6 +85,10 @@
     padding: 0 40px;
     justify-content: space-around;
   }
+  .section_title {
+    font-size: 48px;
+    line-height: 59px;
+  }
 }
 
 @media screen and (max-width: 739px) {
