@@ -14,8 +14,8 @@ export default class PartnersSection extends Component {
             <div className={styles.partners_logo}>
               <Image 
                 src="/images/image195.png"
-                height={64}
-                width={64}
+                height={49}
+                width={49}
                 alt="Partners icon"
               />
             </div>
@@ -27,8 +27,8 @@ export default class PartnersSection extends Component {
             <div className={styles.partners_logo}>
               <Image 
                 src="/images/image196.png"
-                height={64}
-                width={64}
+                height={49}
+                width={49}
                 alt="Partners icon"
               />
             </div>
@@ -40,8 +40,8 @@ export default class PartnersSection extends Component {
             <div className={styles.partners_logo}>
               <Image 
                 src="/images/image197.png"
-                height={64}
-                width={64}
+                height={49}
+                width={49}
                 alt="Partners icon"
               />
             </div>
@@ -53,8 +53,8 @@ export default class PartnersSection extends Component {
             <div className={styles.partners_logo}>
               <Image 
                 src="/images/image198.png"
-                height={64}
-                width={64}
+                height={49}
+                width={49}
                 alt="Partners icon"
               />
             </div>
@@ -66,8 +66,8 @@ export default class PartnersSection extends Component {
             <div className={styles.partners_logo}>
               <Image 
                 src="/images/image199.png"
-                height={64}
-                width={64}
+                height={49}
+                width={49}
                 alt="Partners icon"
               />
             </div>

@@ -40,14 +40,20 @@
   font-family: 'Archivo-Regular';
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 18px;
   /* identical to box height */
   letter-spacing: 0.015em;
   color: #D4C2DC;
 }
 
 @media screen and (max-width: 1507px) {
+  .partners_block {
+    min-width: 642px;
+  }
+}
+
+@media screen and (max-width: 739px) {
   .partners_block {
     flex-wrap: wrap;
     justify-content: space-around;

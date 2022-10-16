@@ -57,11 +57,11 @@ export default class SaleSection extends Component {
               </h2>
               <div className={styles.sale_presale_skills_block}>
                 <div className={styles.sale_presale_skill}>
-                  <div>
+                  <div className={styles.sale_presale_damage_img}>
                     <Image 
                       src="/images/damageSkill.png"
-                      width={22.5}
-                      height={27}
+                      width={'100%'}
+                      height={'120%'}
                       alt="Damage skill"
                     />
                   </div>
@@ -70,11 +70,11 @@ export default class SaleSection extends Component {
                   </div>
                 </div>
                 <div className={styles.sale_presale_skill}>
-                  <div>
+                  <div className={styles.sale_presale_speed_img}>
                     <Image 
                       src="/images/speedSkill.png"
-                      width={26}
-                      height={26}
+                      width={'100%'}
+                      height={'100%'}
                       alt="Speed skill"
                     />
                   </div>
@@ -83,11 +83,11 @@ export default class SaleSection extends Component {
                   </div>
                 </div>
                 <div className={styles.sale_presale_skill}>
-                  <div>
+                  <div className={styles.sale_presale_health_img}>
                     <Image 
                       src="/images/healthSkill.png"
-                      width={39}
-                      height={20}
+                      width={'100%'}
+                      height={'51%'}
                       alt="Health skill"
                     />
                   </div>
@@ -96,11 +96,11 @@ export default class SaleSection extends Component {
                   </div>
                 </div>
                 <div className={styles.sale_presale_skill}>
-                  <div>
+                  <div className={styles.sale_presale_armor_img}>
                     <Image 
                       src="/images/armorSkill.png"
-                      width={19}
-                      height={23}
+                      width={'100%'}
+                      height={'121%'}
                       alt="Armor skill"
                     />
                   </div>
@@ -111,7 +111,7 @@ export default class SaleSection extends Component {
               </div>
             </div>
             <div className={styles.sale_presale_divider_wrapper}>
-              <div className={styles.sale_divider}></div>
+              <div className={styles.sale_presale_divider}></div>
             </div>
             <div className={styles.sale_NFTSale_tokensinfo}>
               <div className={styles.sale_presale_tokensinfo_button}>
@@ -131,7 +131,9 @@ export default class SaleSection extends Component {
                 Network to provide you with DeFi, NFT-Fi and new project discovery.
               </div>
             </div>
-            <div className={styles.sale_divider}></div>
+            <div className={styles.sale_presale_divider_wrapper}>
+              <div className={styles.sale_presale_divider}></div>
+            </div>
             <div className={styles.sale_presale_tokensinfo}>
               <div>
                 <div className={styles.sale_presale_tokensinfo_item}>
@@ -163,7 +165,9 @@ export default class SaleSection extends Component {
                 Network to provide you with DeFi, NFT-Fi and new project discovery.
               </div>
             </div>
-            <div className={styles.sale_divider}></div>
+            <div className={styles.sale_presale_divider_wrapper}>
+              <div className={styles.sale_presale_divider}></div>
+            </div>
             <div className={styles.sale_presale_tokensinfo}>
               <div>
                 <div className={styles.sale_presale_tokensinfo_item}>

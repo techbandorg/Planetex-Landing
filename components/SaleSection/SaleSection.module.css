@@ -169,6 +169,31 @@
   padding: 0 20px;
 }
 
+.sale_presale_damage_img {
+  width: 34px;
+  height: 41px;
+}
+
+.sale_presale_speed_img {
+  width: 41px;
+  height: 41px;
+}
+
+.sale_presale_health_img {
+  width: 61px;
+  height: 32px;
+}
+
+.sale_presale_health_img {
+  width: 61px;
+  height: 32px;
+}
+
+.sale_presale_armor_img {
+  width: 37px;
+  height: 45px;
+}
+
 .sale_presale_skill_text {
   font-family: 'Montserrat-Medium';
   font-style: normal;
@@ -330,7 +355,7 @@
   }
   .sale_listing {
     width: 689px;
-    height: 557px;
+    height: 349px;
     background-image: url('/images/landingTablet/ListingTabletBG.svg');
     padding: 60px 40px;
   }
@@ -382,10 +407,10 @@
     height: 262px;
     border: 1px solid #6A4D9B;
   }
-  .sale_divider {
+  /* .sale_divider {
     height: 262px;
     border: 1px solid #1C2353;
-  }
+  } */
   .sale_NFTsale_left {
     width: 290px;
     padding: 0 20px 0 0;
@@ -409,6 +434,22 @@
     width: 130px;
     height: 37px;
     padding: 0 13px;
+  }
+  .sale_presale_damage_img {
+    width: 23px;
+    height: 27px;
+  }
+  .sale_presale_speed_img {
+    width: 26px;
+    height: 26px;
+  }
+  .sale_presale_health_img {
+    width: 39px;
+    height: 20px;
+  }
+  .sale_presale_armor_img {
+    width: 19px;
+    height: 23px;
   }
   .sale_presale_skill_text {
     font-size: 13px;
