@@ -60,8 +60,8 @@ export default class SaleSection extends Component {
                   <div>
                     <Image 
                       src="/images/damageSkill.png"
-                      width={34}
-                      height={41}
+                      width={22.5}
+                      height={27}
                       alt="Damage skill"
                     />
                   </div>
@@ -73,8 +73,8 @@ export default class SaleSection extends Component {
                   <div>
                     <Image 
                       src="/images/speedSkill.png"
-                      width={42}
-                      height={41}
+                      width={26}
+                      height={26}
                       alt="Speed skill"
                     />
                   </div>
@@ -86,8 +86,8 @@ export default class SaleSection extends Component {
                   <div>
                     <Image 
                       src="/images/healthSkill.png"
-                      width={61}
-                      height={32}
+                      width={39}
+                      height={20}
                       alt="Health skill"
                     />
                   </div>
@@ -99,8 +99,8 @@ export default class SaleSection extends Component {
                   <div>
                     <Image 
                       src="/images/armorSkill.png"
-                      width={37}
-                      height={45}
+                      width={19}
+                      height={23}
                       alt="Armor skill"
                     />
                   </div>
