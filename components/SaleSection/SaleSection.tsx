@@ -133,25 +133,18 @@ export default class SaleSection extends Component {
             </div>
             <div className={styles.sale_divider}></div>
             <div className={styles.sale_presale_tokensinfo}>
-              <div className={styles.sale_presale_tokensinfo_item}>
-                <div className={styles.sale_presale_name}># OF TOKENS</div>
-                <div className={styles.sale_presale_value}>150.000.000</div>
-              </div>
-              <div className={styles.sale_presale_tokensinfo_item}>
-                <div className={styles.sale_presale_name}>PRICE IN USD</div>
-                <div className={styles.sale_presale_value}>0,009</div>
-              </div>
-              <div className={styles.sale_presale_tokensinfo_item}>
-                <div className={styles.sale_presale_name}>FUNDING</div>
-                <div className={styles.sale_presale_value}>1.350.000</div>
-              </div>
-              <div className={styles.sale_presale_tokensinfo_item}>
-                <div className={styles.sale_presale_name}>SALE DATE</div>
-                <div className={styles.sale_presale_value}>20 January</div>
-              </div>
-              <div className={styles.sale_presale_tokensinfo_item}>
-                <div className={styles.sale_presale_name}>LOCKED</div>
-                <div className={styles.sale_presale_value}>6 months</div>
+              <div>
+                <div className={styles.sale_presale_tokensinfo_item}>
+                  <div className={styles.sale_presale_name}>Number of tokens</div>
+                  <div className={styles.sale_presale_value}>24,000,000</div>
+                </div>
+                <div className={styles.sale_presale_tokensinfo_item}>
+                  <div className={styles.sale_presale_name}>Price in USDT</div>
+                  <div className={styles.sale_presale_value}>$0.07</div>
+                </div>
+                <div className={styles.sale_presale_tokensinfo_item}>
+                  <div className={styles.sale_presale_value}>[Min 25$-Max 2500$]</div>
+                </div>
               </div>
               <div className={styles.sale_presale_tokensinfo_button}>
                 <div className={styles.buy_button}>
@@ -172,25 +165,18 @@ export default class SaleSection extends Component {
             </div>
             <div className={styles.sale_divider}></div>
             <div className={styles.sale_presale_tokensinfo}>
-              <div className={styles.sale_presale_tokensinfo_item}>
-                <div className={styles.sale_presale_name}># OF TOKENS</div>
-                <div className={styles.sale_presale_value}>150.000.000</div>
-              </div>
-              <div className={styles.sale_presale_tokensinfo_item}>
-                <div className={styles.sale_presale_name}>PRICE IN USD</div>
-                <div className={styles.sale_presale_value}>0,009</div>
-              </div>
-              <div className={styles.sale_presale_tokensinfo_item}>
-                <div className={styles.sale_presale_name}>FUNDING</div>
-                <div className={styles.sale_presale_value}>1.350.000</div>
-              </div>
-              <div className={styles.sale_presale_tokensinfo_item}>
-                <div className={styles.sale_presale_name}>SALE DATE</div>
-                <div className={styles.sale_presale_value}>20 January</div>
-              </div>
-              <div className={styles.sale_presale_tokensinfo_item}>
-                <div className={styles.sale_presale_name}>LOCKED</div>
-                <div className={styles.sale_presale_value}>6 months</div>
+              <div>
+                <div className={styles.sale_presale_tokensinfo_item}>
+                  <div className={styles.sale_presale_name}>Number of tokens</div>
+                  <div className={styles.sale_presale_value}>12,000,000</div>
+                </div>
+                <div className={styles.sale_presale_tokensinfo_item}>
+                  <div className={styles.sale_presale_name}>Price in USDT</div>
+                  <div className={styles.sale_presale_value}>$0.05</div>
+                </div>
+                <div className={styles.sale_presale_tokensinfo_item}>
+                  <div className={styles.sale_presale_value}>[Min 100$-Max 25000$]</div>
+                </div>
               </div>
               <div className={styles.sale_presale_tokensinfo_button}>
                 <div className={styles.buy_button}>
