@@ -221,10 +221,19 @@
     text-align: center;
   }
   .benefits_img_container_first {
+    position: relative;
+    right: 0px;
+    top: 0px;
     width: 100%;
   }
   .benefits_second_block {
     flex-direction: column-reverse;
     margin: -50px 0 0 0;
+  }
+  .benefits_img_container_second {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 0px;
   }
 }

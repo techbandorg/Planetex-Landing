@@ -36,7 +36,7 @@ export default class FirstSection extends Component {
         <div className={styles.first_right}>
           <div className={styles.planetex_tok}>
             <Image
-              src="/images/PlantexTok.png"
+              src="/images/PlantexTok.svg"
               height={42}
               width={188}
               alt="Planetex token info"
@@ -44,7 +44,7 @@ export default class FirstSection extends Component {
           </div>
           <div className={styles.diagram}>
             <Image
-              src="/images/Diagram.png"
+              src="/images/Diagram.svg"
               height={122}
               width={207}
               alt="Planetex token diagram"
@@ -52,7 +52,7 @@ export default class FirstSection extends Component {
           </div>
           <div className={styles.planetex_tok_stat}>
             <Image
-              src="/images/PlantexTokStat.png"
+              src="/images/PlantexTokStat.svg"
               height={87}
               width={218}
               alt="Planetex token statistic"

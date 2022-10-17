@@ -236,10 +236,13 @@
     display: none;
   }
   .buy_button {
-    width: 268px;
-    height: 58px;
-    border-radius: 20px;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 24px;
+    width: 301px;
+    height: 55px;
+    left: 43px;
+    top: 3050px;
+    background: #933DF6;
+    border-radius: 60px;
   }
 }

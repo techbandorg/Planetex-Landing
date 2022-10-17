@@ -40,7 +40,7 @@ export default class CountdownSection extends Component {
                 </div>
               </div>
               <div className={`${styles.benefits_text_block} ${styles.benefits_text_block2}`}>
-                <div className={styles.benefits_number_container2}>
+                <div className={styles.benefits_number_container}>
                   <span className={styles.benefits_number}>03</span>
                 </div>
                 <h3 className={styles.benefits_text_title}>Planetex DEX</h3>
@@ -75,7 +75,7 @@ export default class CountdownSection extends Component {
             </div>
             <div className={styles.benefits_text_container}>
               <div className={styles.benefits_text_block}>
-                <div className={styles.benefits_number_container}>
+                <div className={styles.benefits_number_container2}>
                   <span className={styles.benefits_number}>04</span>
                 </div>
                 <h3 className={styles.benefits_text_title}>Planetex P2E Game</h3>
@@ -90,7 +90,7 @@ export default class CountdownSection extends Component {
                 </div>
               </div>
               <div className={`${styles.benefits_text_block} ${styles.benefits_text_block2}`}>
-                <div className={styles.benefits_number_container2}>
+                <div className={styles.benefits_number_container}>
                   <span className={styles.benefits_number}>05</span>
                 </div>
                 <h3 className={styles.benefits_text_title}>Planetex Metaverse</h3>

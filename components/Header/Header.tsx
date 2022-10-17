@@ -34,9 +34,12 @@ export default class Header extends Component {
         <div className={styles.header_nav_wrapper}>
           <nav className={styles.main_nav}>
             <ul className={styles.main_nav_ul}>
-              <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Project benefits</a></li>
-              <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Product Suite</a></li>
+              <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Ecosystem</a></li>
+              <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>DEX</a></li>
+              <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>P2E Game</a></li>
+              <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Roadmap</a></li>
               <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>Tokenomics</a></li>
+              <li className={styles.main_nav_li}><a href="" className={styles.main_nav_a}>The Team</a></li>
               <li><a href="" className={styles.main_nav_a}>Sale Details</a></li>
             </ul>
           </nav>
