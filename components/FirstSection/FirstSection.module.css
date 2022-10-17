@@ -2,8 +2,37 @@
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+  position: relative;
   width: 100%;
+  
   padding: 0 120px;
+  z-index: 1;
+}
+
+.first_section_content {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 1322px;
+  width: 100%;
+}
+
+.first_section_polar_lights {
+  position: absolute;
+  width:1360px;
+  height: 986px;
+  top: -273px;
+  left: -296px;
+  z-index: -1;
+}
+
+.first_section_astronaut {
+  position: absolute;
+  width:1695px;
+  height: 1485px;
+  top: -440px;
+  right: -670px;
+  z-index: -2;
 }
 
 .first_content {
@@ -112,6 +141,181 @@
 
 @media screen and (max-width: 1507px) {
   .first_section {
+    padding: 0 50px;
+  }
+  .first_section_polar_lights {
+    top: -373px;
+    left: -496px;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .first_section_content {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+  }
+  .first_section_astronaut {
+    /* top: -440px;
+    right: -600px; */
+    top: -60%;
+    right: -65%;
+    width: 1271px;
+    height: 1114px;
+  }
+  .planetex_tok {
+    top: 50px;
+    right: 0px;
+  }
+  
+  .diagram {
+    bottom: 0px;
+    left: 20px;
+  }
+  
+  .planetex_tok_stat {
+    right: 0px;
+    bottom: 30px;
+  }
+  .first_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .first_right {
+    width: 100%;
+    max-width: 610px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .first_section {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .first_section_polar_lights {
+    top: -573px;
+    left: -496px;
+  }
+  .first_section_astronaut {
+    top: -250px;
+    right: -400px;
+    width: 1271px;
+    height: 1114px;
+  }
+  /* width: 847px;
+  height: 742px; */
+  .first_title {
+    font-family: 'Montserrat-Bold';
+    margin: 52px 0 0 0;
+    font-size: 25px;
+    line-height: 103.19%;
+    text-align: center;
+    color: #D4E5FF;
+  }
+  .first_subtitle {
+    max-width: 100%;
+    font-family: 'Montserrat-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+    margin: 30px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .first_section_polar_lights {
+    top: -673px;
+    left: -496px;
+  }
+  .first_section_astronaut {
+    top: -80%;
+    right: -90%;
+    /* width: 1271px;
+    height: 1114px; */
+    width: 848px;
+    height: 743px;
+  }
+  .first_buttons_block {
+    display: none;
+  }
+
+  .first_buttons_block {
+    display: none;
+  }
+  .first_right {
+    position: relative;
+    width: 330px;
+    height: 240px;
+  }
+  .planetex_tok {
+    position: absolute;
+    width: 103px;
+    height: 23px;
+    top: 65px;
+    right: 5px;
+  }
+  .diagram {
+    width: 113px;
+    height: 67px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  .planetex_tok_stat {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+  }
+  .second_buttons_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0 0 0;
+  }
+  .join_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 301px;
+    height: 55px;
+    background: #933DF6;
+    border-radius: 60px;
+    cursor: pointer;
+
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+  }
+  .download_WhitePaper_button {
+    margin: 52px 0 0 38px;
+  }
+  .download_logo {
+    position: absolute;
+    left: -70px;
+    top: -8px;
+  }
+}
+/* @media screen and (max-width: 1507px) {
+  .first_section {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -134,9 +338,9 @@
     bottom: 5px;
     left: -10px;
   }
-}
+} */
 
-@media screen and (max-width: 739px) {
+/* @media screen and (max-width: 739px) {
   .first_section {
     display: flex;
     flex-direction: column;
@@ -154,7 +358,6 @@
     margin: 52px 0 0 0;
     font-size: 25px;
     line-height: 103.19%;
-    /* or 37px */
     text-align: center;
     color: #D4E5FF;
   }
@@ -232,4 +435,4 @@
     left: -70px;
     top: -8px;
   }
-}
+} */

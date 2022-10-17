@@ -1,10 +1,17 @@
-.container {
-  width: 1512px;
-  margin: 0 auto;
-  background-image: url('/images/mainBG.jpg');
-  background-repeat: no-repeat;
+.landing_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url('/images/mainBGdesktop.jpg');
+  background-repeat:repeat-y;
   background-size: 100%;
   overflow: hidden;
+}
+
+.container {
+  max-width: 1512px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .main {
@@ -17,7 +24,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1507px) {
+/* @media screen and (max-width: 1507px) {
   .container {
     width: 744px;
     margin: 0 auto;
@@ -35,4 +42,4 @@
     background-repeat: no-repeat;
     background-size: auto;
   }
-}
+} */

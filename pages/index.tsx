@@ -16,26 +16,28 @@ import Footer from '../components/Footer/Footer'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Planetex</title>
-        <meta name="description" content="Planetex app" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Header />
-      <main className={styles.main}>
-        <FirstSection />
-        <CountdownSection />
-        <BenefitsSection />
-        <ProductSection />
-        <GameSection />
-        <RoadmapSection />
-        <TokenomicsSection />
-        <TeamSection />
-        <SaleSection />
-        <PartnersSection />
-      </main>
-      <Footer />
+    <div className={styles.landing_wrapper}>
+      <div className={styles.container}>
+        <Head>
+          <title>Planetex</title>
+          <meta name="description" content="Planetex app" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <Header />
+        <main className={styles.main}>
+          <FirstSection />
+          {/* <CountdownSection />
+          <BenefitsSection />
+          <ProductSection />
+          <GameSection />
+          <RoadmapSection />
+          <TokenomicsSection />
+          <TeamSection />
+          <SaleSection />
+          <PartnersSection /> */}
+        </main>
+        {/* <Footer /> */}
+      </div>
     </div>
   )
 }
