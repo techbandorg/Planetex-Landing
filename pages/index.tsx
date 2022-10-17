@@ -26,8 +26,8 @@ const Home: NextPage = () => {
         <Header />
         <main className={styles.main}>
           <FirstSection />
-          {/* <CountdownSection />
-          <BenefitsSection />
+          <CountdownSection />
+          {/* <BenefitsSection />
           <ProductSection />
           <GameSection />
           <RoadmapSection />
