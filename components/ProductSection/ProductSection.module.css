@@ -31,7 +31,18 @@
 }
 
 .product_section {
+  position: relative;
   width: 100%;
+  z-index: 1;
+}
+
+.product_background {
+  position: absolute;
+  width: 2541px;
+  height: 1899px;
+  top: -573px;
+  left: -550px;
+  z-index: -1;
 }
 
 .product_container {
@@ -215,13 +226,14 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    margin: 0 0 35px 0;
+    margin: 0 0 20px 0;
   }
   .desctop_version {
     display: none;
   }
   .mobile_slider {
     display: block;
+    width: 390px;
   }
   .tablet_version {
     display: none;

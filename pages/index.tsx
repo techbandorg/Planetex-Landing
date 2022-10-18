@@ -28,8 +28,8 @@ const Home: NextPage = () => {
           <FirstSection />
           <CountdownSection />
           <BenefitsSection />
-          {/* <ProductSection />
-          <GameSection />
+          <ProductSection />
+          {/* <GameSection />
           <RoadmapSection />
           <TokenomicsSection />
           <TeamSection />
