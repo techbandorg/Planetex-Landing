@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           <TokenomicsSection />
           <TeamSection />
           <SaleSection />
-          {/* <PartnersSection /> */}
+          <PartnersSection />
         </main>
         {/* <Footer /> */}
       </div>
