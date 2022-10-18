@@ -240,12 +240,13 @@
 .sale_PrivateSale {
   display: flex;
   justify-content: space-between;
-  width: 1170px;
+  width: 100%;
+  max-width: 1170px;
   height: 510px;
   padding: 50px 90px;
   background-image: url('/images/PrivateSale.png');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100% 100%;
   margin: 30px 0 0 0;
 }
 
@@ -397,6 +398,10 @@
     padding: 60px 40px;
   }
   .sale_MainSale {
+    height: 557px;
+    padding: 60px 40px;
+  }
+  .sale_PrivateSale {
     height: 557px;
     padding: 60px 40px;
   }
