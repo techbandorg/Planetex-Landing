@@ -121,7 +121,7 @@ export default class SaleSection extends Component {
               </div>
             </div>
           </div>
-          <div className={styles.sale_MainSale}>
+          {/* <div className={styles.sale_MainSale}>
             <div className={styles.sale_presale_left}>
               <h3 className={styles.sale_presale_title}>Main Sale</h3>
               <div className={styles.sale_presale_paragr}>
@@ -209,7 +209,7 @@ export default class SaleSection extends Component {
                 <div className={styles.sale_listing_timer_caption}>Seconds</div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className={styles.mobile_slider}>
           <SaleSlider />

@@ -33,8 +33,8 @@ const Home: NextPage = () => {
           <RoadmapSection />
           <TokenomicsSection />
           <TeamSection />
-          {/* <SaleSection />
-          <PartnersSection /> */}
+          <SaleSection />
+          {/* <PartnersSection /> */}
         </main>
         {/* <Footer /> */}
       </div>
