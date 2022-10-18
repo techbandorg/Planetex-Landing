@@ -68,7 +68,7 @@
   min-height: 122px;
 }
 
-@media screen and (max-width: 1507px) {
+@media screen and (max-width: 1320px) {
   .footer {
     margin: 78px 0 0 0;
     padding: 0;
@@ -82,7 +82,7 @@
     margin: 0 20px 0 20px;
   }
   .footer_products_about {
-    display: none;
+    align-items: flex-start;
   }
   .footer_title {
     font-size: 22px;
@@ -93,5 +93,17 @@
     font-size: 18px;
     line-height: 21px;
     min-height: 105px; 
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer_products_about {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 739px) {
+.footer_products_about {
+    display: none;
   }
 }

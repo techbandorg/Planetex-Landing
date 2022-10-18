@@ -36,7 +36,7 @@ const Home: NextPage = () => {
           <SaleSection />
           <PartnersSection />
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   )
