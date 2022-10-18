@@ -49,8 +49,8 @@
 }
 
 .sale_NFTsale_left {
-  max-width: 418px;
-  width: 418px;
+  max-width: 442px;
+  width: 442px;
   margin: 0 10px 0 0;
 }
 
@@ -166,8 +166,8 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position-y: -50px;
-  max-width: 418px;
-  width: 418px;
+  max-width: 442px;
+  width: 442px;
 }
 
 .sale_presale_skills_block {
@@ -227,12 +227,13 @@
 .sale_MainSale {
   display: flex;
   justify-content: space-between;
-  width: 1170px;
+  width: 100%;
+  max-width: 1170px;
   height: 510px;
   padding: 50px 90px;
   background-image: url('/images/MainSale.png');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100% 100%;
   margin: 30px 0 0 0;
 }
 
@@ -392,6 +393,10 @@
     margin: 105px 0 0 0;
   }
   .sale_NFTSale {
+    height: 557px;
+    padding: 60px 40px;
+  }
+  .sale_MainSale {
     height: 557px;
     padding: 60px 40px;
   }

@@ -121,7 +121,7 @@ export default class SaleSection extends Component {
               </div>
             </div>
           </div>
-          {/* <div className={styles.sale_MainSale}>
+          <div className={styles.sale_MainSale}>
             <div className={styles.sale_presale_left}>
               <h3 className={styles.sale_presale_title}>Main Sale</h3>
               <div className={styles.sale_presale_paragr}>
@@ -155,7 +155,7 @@ export default class SaleSection extends Component {
               </div>
             </div>
           </div>
-          <div className={styles.sale_PrivateSale}>
+          {/* <div className={styles.sale_PrivateSale}>
             <div className={styles.sale_presale_left}>
               <h3 className={styles.sale_presale_title}>Private Sale</h3>
               <div className={styles.sale_presale_paragr}>
