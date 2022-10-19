@@ -5,7 +5,7 @@ export default class TokenomicsSection extends Component {
   render() {
     return (
       <section className={styles.tokenomics_section}>
-        <a id={"tokenomics"} name={"tokenomics"}></a>
+        <a id={"tokenomics"}></a>
         <h2 className={styles.section_title}>
           Tokenomics
         </h2>

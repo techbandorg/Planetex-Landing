@@ -8,7 +8,7 @@ export default class SaleSection extends Component {
   render() {
     return (
       <section className={styles.sale_section}>
-        <a id={"saleDetails"} name={"saleDetails"}></a>
+        <a id={"saleDetails"}></a>
         <h2 className={styles.section_title}>
           Sale Details
         </h2>
