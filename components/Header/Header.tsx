@@ -9,20 +9,31 @@ import { JoinIDO_1 } from '../buttons/buttons'
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  function menuItemHandler(e: React.SyntheticEvent) {
-    e.preventDefault();
-    const body = document.querySelector("body");
-    const nodeObj = document.getElementById(e.target.dataset.name);
-    body.classList.remove("menu-open");
+  function menuItemHandler(event: React.MouseEvent): void {
+    const target = event.target as HTMLButtonElement;
+    const body: HTMLElement | null = document.querySelector("body");
+    let nodeObj: HTMLElement | null;
+
+    if (body) {
+      body.classList.remove("menu-open");
+    }
+
     setIsMenuOpen(false);
-    nodeObj.scrollIntoView({block: "center", behavior: "smooth"});
+
+    if (target.dataset.name) {
+      nodeObj = document.getElementById(target.dataset.name);
+      console.log(nodeObj);
+      if (nodeObj) {
+        nodeObj.scrollIntoView({block: "start", behavior: "smooth"});
+      }
+    }
   }
 
   function displayMobileMenu() {
-    const body = document.querySelector("body");
-    if ( isMenuOpen ) {
+    const body: HTMLElement | null = document.querySelector("body");
+    if ( isMenuOpen && body ) {
       body.classList.remove("menu-open");
-    } else {
+    } else if ( body ) {
       body.classList.add("menu-open");
     }
     setIsMenuOpen(!isMenuOpen);
