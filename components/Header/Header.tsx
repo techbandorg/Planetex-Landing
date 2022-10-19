@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Image from 'next/image'
 import styles from './Header.module.css'
+import { JoinIDO_1 } from '../buttons/buttons'
 
 export default class Header extends Component {
   render() {
@@ -18,9 +19,7 @@ export default class Header extends Component {
           <div className={styles.header_right}>
             <div className={styles.header_join_button_container_tablet}>
               <div className={styles.header_join_button_container}>
-                <div className={styles.header_join_button}>
-                  Join IDO
-                </div>
+                <JoinIDO_1 />
               </div>
             </div>
             <div className={styles.menu}>
@@ -45,9 +44,7 @@ export default class Header extends Component {
               </ul>
             </nav>
             <div className={styles.header_join_button_container}>
-              <div className={styles.header_join_button}>
-                Join IDO
-              </div>
+              <JoinIDO_1 />
             </div>
           </div>
         </div>

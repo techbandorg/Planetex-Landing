@@ -109,23 +109,7 @@
   align-items: center;
   margin: 0 0 0 44px;
 }
-.header_join_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 217px;
-  height: 50px;
-  border: 2px solid #9E40B5;
-  border-radius: 45px;
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.015em;
-  color: #9E40B5;
-  cursor: pointer;
-}
+
 
 .header_join_button_container_tablet {
   display: none;

@@ -317,25 +317,6 @@
   margin: 16px 0 0 0;
 }
 
-.buy_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 217px;
-  height: 60px;
-  background: #933DF6;
-  border-radius: 38px;
-  cursor: pointer;
-
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.015em;
-  color: #D4E5FF;
-}
-
 .mobile_slider {
   display: none;
 }
@@ -652,12 +633,5 @@
   }
   .mobile_slider {
     display: block;
-  }
-  .buy_button {
-    width: 268px;
-    height: 58px;
-    border-radius: 20px;
-    font-size: 18px;
-    line-height: 22px;
   }
 }

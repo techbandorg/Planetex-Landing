@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Image from 'next/image'
 import styles from './FirstSection.module.css'
+import { JoinIDO_2 } from '../buttons/buttons'
 
 export default class FirstSection extends Component {
   render() {
@@ -26,9 +27,7 @@ export default class FirstSection extends Component {
               for a Planetex account and wallet creation.
             </p>
             <div className={styles.first_buttons_block}>
-              <div className={styles.join_button}>
-                Join IDO
-              </div>
+              <JoinIDO_2 />
               <div className={styles.download_WhitePaper_button}>
                 <div className={styles.download_logo}>
                   <Image 
@@ -77,9 +76,7 @@ export default class FirstSection extends Component {
             </div>
           </div>
           <div className={styles.second_buttons_block}>
-            <div className={styles.join_button}>
-              Join IDO
-            </div>
+            <JoinIDO_2 />
             <div className={styles.download_WhitePaper_button}>
               <div className={styles.download_logo}>
                 <Image 
