@@ -6,6 +6,7 @@ export default class TeamSection extends Component {
   render() {
     return (
       <section className={styles.team_section}>
+        <a id={"theTeam"} name={"theTeam"}></a>
         <h2 className={styles.section_title}>
           The Team
         </h2>

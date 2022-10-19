@@ -78,6 +78,7 @@
 .main_nav {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .main_nav_ul {
@@ -88,6 +89,9 @@
 }
 
 .main_nav_li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 20px;
 }
 
@@ -107,7 +111,7 @@
 .header_join_button_container {
   display: flex;
   align-items: center;
-  margin: 0 0 0 44px;
+  /* margin: 0 0 0 44px; */
 }
 
 
@@ -141,7 +145,7 @@
     flex-direction: column;
     justify-content: flex-start;
     position: absolute;
-    height: 0vh;
+    height: 0vh ;
     width: 100vw;
     top: 73px;
     left: 0px;
@@ -149,6 +153,7 @@
     background-color: rgba(0, 0, 0, 0.9);
     transition: 500ms;
     z-index: 10;
+    overflow-y: hidden;
     /* a {
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       &:active, &:hover, &:focus {
@@ -156,7 +161,7 @@
       } */
   }
 
-  .header__navwrapper-active {
+  .header__navwrapper_active {
     height: 100vh;
     transition: 500ms;
     position: fixed;
@@ -165,7 +170,36 @@
     overflow-y: auto;
   }
 
+  .main_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .main_nav_ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .main_nav_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #111111;
+  }
+
+  .header_join_button_container {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
 
   .header_join_button_container_tablet {
     display: flex;

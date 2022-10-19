@@ -7,6 +7,7 @@ export default class CountdownSection extends Component {
     return (
       <section className={styles.benefits_section}>
         <div className={styles.benefits_container}>
+          <a id={"ecosystem"} name={"ecosystem"}></a>
           <h2 className={styles.section_title}>
             Ecosystem
           </h2>

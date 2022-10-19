@@ -8,6 +8,7 @@ export default class ProductSection extends Component {
   render() {
     return (
       <section className={styles.product_section}>
+        <a id={"productSection"} name={"productSection"}></a>
         <div className={styles.product_background}>
           <Image 
             src="/images/productSectionBG.svg"
