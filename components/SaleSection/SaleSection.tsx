@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Image from 'next/image'
 import styles from './SaleSection.module.css'
 import SaleSlider from '../SaleSlider/SaleSlider'
+import { Buy_Button_1, Soon_Button } from '../buttons/buttons'
 
 export default class SaleSection extends Component {
   render() {
@@ -39,9 +40,10 @@ export default class SaleSection extends Component {
                 </div>
               </div>
               <div className={styles.sale_presale_tokensinfo_button}>
-                <div className={styles.buy_button}>
+                <Buy_Button_1 />
+                {/* <div className={styles.buy_button}>
                   Buy Token
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -115,9 +117,10 @@ export default class SaleSection extends Component {
             </div>
             <div className={styles.sale_NFTSale_tokensinfo}>
               <div className={styles.sale_presale_tokensinfo_button}>
-                <div className={styles.buy_button}>
+                <Buy_Button_1 />
+                {/* <div className={styles.buy_button}>
                   Buy Token
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -149,9 +152,10 @@ export default class SaleSection extends Component {
                 </div>
               </div>
               <div className={styles.sale_presale_tokensinfo_button}>
-                <div className={styles.buy_button}>
+                <Soon_Button />
+                {/* <div className={styles.buy_button}>
                   Buy Token
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -183,9 +187,10 @@ export default class SaleSection extends Component {
                 </div>
               </div>
               <div className={styles.sale_presale_tokensinfo_button}>
-                <div className={styles.buy_button}>
+                <Soon_Button />
+                {/* <div className={styles.buy_button}>
                   Buy Token
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

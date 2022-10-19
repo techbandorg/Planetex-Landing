@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Image from 'next/image'
+import { Buy_Button_2 } from '../buttons/buttons'
 import styles from './GameSection.module.css'
 
 export default class GameSection extends Component {
@@ -17,7 +18,7 @@ export default class GameSection extends Component {
             </h3>
             <div className={styles.p2egame_image_block_mobile}>
               <Image 
-                src="/images/P2Egame.png"
+                src="/images/P2Egame.svg"
                 width={579}
                 height={579}
                 alt="P2E game illustration"
@@ -38,9 +39,7 @@ export default class GameSection extends Component {
               <br/>
               Get your own card!
             </p>
-            <div className={styles.buy_button}>
-              Buy Token
-            </div>
+            <Buy_Button_2 />
           </div>
           <div className={styles.p2egame_image_block}>
             <Image 

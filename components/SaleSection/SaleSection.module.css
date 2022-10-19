@@ -21,24 +21,37 @@
   padding: 0 120px;
 }
 
+.sale_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 .sale_presale {
   display: flex;
   justify-content: space-between;
-  width: 1170px;
+  width: 100%;
+  max-width: 1170px;
   height: 510px;
   background-image: url('/images/rectangle180.png');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100% 100%;
   margin: 85px 0 0 0;
   padding: 50px 90px;
 }
 
 .sale_presale_left {
-  width: 408px;
+  max-width: 418px;
+  width: 418px;
+  margin: 0 10px 0 0;
 }
 
 .sale_NFTsale_left {
-  width: 440px;
+  max-width: 442px;
+  width: 442px;
+  margin: 0 10px 0 0;
 }
 
 .sale_presale_title {
@@ -90,8 +103,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 408px;
-  margin: 80px 0 0 0;
+  max-width: 418px;
+  width: 418px;
+  margin: 80px 0 0 10px;
 }
 
 .sale_presale_tokensinfo_item {
@@ -118,13 +132,14 @@
 .sale_NFTSale {
   display: flex;
   justify-content: space-between;
-  width: 1170px;
+  width: 100%;
+  max-width: 1170px;
   height: 510px;
-  padding: 50px 90px;
   background-image: url('/images/NFTSale.png');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100% 100%;
   margin: 30px 0 0 0;
+  padding: 50px 90px;
 }
 
 .sale_NFTsale_paragr {
@@ -144,10 +159,15 @@
 }
 
 .sale_NFTSale_tokensinfo {
-  width: 440px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  background-image: url('/images/NFTSaleIMG.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position-y: -50px;
+  max-width: 442px;
+  width: 442px;
 }
 
 .sale_presale_skills_block {
@@ -207,24 +227,26 @@
 .sale_MainSale {
   display: flex;
   justify-content: space-between;
-  width: 1170px;
+  width: 100%;
+  max-width: 1170px;
   height: 510px;
   padding: 50px 90px;
   background-image: url('/images/MainSale.png');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100% 100%;
   margin: 30px 0 0 0;
 }
 
 .sale_PrivateSale {
   display: flex;
   justify-content: space-between;
-  width: 1170px;
+  width: 100%;
+  max-width: 1170px;
   height: 510px;
   padding: 50px 90px;
   background-image: url('/images/PrivateSale.png');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100% 100%;
   margin: 30px 0 0 0;
 }
 
@@ -233,12 +255,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 1170px;
+  width: 100%;
+  max-width: 1170px;
   height: 510px;
   padding: 50px 90px;
   background-image: url('/images/PrivateSale.png');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100% 100%;
   margin: 30px 0 0 0;
 }
 
@@ -294,30 +317,144 @@
   margin: 16px 0 0 0;
 }
 
-.buy_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 217px;
-  height: 60px;
-  background: #933DF6;
-  border-radius: 38px;
-  cursor: pointer;
-
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.015em;
-  color: #D4E5FF;
-}
-
 .mobile_slider {
   display: none;
 }
 
-@media screen and (max-width: 1507px) {
+@media screen and (max-width: 1320px) {
+  .sale_section {
+    padding: 0 20px;
+    margin: 95px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .tokenomics_container {
+    height: 570px;
+  }
+  .sale_presale_skills_block {
+    margin: 15px 0 0 0;
+    width: 270px;
+  }
+  .sale_presale_skill {
+    width: 130px;
+    height: 37px;
+    padding: 0 13px;
+  }
+  .sale_presale_damage_img {
+    width: 23px;
+    height: 27px;
+  }
+  .sale_presale_speed_img {
+    width: 26px;
+    height: 26px;
+  }
+  .sale_presale_health_img {
+    width: 39px;
+    height: 20px;
+  }
+  .sale_presale_armor_img {
+    width: 19px;
+    height: 23px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section_title {
+    text-align: center;
+    margin: 0;
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .sale_presale_title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .sale_presale {
+    height: 557px;
+    padding: 60px 40px;
+    margin: 105px 0 0 0;
+  }
+  .sale_NFTSale {
+    height: 557px;
+    padding: 60px 40px;
+  }
+  .sale_MainSale {
+    height: 557px;
+    padding: 60px 40px;
+  }
+  .sale_PrivateSale {
+    height: 557px;
+    padding: 60px 40px;
+  }
+  .sale_listing {
+    justify-content: center;
+    height: 557px;
+    padding: 60px 40px;
+  }
+  .sale_presale_name {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+  }
+  .sale_presale_value {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+  }
+  .sale_presale_paragr {
+    margin: 45px 0 0 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .sale_NFTsale_paragr {
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    color: #BDCCEA;
+  }
+  .sale_presale_subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0 0 0;
+  }
+  .sale_listing_title {
+    font-size: 32px;
+    line-height: 39px;
+    margin: 0;
+  }
+  .sale_listing_timer_block {
+    /* width: 387px; */
+    width: 560px;
+    margin: 60px 0 0 0;
+  }
+  .sale_listing_timer_cell {
+    /* width: 73px;
+    height: 60px; */
+    width: 110px;
+    height: 90px;
+    border-radius: 3px;
+  
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .sale_listing_timer_caption {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 8px 0 0 0;
+  }
+}
+
+/* @media screen and (max-width: 1507px) {
   .sale_section {
     padding: 0 25px;
     margin: 95px 0 0 0;
@@ -407,10 +544,6 @@
     height: 262px;
     border: 1px solid #6A4D9B;
   }
-  /* .sale_divider {
-    height: 262px;
-    border: 1px solid #1C2353;
-  } */
   .sale_NFTsale_left {
     width: 290px;
     padding: 0 20px 0 0;
@@ -477,7 +610,7 @@
     line-height: 20px;
     margin: 8px 0 0 0;
   }
-}
+} */
 
 @media screen and (max-width: 739px) {
   .section_title {
@@ -500,12 +633,5 @@
   }
   .mobile_slider {
     display: block;
-  }
-  .buy_button {
-    width: 268px;
-    height: 58px;
-    border-radius: 20px;
-    font-size: 18px;
-    line-height: 22px;
   }
 }

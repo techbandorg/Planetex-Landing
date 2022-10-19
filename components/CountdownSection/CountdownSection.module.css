@@ -8,13 +8,15 @@
   background: linear-gradient(90deg, #8F244D 0%, rgba(22, 153, 201, 0.53) 64.18%, #030B2F 93.05%, #03042A 100%);
   border: 1px solid #2E2B70;
   backdrop-filter: blur(14.5px);
+  z-index: 1;
 }
 
 .win_countdown_timer_block {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 45%;
+  /* width: 45%; */
+  width: 440px;
   margin: 0 100px 0 0;
 }
 
@@ -60,7 +62,8 @@
 
 .win_countdown_progress_block {
   display: flex;
-  width: 55%;
+  /* width: 55%; */
+  width: 440px;
 }
 
 .win_countdown_progress_container {
@@ -169,7 +172,50 @@
   margin: 0 0 0 7px;
 }
 
-@media screen and (max-width: 1507px) {
+@media screen and (max-width: 1320px) {
+  .win_countdown_timer_block {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .win_countdown_timer_block {
+    margin: 0;
+  }
+  .win_countdown_section {
+    flex-direction: column;
+    min-height: 312px;
+    justify-content: space-between;
+    padding: 30px 0 35px 0;
+    margin: 30px 0 0 0;
+  }
+  .win_countdown_timer_item {
+    margin: 0 30px 0 0;
+  }
+  .win_countdown_progress_initial {
+    margin: 0;
+  }
+  .win_countdown_progress_bar {
+    margin: 5px 0 0 0;
+  }
+  .win_countdown_progress_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .win_countdown_progress_container {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .win_countdown_section {
+    display: none;
+  }
+}
+
+/* @media screen and (max-width: 1507px) {
   .win_countdown_section {
     flex-direction: column;
     min-height: 312px;
@@ -208,4 +254,4 @@
   .win_countdown_section {
     display: none;
   }
-}
+} */

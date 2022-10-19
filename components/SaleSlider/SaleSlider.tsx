@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React, { Component } from "react"
 import Slider from "react-slick"
 import styles from './SaleSlider.module.css'
+import { Buy_Button_1 } from '../buttons/buttons'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
@@ -53,9 +54,7 @@ export default class SaleSlider extends Component {
               </div>
               <div className={styles.sale_NFTSale_tokensinfo}>
                 <div className={styles.sale_presale_tokensinfo_button}>
-                  <div className={styles.buy_button}>
-                    Buy Token
-                  </div>
+                  <Buy_Button_1 />
                 </div>
               </div>
             </div>
@@ -74,9 +73,7 @@ export default class SaleSlider extends Component {
               </div>
               <div className={styles.sale_NFTSale_tokensinfo}>
                 <div className={styles.sale_presale_tokensinfo_button}>
-                  <div className={styles.buy_button}>
-                    Buy Token
-                  </div>
+                  <Buy_Button_1 />
                 </div>
               </div>
             </div>
@@ -95,9 +92,7 @@ export default class SaleSlider extends Component {
               </div>
               <div className={styles.sale_NFTSale_tokensinfo}>
                 <div className={styles.sale_presale_tokensinfo_button}>
-                  <div className={styles.buy_button}>
-                    Buy Token
-                  </div>
+                  <Buy_Button_1 />
                 </div>
               </div>
             </div>
@@ -116,9 +111,7 @@ export default class SaleSlider extends Component {
               </div>
               <div className={styles.sale_NFTSale_tokensinfo}>
                 <div className={styles.sale_presale_tokensinfo_button}>
-                  <div className={styles.buy_button}>
-                    Buy Token
-                  </div>
+                  <Buy_Button_1 />
                 </div>
               </div>
             </div>
@@ -137,9 +130,7 @@ export default class SaleSlider extends Component {
               </div>
               <div className={styles.sale_NFTSale_tokensinfo}>
                 <div className={styles.sale_presale_tokensinfo_button}>
-                  <div className={styles.buy_button}>
-                    Buy Token
-                  </div>
+                  <Buy_Button_1 />
                 </div>
               </div>
             </div>

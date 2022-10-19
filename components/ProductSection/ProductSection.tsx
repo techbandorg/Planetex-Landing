@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Image from 'next/image'
+import { Buy_Button_1 } from '../buttons/buttons'
 import styles from './ProductSection.module.css'
 import ProductSlider from '../ProductSlider/ProductSlider'
 
@@ -7,6 +8,14 @@ export default class ProductSection extends Component {
   render() {
     return (
       <section className={styles.product_section}>
+        <div className={styles.product_background}>
+          <Image 
+            src="/images/productSectionBG.svg"
+            width={2541}
+            height={1899}
+            alt="Product section background"
+          />
+        </div>
         <div className={styles.product_container}>
           <h2 className={styles.section_title}>
             Enjoy DEX Functionality
@@ -19,18 +28,14 @@ export default class ProductSection extends Component {
               algorithm will not leave anyone indifferent.
               </p>
               <div className={styles.desctop_version}>
-                <div className={styles.buy_button}>
-                  Buy Token
-                </div>
+                <Buy_Button_1 />
               </div>
             </div>
             <div className={styles.mobile_slider}>
               <ProductSlider />
             </div>
             <div className={styles.mobile_version}>
-                <div className={styles.buy_button}>
-                  Buy Token
-                </div>
+              <Buy_Button_1 />
               </div>
             <div className={styles.product_right_content}>
               <div className={styles.product_right_item}>
@@ -123,10 +128,8 @@ export default class ProductSection extends Component {
               </div>
             </div>
             <div className={styles.tablet_version}>
-                <div className={styles.buy_button}>
-                  Buy Token
-                </div>
-              </div>
+              <Buy_Button_1 />
+            </div>
           </div>
         </div>
       </section>
