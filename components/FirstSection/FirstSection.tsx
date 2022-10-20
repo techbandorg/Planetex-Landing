@@ -23,8 +23,8 @@ export default class FirstSection extends Component {
               decentralized ecosystem
             </h1>
             <p className={styles.first_subtitle}>
-              Trading on Planetex is quite simple and requires only signing up 
-              for a Planetex account and wallet creation.
+            Now you have a possibility to join our community of token and NFT 
+            holders for unique further experience
             </p>
             <div className={styles.first_buttons_block}>
               <JoinIDO_2 />

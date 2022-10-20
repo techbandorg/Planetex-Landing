@@ -101,10 +101,12 @@
 }
 
 .benefits_img_container_first {
+  position: absolute;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   width: auto;
+  right: 0px;
 }
 
 .benefits_img_container_second {

@@ -58,9 +58,11 @@ export default class CountdownSection extends Component {
             </div>
             <div className={styles.benefits_img_container_first}>
               <Image 
-                src="/images/Group357965.png"
+                src="/images/Group357965.svg"
                 width={725}
+                
                 height={746}
+                
                 alt="Coin"
               />
             </div>
@@ -68,9 +70,11 @@ export default class CountdownSection extends Component {
           <div className={styles.benefits_second_block}>
             <div className={styles.benefits_img_container_second}>
               <Image 
-                src="/images/Group357989.png"
-                width={725}
-                height={746}
+                src="/images/Group357989.svg"
+                // width={725}
+                width={896}
+                // height={746}
+                height={836}
                 alt="Coin"
               />
             </div>
