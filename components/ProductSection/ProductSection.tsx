@@ -42,7 +42,7 @@ export default class ProductSection extends Component {
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
-                    src="/images/swap.png"
+                    src="/images/swap.svg"
                     width={55}
                     height={52}
                     alt="Swap icon"
@@ -53,7 +53,7 @@ export default class ProductSection extends Component {
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
-                    src="/images/staking.png"
+                    src="/images/staking.svg"
                     width={59}
                     height={56}
                     alt="Staking icon"
@@ -64,62 +64,62 @@ export default class ProductSection extends Component {
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
-                    src="/images/trading.png"
+                    src="/images/poolsFarms.svg"
                     width={49}
                     height={49}
-                    alt="Trading icon"
+                    alt="Pools and Farms icon"
                   />
                 </div>
-                <p className={styles.product_right_caption}>Trading</p>
+                <p className={styles.product_right_caption}>Pools&Farms</p>
               </div>
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
-                    src="/images/launchpad.png"
+                    src="/images/governance.svg"
                     width={52}
                     height={52}
-                    alt="Launchpad icon"
+                    alt="Governance icon"
                   />
                 </div>
-                <p className={styles.product_right_caption}>Launchpad</p>
+                <p className={styles.product_right_caption}>Governance</p>
               </div>
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
-                    src="/images/swap.png"
+                    src="/images/marketplace.svg"
                     width={55}
                     height={52}
-                    alt="Swap icon"
+                    alt="Marketplace icon"
                   />
                 </div>
-                <p className={styles.product_right_caption}>Swap</p>
+                <p className={styles.product_right_caption}>Marketplace</p>
               </div>
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
-                    src="/images/staking.png"
+                    src="/images/lottery.svg"
                     width={59}
                     height={56}
-                    alt="Staking icon"
+                    alt="Lottery icon"
                   />
                 </div>
-                <p className={styles.product_right_caption}>Staking</p>
+                <p className={styles.product_right_caption}>Lottery</p>
               </div>
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
-                    src="/images/trading.png"
+                    src="/images/bridge.svg"
                     width={49}
                     height={49}
-                    alt="Trading icon"
+                    alt="Bridge icon"
                   />
                 </div>
-                <p className={styles.product_right_caption}>Trading</p>
+                <p className={styles.product_right_caption}>Bridge</p>
               </div>
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
-                    src="/images/launchpad.png"
+                    src="/images/launchpad.svg"
                     width={52}
                     height={52}
                     alt="Launchpad icon"
