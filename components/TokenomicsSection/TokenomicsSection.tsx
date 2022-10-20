@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import Image from 'next/image'
 import styles from './TokenomicsSection.module.css'
 
 export default class TokenomicsSection extends Component {
@@ -6,11 +7,20 @@ export default class TokenomicsSection extends Component {
     return (
       <section className={styles.tokenomics_section}>
         <a id={"tokenomics"}></a>
+        
+        <div className={styles.tokenomics_container}>
+          <div className={styles.tokenomics_img}>
+            <Image 
+              src="/images/landing/tokenomics.svg"
+              width={2622}
+              height={5675}
+              alt="Tokenomics"
+            />
+          </div>
+        </div>
         <h2 className={styles.section_title}>
           Tokenomics
         </h2>
-        <div className={styles.tokenomics_container}>
-        </div>
       </section>
     );
   }
