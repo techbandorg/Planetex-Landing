@@ -6,7 +6,7 @@
   padding: 2rem 0;
   margin: 130px 0 0 0;
   width: 100%;
-  padding: 0 79px;
+  padding: 0;
 }
 
 .footer_content {
@@ -14,8 +14,14 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+  /* border-top: 1px solid #423B49; */
+  padding: 0px 0px 30px 0px;
+}
+
+.footer_topHalf {
+  padding: 58px 0 0 0;
+  margin: 0 80px;
   border-top: 1px solid #423B49;
-  padding: 58px 0px 90px 0px;
 }
 
 .footer_tothetop {
@@ -57,6 +63,74 @@
   gap: 16px;
 }
 
+.foter_nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 90px 0 0 0;
+  padding: 0 20px;
+}
+
+.footer_nav_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.footer_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_nav_ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.footer_nav_li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.footer_nav_li:last-child {
+  margin-right: 0px;
+}
+
+.footer_nav_a {
+  text-decoration: none;
+  font-family: "Montserrat-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+
+.footer_nav_a:hover {
+  color: #9E40B5;
+}
+
+@media screen and (max-width: 1507px) {
+  .footer_topHalf {
+    margin: 0;
+    padding: 58px 20px 0 20px;
+  }
+}
+
 @media screen and (max-width: 1320px) {
   .footer {
     margin: 78px 0 0 0;
@@ -66,16 +140,21 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-top: 1px solid #423B49;
+    /* padding: 36px 0 0 0; */
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  .footer_topHalf {
     padding: 36px 0 0 0;
-    margin: 0 20px 0 20px;
+    border-top: 1px solid #423B49;
+    margin: 0 20px;
+  }
+  .footer_nav {
+    display: none;
   }
 }
 
-@media screen and (max-width: 739px) {
-  .footer_tothetop {
-    margin: 15px 0 55px 0;
-  }
+@media screen and (max-width: 1000px) {
   .footer_tothetop_button {
     width: 81px;
     height: 81px;
@@ -87,5 +166,14 @@
     justify-content: center;
     width: 54px;
     height: 29px;
+  }
+}
+
+@media screen and (max-width: 739px) {
+  .footer_tothetop {
+    margin: 15px 0 55px 0;
+  }
+  .foter_nav_container {
+    display: none;
   }
 }

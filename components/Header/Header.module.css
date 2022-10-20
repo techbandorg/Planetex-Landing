@@ -97,7 +97,6 @@
 
 .main_nav_a {
   text-decoration: none;
-
   font-family: "Montserrat-Bold";
   font-style: normal;
   font-weight: 700;
@@ -106,6 +105,10 @@
   text-align: center;
   letter-spacing: 0.015em;
   color: #D4E5FF;
+}
+
+.main_nav_a:hover {
+  color: #9E40B5;
 }
 
 .header_join_button_container {

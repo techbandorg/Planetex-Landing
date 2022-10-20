@@ -46,6 +46,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
+      <a id={"header"}></a>
       <div className={styles.header_content}>
         <div className={styles.logo_container}>
           <Image 
