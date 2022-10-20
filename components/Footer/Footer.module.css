@@ -11,61 +11,50 @@
 
 .footer_content {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
   border-top: 1px solid #423B49;
-  padding: 65px 92px 110px 92px;
+  padding: 58px 0px 90px 0px;
 }
 
-.footer_products_about {
+.footer_tothetop {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.footer_tothetop_button {
+  display: flex;
   align-items: center;
-  width: 540px;
+  justify-content: center;
+  position: relative;
+  bottom: -32px;
+  width: 141px;
+  height: 141px;
+  border: 4px solid #933DF6;
+  border-radius: 2px;
 }
 
-.footer_title {
-  font-family: 'Roboto-Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 38px;
-  /* identical to box height */
-  letter-spacing: 0.015em;
-  color: #D4E5FF;
-  margin: 0;
-}
-
-.footer_text_medium {
+.footer_tothetop_button_arrow {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  font-family: 'Roboto-Medium';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.015em;
-  color: #D4E5FF;
-  margin: 18px 0 0 0;
-  min-height: 122px; 
+  align-items: center;
+  justify-content: center;
+  width: 99px;
+  height: 59px;
 }
 
-.footer_text_regular {
+.footer_socials_wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  font-family: 'Roboto-Regular';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.015em;
-  color: #D4E5FF;
-  margin: 18px 0 0 0;
-  min-height: 122px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
 @media screen and (max-width: 1320px) {
@@ -81,29 +70,22 @@
     padding: 36px 0 0 0;
     margin: 0 20px 0 20px;
   }
-  .footer_products_about {
-    align-items: flex-start;
-  }
-  .footer_title {
-    font-size: 22px;
-    line-height: 26px;
-  }
-  .footer_text_medium {
-    margin: 30px 0 70px 0;
-    font-size: 18px;
-    line-height: 21px;
-    min-height: 105px; 
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .footer_products_about {
-    width: 350px;
-  }
 }
 
 @media screen and (max-width: 739px) {
-.footer_products_about {
-    display: none;
+  .footer_tothetop {
+    margin: 15px 0 55px 0;
+  }
+  .footer_tothetop_button {
+    width: 81px;
+    height: 81px;
+    bottom: 0px;
+  }
+  .footer_tothetop_button_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 29px;
   }
 }

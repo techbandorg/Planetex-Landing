@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Image from 'next/image'
 import styles from './Footer.module.css'
 
 export default class Footer extends Component {
@@ -6,60 +7,56 @@ export default class Footer extends Component {
     return (
       <footer className={styles.footer}>
         <div className={styles.footer_content}>
-          <div className={styles.footer_contacts}>
-            <h3 className={styles.footer_title}>
-              Contact us
-            </h3>
-            <div className={styles.footer_text_medium}>
-              <div>
-                Listing: listing@planetex.io
-              </div>
-              <div>
-                Support: support@planetex.io
-              </div>
-              <div>
-                Parthership: info@planetex.io
+          <div className={styles.footer_tothetop}>
+            <div className={styles.footer_tothetop_button}>
+              <div className={styles.footer_tothetop_button_arrow}>
+                <Image 
+                  src="/images/toTopArrow.svg"
+                  width={'100%'}
+                  height={'100%'}
+                  alt="To top arrow"
+                />
               </div>
             </div>
           </div>
-          <div className={styles.footer_products_about}>
-            <div className={styles.footer_products}>
-              <h3 className={styles.footer_title}>
-                Products
-              </h3>
-              <div className={styles.footer_text_regular}>
-                <div>
-                Trading
-                </div>
-                <div>
-                Exchange
-                </div>
-                <div>
-                Launchpad
-                </div>
-                <div>
-                Stake Box
-                </div>
-              </div>
-            </div>
-            <div className={styles.footer_products}>
-              <h3 className={styles.footer_title}>
-                About us
-              </h3>
-              <div className={styles.footer_text_regular}>
-                <div>
-                  About Planetex
-                </div>
-                <div>
-                  Blog
-                </div>
-                <div>
-                  Terms
-                </div>
-                <div>
-                  Privacy
-                </div>
-              </div>
+          <div className={styles.footer_socials_wrapper}>
+            <div className={styles.footer_socials}>
+              <Image 
+                src="/images/facebookIcon.svg"
+                width={32}
+                height={32}
+                alt="Facebook icon"
+              />
+              <Image 
+                src="/images/twitterIcon.svg"
+                width={32}
+                height={32}
+                alt="Twitter icon"
+              />
+              <Image 
+                src="/images/instagramIcon.svg"
+                width={32}
+                height={32}
+                alt="Instagram icon"
+              />
+              <Image 
+                src="/images/youtubeIcon.svg"
+                width={32}
+                height={32}
+                alt="Youtube icon"
+              />
+              <Image 
+                src="/images/telegramIcon.svg"
+                width={32}
+                height={32}
+                alt="Telegram icon"
+              />
+              <Image 
+                src="/images/discordIcon.svg"
+                width={32}
+                height={32}
+                alt="Discord icon"
+              />
             </div>
           </div>
         </div>
