@@ -9,9 +9,19 @@ export default class SaleSection extends Component {
     return (
       <section className={styles.sale_section}>
         <a id={"saleDetails"}></a>
-        <h2 className={styles.section_title}>
-          Sale Details
-        </h2>
+        <div className={styles.section_title_container}>
+          <h2 className={styles.section_title}>
+            Sale Details
+          </h2>
+          <div className={styles.section_title_background}>
+            <Image 
+              src="/images/SaleDetailsPhone.svg"
+              width={384}
+              height={333}
+              alt="Sale Details Phone"
+            />
+          </div>
+        </div>
         <div className={styles.sale_cards}>
           <div className={styles.sale_presale}>
             <div className={styles.sale_presale_left}>
@@ -38,6 +48,9 @@ export default class SaleSection extends Component {
                 </div>
                 <div className={styles.sale_presale_tokensinfo_item}>
                   <div className={styles.sale_presale_value}>[Min 10$-Max 1000$]</div>
+                </div>
+                <div className={styles.sale_presale_tokensinfo_item}>
+                  <div className={styles.sale_presale_value}>Start - 01.11.2022</div>
                 </div>
               </div>
               <div className={styles.sale_presale_tokensinfo_button}>
@@ -151,6 +164,9 @@ export default class SaleSection extends Component {
                 <div className={styles.sale_presale_tokensinfo_item}>
                   <div className={styles.sale_presale_value}>[Min 25$-Max 2500$]</div>
                 </div>
+                <div className={styles.sale_presale_tokensinfo_item}>
+                  <div className={styles.sale_presale_value}>Start - 08.01.2023</div>
+                </div>
               </div>
               <div className={styles.sale_presale_tokensinfo_button}>
                 <Soon_Button />
@@ -185,6 +201,9 @@ export default class SaleSection extends Component {
                 </div>
                 <div className={styles.sale_presale_tokensinfo_item}>
                   <div className={styles.sale_presale_value}>[Min 100$-Max 25000$]</div>
+                </div>
+                <div className={styles.sale_presale_tokensinfo_item}>
+                  <div className={styles.sale_presale_value}>Start - 15.02.2023</div>
                 </div>
               </div>
               <div className={styles.sale_presale_tokensinfo_button}>
