@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <Head>
           <title>Planetex</title>
           <meta name="description" content="Planetex app" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.svg" />
         </Head>
         <Header />
         <main className={styles.main}>
