@@ -22,19 +22,19 @@ function CountdownSection() {
     <section className={styles.win_countdown_section}>
       <div className={styles.win_countdown_timer_block}>
         <div className={styles.win_countdown_timer_item}>
-          <div className={styles.win_countdown_timer_cell}>{days}</div>
+          <div className={styles.win_countdown_timer_cell} suppressHydrationWarning>{days}</div>
           <div className={styles.win_countdown_timer_caption}>Days</div>
         </div>
         <div className={styles.win_countdown_timer_item}>
-          <div className={styles.win_countdown_timer_cell}>{hours}</div>
+          <div className={styles.win_countdown_timer_cell} suppressHydrationWarning>{hours}</div>
           <div className={styles.win_countdown_timer_caption}>Hours</div>
         </div>
         <div className={styles.win_countdown_timer_item}>
-          <div className={styles.win_countdown_timer_cell}>{minutes}</div>
+          <div className={styles.win_countdown_timer_cell} suppressHydrationWarning>{minutes}</div>
           <div className={styles.win_countdown_timer_caption}>Minutes</div>
         </div>
         <div className={styles.win_countdown_timer_item}>
-          <div className={styles.win_countdown_timer_cell}>{seconds}</div>
+          <div className={styles.win_countdown_timer_cell} suppressHydrationWarning>{seconds}</div>
           <div className={styles.win_countdown_timer_caption}>Seconds</div>
         </div>
       </div>
