@@ -211,13 +211,8 @@
 }
 
 .sale_presale_health_img {
-  width: 61px;
-  height: 32px;
-}
-
-.sale_presale_health_img {
-  width: 61px;
-  height: 32px;
+  width: 40px;
+  height: 34px;
 }
 
 .sale_presale_armor_img {
@@ -352,6 +347,10 @@
     height: 37px;
     padding: 0 13px;
   }
+  .sale_presale_skill_text {
+    font-size: 13px;
+    line-height: 16px;
+  }
   .sale_presale_damage_img {
     width: 23px;
     height: 27px;
@@ -361,7 +360,7 @@
     height: 26px;
   }
   .sale_presale_health_img {
-    width: 39px;
+    width: 24px;
     height: 20px;
   }
   .sale_presale_armor_img {
