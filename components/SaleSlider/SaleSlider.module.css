@@ -97,6 +97,14 @@
   flex-direction: column;
   width: 100%;
   padding: 0 0 20px 0;
+}
+.sale_listiong_tokensinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 0 20px 0;
   margin: 100px;
 }
 .sale_NFTSale_tokensinfo_cotent {

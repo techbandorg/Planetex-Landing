@@ -172,20 +172,7 @@ export default class SaleSlider extends Component {
           </div>
           <div style={{"height": "672px"}}>
           <div className={`${styles.sale_PrivateSale} ${styles.sale_slide}`}>
-              {/* <div className={styles.sale_presale_left}>
-                <h3 className={styles.sale_presale_title}>Private Sale</h3>
-                <div className={styles.sale_presale_paragr}>
-                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
-                future, Starfish aims to be collaborative, convenient and 
-                communal to build our product suites and become the one-stop-shop 
-                on Astar Network to provide you with DeFi, NFT-Fi and new project 
-                discovery.
-                </div>
-              </div>
-              <div className={styles.sale_presale_divider_wrapper}>
-                <div className={styles.sale_presale_divider}></div>
-              </div> */}
-              <div className={styles.sale_NFTSale_tokensinfo}>
+              <div className={styles.sale_listiong_tokensinfo}>
                 <h3 className={styles.sale_listing_title}>Listing on DEX</h3>
                 <div className={styles.sale_listing_timer_block}>
                   <div className={styles.sale_listing_timer_item}>
@@ -209,7 +196,6 @@ export default class SaleSlider extends Component {
             </div>
           </div>
         </Slider>
-        
       </div>
     );
   }
