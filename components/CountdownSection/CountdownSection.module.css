@@ -255,3 +255,28 @@
     display: none;
   }
 } */
+
+.amount_progress {
+  width: 100%;
+  min-width: 0;
+  background: #1D1938;
+  border: 1px solid #535A74;
+  border-radius: 44px;
+  height: 21px;
+}
+.amount_progress::-webkit-progress-bar {
+  background: #1D1938;
+  border: 1px solid #535A74;
+  border-radius: 44px;
+
+}
+.amount_progress::-webkit-progress-value {
+  background: linear-gradient(270deg, #A73795 34.13%, rgba(149, 51, 96, 0.8) 100%);
+  border-radius: 44px;
+
+}
+.amount_progress::-moz-progress-bar {
+  background: #1D1938;
+  border: 1px solid #535A74;
+  border-radius: 44px;
+}
