@@ -1,14 +1,17 @@
 import React, {useEffect, useState} from "react"
 import Image from 'next/image'
 import styles from './CountdownSection.module.css'
-import {getFormattedRoundAmounts, getRoundEndTime, getRoundInfo} from '../../constants/utils';
+import { getFormattedRoundAmounts, getRoundEndTime } from '../../constants/utils';
+
 
 function CountdownSection() {
   const [countdownTime, setCountdownTime] = useState(0)
+  const [roundAmounts, setRoundAmounts] = useState('')
 
   useEffect(() => {
     getRoundEndTime().then(res => setCountdownTime(+res))
-    getFormattedRoundAmounts()
+    // @ts-ignore
+    getFormattedRoundAmounts().then(res => setRoundAmounts(res))
   }, []);
 
 
@@ -53,15 +56,16 @@ function CountdownSection() {
               BSC Network
             </div>
           </div>
+
           <div className={styles.win_countdown_progress_bar}>
-            <div className={styles.win_countdown_progress_external}>
-              <div className={styles.win_countdown_progress_internal}>
-              </div>
-            </div>
+            {/*@ts-ignore*/}
+            <progress className={styles.amount_progress} value={roundAmounts?.totalSold} max={roundAmounts?.totalAmount}/>
           </div>
+
           <div className={styles.win_countdown_progress_range}>
             <div className={styles.win_countdown_progress_range_left}>
-              <div>0</div>
+              {/*@ts-ignore*/}
+              <div>{(roundAmounts?.totalSold).toLocaleString()}</div>
               <div className={styles.win_countdown_progress_picon}>
                 <Image
                   src="/images/Picon.svg"
@@ -72,7 +76,8 @@ function CountdownSection() {
               </div>
             </div>
             <div className={styles.win_countdown_progress_range_right}>
-              <div>28 000 000</div>
+              {/*@ts-ignore*/}
+              <div>{(roundAmounts?.totalAmount).toLocaleString()}</div>
               <div className={styles.win_countdown_progress_picon}>
                 <Image
                   src="/images/Picon.svg"
@@ -83,6 +88,7 @@ function CountdownSection() {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>

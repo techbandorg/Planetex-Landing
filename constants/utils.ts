@@ -41,5 +41,7 @@ export const getFormattedRoundAmounts = async () => {
 
   const totalAmount = (+findSum(totalPurchaseAmount, usdtTotalPurchaseAmount) / 10 ** 18)
   const totalSold = (+findSum(usdtTokensSold, tokensSold) / 10 ** 18)
+
+  return { totalAmount, totalSold }
 };
 
