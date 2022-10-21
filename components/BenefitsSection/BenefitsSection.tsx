@@ -7,6 +7,7 @@ export default class CountdownSection extends Component {
     return (
       <section className={styles.benefits_section}>
         <div className={styles.benefits_container}>
+          <a id={"ecosystem"}></a>
           <h2 className={styles.section_title}>
             Ecosystem
           </h2>
@@ -57,7 +58,7 @@ export default class CountdownSection extends Component {
             </div>
             <div className={styles.benefits_img_container_first}>
               <Image 
-                src="/images/Group357965.png"
+                src="/images/Group358221.svg"
                 width={725}
                 height={746}
                 alt="Coin"
@@ -67,9 +68,11 @@ export default class CountdownSection extends Component {
           <div className={styles.benefits_second_block}>
             <div className={styles.benefits_img_container_second}>
               <Image 
-                src="/images/Group357989.png"
-                width={725}
-                height={746}
+                src="/images/Group357989.svg"
+                // width={725}
+                width={896}
+                // height={746}
+                height={836}
                 alt="Coin"
               />
             </div>

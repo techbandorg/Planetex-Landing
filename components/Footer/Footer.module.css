@@ -6,66 +6,129 @@
   padding: 2rem 0;
   margin: 130px 0 0 0;
   width: 100%;
-  padding: 0 79px;
+  padding: 0;
 }
 
 .footer_content {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
+  /* border-top: 1px solid #423B49; */
+  padding: 0px 0px 30px 0px;
+}
+
+.footer_topHalf {
+  padding: 58px 0 0 0;
+  margin: 0 80px;
   border-top: 1px solid #423B49;
-  padding: 65px 92px 110px 92px;
 }
 
-.footer_products_about {
+.footer_tothetop {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 540px;
+  justify-content: flex-end;
+  position: relative;
 }
 
-.footer_title {
-  font-family: 'Roboto-Bold';
+.footer_tothetop_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: -32px;
+  width: 141px;
+  height: 141px;
+  border: 4px solid #933DF6;
+  border-radius: 2px;
+}
+
+.footer_tothetop_button_arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 99px;
+  height: 59px;
+}
+
+.footer_socials_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.foter_nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 90px 0 0 0;
+  padding: 0 20px;
+}
+
+.footer_nav_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.footer_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_nav_ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.footer_nav_li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.footer_nav_li:last-child {
+  margin-right: 0px;
+}
+
+.footer_nav_a {
+  text-decoration: none;
+  font-family: "Montserrat-Bold";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 38px;
-  /* identical to box height */
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
   letter-spacing: 0.015em;
   color: #D4E5FF;
-  margin: 0;
 }
 
-.footer_text_medium {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  font-family: 'Roboto-Medium';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.015em;
-  color: #D4E5FF;
-  margin: 18px 0 0 0;
-  min-height: 122px; 
+.footer_nav_a:hover {
+  color: #9E40B5;
 }
 
-.footer_text_regular {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  font-family: 'Roboto-Regular';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.015em;
-  color: #D4E5FF;
-  margin: 18px 0 0 0;
-  min-height: 122px;
+@media screen and (max-width: 1507px) {
+  .footer_topHalf {
+    margin: 0;
+    padding: 58px 20px 0 20px;
+  }
 }
 
 @media screen and (max-width: 1320px) {
@@ -77,33 +140,40 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-top: 1px solid #423B49;
+    /* padding: 36px 0 0 0; */
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  .footer_topHalf {
     padding: 36px 0 0 0;
-    margin: 0 20px 0 20px;
+    border-top: 1px solid #423B49;
+    margin: 0 20px;
   }
-  .footer_products_about {
-    align-items: flex-start;
-  }
-  .footer_title {
-    font-size: 22px;
-    line-height: 26px;
-  }
-  .footer_text_medium {
-    margin: 30px 0 70px 0;
-    font-size: 18px;
-    line-height: 21px;
-    min-height: 105px; 
+  .footer_nav {
+    display: none;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .footer_products_about {
-    width: 350px;
+  .footer_tothetop_button {
+    width: 81px;
+    height: 81px;
+    bottom: 0px;
+  }
+  .footer_tothetop_button_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 29px;
   }
 }
 
 @media screen and (max-width: 739px) {
-.footer_products_about {
+  .footer_tothetop {
+    margin: 15px 0 55px 0;
+  }
+  .foter_nav_container {
     display: none;
   }
 }

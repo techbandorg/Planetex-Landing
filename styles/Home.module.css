@@ -1,6 +1,8 @@
 .landing_wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
   width: 100%;
   background-image: url('/images/mainBGdesktop.jpg');
   background-repeat:repeat-y;
@@ -19,7 +21,7 @@
   flex-direction: column;
   justify-content:flex-start;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   padding: 0;
 }

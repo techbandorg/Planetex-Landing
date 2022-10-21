@@ -53,7 +53,8 @@
 }
 
 .first_subtitle {
-  max-width: 533px;
+  max-width: 100%;
+  width: 660px;
   font-family: 'Montserrat-Light';
   font-style: normal;
   font-weight: 400;

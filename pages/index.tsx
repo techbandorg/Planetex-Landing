@@ -26,7 +26,11 @@ const Home: NextPage = () => {
         <Header />
         <main className={styles.main}>
           <FirstSection />
+        </main>
+      </div>
           <CountdownSection />
+      <div className={styles.container}>
+        <main className={styles.main}>
           <BenefitsSection />
           <ProductSection />
           <GameSection />

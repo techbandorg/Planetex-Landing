@@ -7,6 +7,7 @@ export default class RoadmapSection extends Component {
   render() {
     return (
       <section className={styles.roadmap_section}>
+        <a id={"roadmap"}></a>
         <h2 className={`${styles.section_title} ${styles.roadmap_title}`}>
           Roadmap
         </h2>

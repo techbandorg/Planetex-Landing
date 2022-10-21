@@ -78,6 +78,7 @@
 .main_nav {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .main_nav_ul {
@@ -88,12 +89,14 @@
 }
 
 .main_nav_li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 20px;
 }
 
 .main_nav_a {
   text-decoration: none;
-
   font-family: "Montserrat-Bold";
   font-style: normal;
   font-weight: 700;
@@ -104,10 +107,14 @@
   color: #D4E5FF;
 }
 
+.main_nav_a:hover {
+  color: #9E40B5;
+}
+
 .header_join_button_container {
   display: flex;
   align-items: center;
-  margin: 0 0 0 44px;
+  /* margin: 0 0 0 44px; */
 }
 
 
@@ -125,17 +132,78 @@
 @media screen and (max-width: 1320px) {
   .header {
     width: 100%;
-    height: 100px;
+    height: 73px;
     padding: 0 40px;
   }
   .menu {
     display: flex;
   }
-  .header_nav_wrapper {
+  /* .header_nav_wrapper {
     display: none;
     width: 0px;
     overflow: hidden;
+  } */
+
+  .header_nav_wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    height: 0vh ;
+    width: 100vw;
+    top: 73px;
+    left: 0px;
+    /* backdrop-filter: blur(40px); */
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 500ms;
+    z-index: 10;
+    overflow-y: hidden;
+    /* a {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      &:active, &:hover, &:focus {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      } */
   }
+
+  .header__navwrapper_active {
+    height: 100vh;
+    transition: 500ms;
+    position: fixed;
+    width: inherit;
+    z-index: 10;
+    overflow-y: auto;
+  }
+
+  .main_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main_nav_ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .main_nav_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #111111;
+  }
+
+  .header_join_button_container {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
+
   .header_join_button_container_tablet {
     display: flex;
     align-items: center;
@@ -168,17 +236,17 @@
   .header {
     /* width: 390px; */
     width: 100%;
-    height: 66px;
+    height: 73px;
     padding: 0 20px;
   }
   .menu {
     display: flex;
   }
-  .header_nav_wrapper {
+  /* .header_nav_wrapper {
     display: none;
     width: 0px;
     overflow: hidden;
-  }
+  } */
   .header_join_button_container_tablet {
     display: none;
   }

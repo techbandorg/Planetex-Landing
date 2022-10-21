@@ -7,6 +7,7 @@ export default class GameSection extends Component {
   render() {
     return (
       <section className={styles.p2egame_section}>
+        <a id={"P2Egame"}></a>
         <h2 className={styles.section_title}>
           P2E Game
         </h2>
