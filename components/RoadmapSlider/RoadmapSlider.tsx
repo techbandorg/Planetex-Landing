@@ -62,9 +62,9 @@ export default class RoadmapSlider extends Component {
               alt="Left arrow"
             />
           </div>
-          <div className={styles.roadmap_slider_caption}>
+          {/* <div className={styles.roadmap_slider_caption}>
             scroll
-          </div>
+          </div> */}
           <div className={styles.roadmap_slider_right_arrow}>
             <Image 
               src="/images/landing/rightArrow.png"

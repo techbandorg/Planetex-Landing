@@ -103,7 +103,7 @@ export default class SaleSection extends Component {
                     <Image 
                       src="/images/healthSkill.png"
                       width={'100%'}
-                      height={'51%'}
+                      height={'85%'}
                       alt="Health skill"
                     />
                   </div>

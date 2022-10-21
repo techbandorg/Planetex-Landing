@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React, { Component } from "react"
 import Slider from "react-slick"
 import styles from './SaleSlider.module.css'
-import { Buy_Button_1 } from '../buttons/buttons'
+import { Buy_Button_1, Soon_Button } from '../buttons/buttons'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
@@ -27,9 +27,6 @@ export default class SaleSlider extends Component {
               alt="Left arrow"
             />
           </div>
-          <div className={styles.sale_slider_caption}>
-            scroll
-          </div>
           <div className={styles.sale_slider_right_arrow}>
             <Image 
               src="/images/landing/rightArrow.png"
@@ -41,7 +38,45 @@ export default class SaleSlider extends Component {
         </div>
         <Slider {...settings}>
           <div style={{"height": "672px"}}>
-            <div className={styles.sale_NFTSale}>
+            <div className={`${styles.sale_PreSale} ${styles.sale_slide}`}>
+              <div className={styles.sale_presale_left}>
+                <h3 className={styles.sale_presale_title}>Pre-Sale</h3>
+                <div className={styles.sale_presale_paragr}>
+                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
+                future, Starfish aims to be collaborative, convenient and 
+                communal to build our product suites and become the one-stop-shop 
+                on Astar Network to provide you with DeFi, NFT-Fi and new project 
+                discovery.
+                </div>
+              </div>
+              <div className={styles.sale_presale_divider_wrapper}>
+                <div className={styles.sale_presale_divider}></div>
+              </div>
+              <div className={styles.sale_NFTSale_tokensinfo}>
+                <div className={styles.sale_NFTSale_tokensinfo_cotent}>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_name}>Number of tokens</div>
+                    <div className={styles.sale_presale_value}>28,000,000</div>
+                  </div>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_name}>Price in USDT</div>
+                    <div className={styles.sale_presale_value}>$0.04</div>
+                  </div>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_value}>[Min 10$-Max 1000$]</div>
+                  </div>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_value}>Start - 01.11.2022</div>
+                  </div>
+                </div>
+                <div className={styles.sale_presale_tokensinfo_button}>
+                  <Buy_Button_1 />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style={{"height": "672px"}}>
+            <div className={`${styles.sale_NFTSale} ${styles.sale_slide}`}>
               <div className={styles.sale_presale_left}>
                 <h3 className={styles.sale_presale_title}>NFT Sale</h3>
                 <div className={styles.sale_presale_paragr}>
@@ -60,9 +95,9 @@ export default class SaleSlider extends Component {
             </div>
           </div>
           <div style={{"height": "672px"}}>
-            <div className={styles.sale_NFTSale}>
+            <div className={`${styles.sale_MainSale} ${styles.sale_slide}`}>
               <div className={styles.sale_presale_left}>
-                <h3 className={styles.sale_presale_title}>NFT Sale</h3>
+                <h3 className={styles.sale_presale_title}>Main Sale</h3>
                 <div className={styles.sale_presale_paragr}>
                 Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
                 future, Starfish aims to be collaborative, convenient and 
@@ -71,17 +106,36 @@ export default class SaleSlider extends Component {
                 discovery.
                 </div>
               </div>
+              <div className={styles.sale_presale_divider_wrapper}>
+                <div className={styles.sale_presale_divider}></div>
+              </div>
               <div className={styles.sale_NFTSale_tokensinfo}>
+                <div className={styles.sale_NFTSale_tokensinfo_cotent}>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_name}>Number of tokens</div>
+                    <div className={styles.sale_presale_value}>24,000,000</div>
+                  </div>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_name}>Price in USDT</div>
+                    <div className={styles.sale_presale_value}>$0.07</div>
+                  </div>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_value}>[Min 25$-Max 2500$]</div>
+                  </div>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_value}>Start - 08.01.2023</div>
+                  </div>
+                </div>
                 <div className={styles.sale_presale_tokensinfo_button}>
-                  <Buy_Button_1 />
+                  <Soon_Button />
                 </div>
               </div>
             </div>
           </div>
           <div style={{"height": "672px"}}>
-            <div className={styles.sale_NFTSale}>
+            <div className={`${styles.sale_PrivateSale} ${styles.sale_slide}`}>
               <div className={styles.sale_presale_left}>
-                <h3 className={styles.sale_presale_title}>NFT Sale</h3>
+                <h3 className={styles.sale_presale_title}>Private Sale</h3>
                 <div className={styles.sale_presale_paragr}>
                 Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
                 future, Starfish aims to be collaborative, convenient and 
@@ -90,53 +144,58 @@ export default class SaleSlider extends Component {
                 discovery.
                 </div>
               </div>
+              <div className={styles.sale_presale_divider_wrapper}>
+                <div className={styles.sale_presale_divider}></div>
+              </div>
               <div className={styles.sale_NFTSale_tokensinfo}>
+                <div className={styles.sale_NFTSale_tokensinfo_cotent}>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_name}>Number of tokens</div>
+                    <div className={styles.sale_presale_value}>12,000,000</div>
+                  </div>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_name}>Price in USDT</div>
+                    <div className={styles.sale_presale_value}>$0.0</div>
+                  </div>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_value}>[Min 100$-Max 25000$]</div>
+                  </div>
+                  <div className={styles.sale_presale_tokensinfo_item}>
+                    <div className={styles.sale_presale_value}>Start - 15.02.2023</div>
+                  </div>
+                </div>
                 <div className={styles.sale_presale_tokensinfo_button}>
-                  <Buy_Button_1 />
+                  <Soon_Button />
                 </div>
               </div>
             </div>
           </div>
           <div style={{"height": "672px"}}>
-            <div className={styles.sale_NFTSale}>
-              <div className={styles.sale_presale_left}>
-                <h3 className={styles.sale_presale_title}>NFT Sale</h3>
-                <div className={styles.sale_presale_paragr}>
-                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
-                future, Starfish aims to be collaborative, convenient and 
-                communal to build our product suites and become the one-stop-shop 
-                on Astar Network to provide you with DeFi, NFT-Fi and new project 
-                discovery.
-                </div>
-              </div>
-              <div className={styles.sale_NFTSale_tokensinfo}>
-                <div className={styles.sale_presale_tokensinfo_button}>
-                  <Buy_Button_1 />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div style={{"height": "672px"}}>
-            <div className={styles.sale_NFTSale}>
-              <div className={styles.sale_presale_left}>
-                <h3 className={styles.sale_presale_title}>NFT Sale</h3>
-                <div className={styles.sale_presale_paragr}>
-                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
-                future, Starfish aims to be collaborative, convenient and 
-                communal to build our product suites and become the one-stop-shop 
-                on Astar Network to provide you with DeFi, NFT-Fi and new project 
-                discovery.
-                </div>
-              </div>
-              <div className={styles.sale_NFTSale_tokensinfo}>
-                <div className={styles.sale_presale_tokensinfo_button}>
-                  <Buy_Button_1 />
+          <div className={`${styles.sale_PrivateSale} ${styles.sale_slide}`}>
+              <div className={styles.sale_listiong_tokensinfo}>
+                <h3 className={styles.sale_listing_title}>Listing on DEX</h3>
+                <div className={styles.sale_listing_timer_block}>
+                  <div className={styles.sale_listing_timer_item}>
+                    <div className={styles.sale_listing_timer_cell}>1</div>
+                    <div className={styles.sale_listing_timer_caption}>Days</div>
+                  </div>
+                  <div className={styles.sale_listing_timer_item}>
+                    <div className={styles.sale_listing_timer_cell}>21</div>
+                    <div className={styles.sale_listing_timer_caption}>Hours</div>
+                  </div>
+                  <div className={styles.sale_listing_timer_item}>
+                    <div className={styles.sale_listing_timer_cell}>46</div>
+                    <div className={styles.sale_listing_timer_caption}>Minutes</div>
+                  </div>
+                  <div className={styles.sale_listing_timer_item}>
+                    <div className={styles.sale_listing_timer_cell}>11</div>
+                    <div className={styles.sale_listing_timer_caption}>Seconds</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </Slider>
-        
       </div>
     );
   }

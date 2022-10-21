@@ -2,6 +2,24 @@
   margin: 50px 0 0 0;
   width: 320px;
 }
+.sale_slider_caption_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 10px 0;
+}
+.sale_slider_left_arrow {
+  margin: 0;
+}
+.sale_slider_right_arrow {
+  margin: 0 0 0 105px;
+}
+.sale_slider_left_arrow,
+.sale_slider_right_arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .roadmap_slider_container_mobile .roadmap_slider_item_mobile {
   display: flex;
   align-items: center;
@@ -63,10 +81,10 @@
   color: #FFFFFF;
 }
 .roadmap_slider_left_arrow {
-  margin: 0 20px 0 0;
+  margin: 0;
 }
 .roadmap_slider_right_arrow {
-  margin: 0 0 0 20px;
+  margin: 0 0 0 105px;
 }
 .roadmap_slider_left_arrow,
 .roadmap_slider_right_arrow {

@@ -8,21 +8,11 @@
   justify-content: center;
   margin: 20px 0 10px 0;
 }
-.sale_slider_caption {
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
-  text-align: center;
-  letter-spacing: 0.015em;
-  color: #FFFFFF;
-}
 .sale_slider_left_arrow {
-  margin: 0 20px 0 0;
+  margin: 0;
 }
 .sale_slider_right_arrow {
-  margin: 0 0 0 20px;
+  margin: 0 0 0 105px;
 }
 .sale_slider_left_arrow,
 .sale_slider_right_arrow {
@@ -30,7 +20,7 @@
   align-items: center;
   justify-content: center;
 }
-.sale_NFTSale {
+.sale_slide {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,10 +28,33 @@
   width: 346px;
   height: 672px;
   padding: 30px 22px;
-  background-image: url('/images/landing/NFTSaleMobile.png');
   background-repeat: no-repeat;
   background-size: auto;
   margin: 17px 0 0 0;
+}
+.sale_PreSale {
+  background-image: url('/images/landing/PreSaleMobileBG.svg');
+}
+.sale_NFTSale {
+  background-image: url('/images/landing/NFTSaleMobile.png');
+}
+.sale_MainSale {
+  background-image: url('/images/landing/MainSaleMobileBG.svg');
+}
+.sale_PrivateSale {
+  background-image: url('/images/landing/PrivateSaleMobileBG.svg');
+}
+.sale_presale_divider_wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.sale_presale_divider {
+  /* width: 2px; */
+  /* height: 429px; */
+  width: 100%;
+  border: 1px solid #6A4D9B;
 }
 .sale_presale_left {
   width: 100%;
@@ -75,13 +88,48 @@
 .sale_presale_tokensinfo_button {
   display: flex;
   justify-content: flex-end;
+  margin: 50px 0 0 0;
 }
 .sale_NFTSale_tokensinfo {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  width: 100%;
   padding: 0 0 20px 0;
+}
+.sale_listiong_tokensinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 0 20px 0;
+  margin: 100px;
+}
+.sale_NFTSale_tokensinfo_cotent {
+  width: 100%;
+}
+.sale_presale_tokensinfo_item {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 0 0;
+}
+.sale_presale_name,
+.sale_presale_value {
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+}
+.sale_presale_name {
+  font-size: 16px;
+  line-height: 20px;
+}
+.sale_presale_value {
+  font-size: 18px;
+  line-height: 22px;
 }
 .buy_button {
   display: flex;
@@ -99,4 +147,66 @@
   width: 268px;
   height: 58px;
   border-radius: 20px;
+}
+
+.sale_listing_title {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  margin: 10px 0 0 0;
+
+  font-size: 32px;
+  line-height: 39px;
+  margin: 0;
+}
+.sale_listing_timer_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 780px;
+  margin: 72px 0 0 0;
+  width: 100%;
+  margin: 60px 0 0 0;
+}
+.sale_listing_timer_cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 120px;
+  background: rgba(64, 31, 43, 0.6);
+  border: 1.5px solid #000000;
+  backdrop-filter: blur(23px);
+  border-radius: 6px;
+
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+
+  width: 56px;
+  height: 46px;
+  border-radius: 3px;
+
+  font-size: 24px;
+  line-height: 29px;
+}
+.sale_listing_timer_caption {
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  color: #D4E5FF;
+  text-align: center;
+  margin: 16px 0 0 0;
+
+
+
+  font-size: 15px;
+  line-height: 18px;
+  margin: 8px 0 0 0;
 }
