@@ -92,6 +92,30 @@ export default class Footer extends Component {
                     alt="Discord icon"
                   />
                 </a>
+                <a href="https://www.reddit.com/user/planetex_io" 
+                  rel="noreferrer" 
+                  target="_blank"
+                  className={styles.footer_social_link}
+                >
+                  <Image 
+                    src="/images/redditIcon.svg"
+                    width={32}
+                    height={32}
+                    alt="Reddit icon"
+                  />
+                </a>
+                <a href="https://medium.com/@planetex" 
+                  rel="noreferrer" 
+                  target="_blank"
+                  className={styles.footer_social_link}
+                >
+                  <Image 
+                    src="/images/mediumIcon.svg"
+                    width={32}
+                    height={32}
+                    alt="Medium icon"
+                  />
+                </a>
               </div>
             </div>
           </div>
