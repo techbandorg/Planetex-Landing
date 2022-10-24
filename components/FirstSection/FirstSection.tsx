@@ -27,7 +27,9 @@ export default class FirstSection extends Component {
             holders for unique further experience
             </p>
             <div className={styles.first_buttons_block}>
-              <JoinIDO_2 />
+              <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
+                <JoinIDO_2 />
+              </a>
               <div className={styles.download_WhitePaper_button}>
                 <div className={styles.download_logo}>
                   <Image 
