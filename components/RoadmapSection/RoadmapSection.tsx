@@ -27,9 +27,8 @@ export default function RoadmapSection () {
 
   return (
     <section className={styles.roadmap_section}>
-      <a id={"roadmap"}></a>
       <h2 className={`${styles.section_title} ${styles.roadmap_title}`}>
-        Roadmap
+        Roadmap<a id={"roadmap"}></a>
       </h2>
       <div className={styles.roadmap_content}>
         <div className={styles.roadmap_img_block}>
@@ -51,7 +50,7 @@ export default function RoadmapSection () {
             Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
             future, Starfish aims Echoing Astar Network&apos;s vision to be the 
             heart of the multi-chain future, Starfish aims Echoing Astar 
-            Network&apos;s vision to be the heart of the, Starfish aims Echoing 
+            Network&apos;s vision to be the heart of the Starfish aims Echoing 
             Astar Network&apos;s vision to be the heart of the multi-chain future, 
             Starfish aims Echoing Astar Network&apos;s vision to be the heart of 
             the multi-chain future, Starfish aimsing Astar Network&apos;s vision 
