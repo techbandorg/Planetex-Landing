@@ -24,37 +24,62 @@ export default class Footer extends Component {
               </a>
             </div>
             <div className={styles.footer_socials_wrapper}>
-              <div className={styles.footer_socials}>
-                <Image 
-                  src="/images/facebookIcon.svg"
-                  width={32}
-                  height={32}
-                  alt="Facebook icon"
-                />
-                <Image 
-                  src="/images/twitterIcon.svg"
-                  width={32}
-                  height={32}
-                  alt="Twitter icon"
-                />
-                <Image 
-                  src="/images/instagramIcon.svg"
-                  width={32}
-                  height={32}
-                  alt="Instagram icon"
-                />
+              <div  className={styles.footer_socials}>
+                <a href="https://www.facebook.com/Planetexio" 
+                  rel="noreferrer" 
+                  target="_blank"
+                  className={styles.footer_social_link}
+                >
+                  <Image 
+                    src="/images/facebookIcon.svg"
+                    width={32}
+                    height={32}
+                    alt="Facebook icon"
+                  />
+                </a>
+                <a href="https://twitter.com/planetex_io" 
+                  rel="noreferrer" 
+                  target="_blank"
+                  className={styles.footer_social_link}
+                >
+                  <Image 
+                    src="/images/twitterIcon.svg"
+                    width={32}
+                    height={32}
+                    alt="Twitter icon"
+                  />
+                </a>
+                <a href="https://www.instagram.com/planetex_io/" 
+                  rel="noreferrer" 
+                  target="_blank"
+                  className={styles.footer_social_link}
+                >
+                  <Image 
+                    src="/images/instagramIcon.svg"
+                    width={32}
+                    height={32}
+                    alt="Instagram icon"
+                  />
+                </a>
+                
                 <Image 
                   src="/images/youtubeIcon.svg"
                   width={32}
                   height={32}
                   alt="Youtube icon"
                 />
-                <Image 
-                  src="/images/telegramIcon.svg"
-                  width={32}
-                  height={32}
-                  alt="Telegram icon"
-                />
+                <a href="https://t.me/planetexofficial" 
+                  rel="noreferrer" 
+                  target="_blank"
+                  className={styles.footer_social_link}
+                >
+                  <Image 
+                    src="/images/telegramIcon.svg"
+                    width={32}
+                    height={32}
+                    alt="Telegram icon"
+                  />
+                </a>
                 <Image 
                   src="/images/discordIcon.svg"
                   width={32}
