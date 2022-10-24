@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import Image from 'next/image'
 import styles from './SaleSection.module.css'
 import SaleSlider from '../SaleSlider/SaleSlider'
-import { Buy_Button_1, Soon_Button } from '../buttons/buttons'
+import { Buy_Button_1, Buy_Button_2, Soon_Button } from '../buttons/buttons'
 
 export default class SaleSection extends Component {
   render() {
@@ -65,8 +65,8 @@ export default class SaleSection extends Component {
             <div className={styles.sale_NFTsale_left}>
               <h3 className={styles.sale_presale_title}>NFT Sale</h3>
               <div className={styles.sale_NFTsale_paragr}>
-              Echoing Astar Network&apos;s vision to be the heart of the Network to 
-              provide you with DeFi, NFT-Fi and new project discovery.
+              Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
+              future, Starfish aims to be collaborative, convenient and communal.
               </div>
               <h2 className={styles.sale_presale_subtitle}>
                 Сharacter skills
@@ -131,7 +131,7 @@ export default class SaleSection extends Component {
             </div>
             <div className={styles.sale_NFTSale_tokensinfo}>
               <div className={styles.sale_presale_tokensinfo_button}>
-                <Buy_Button_1 />
+                <Buy_Button_2 />
                 {/* <div className={styles.buy_button}>
                   Buy Token
                 </div> */}

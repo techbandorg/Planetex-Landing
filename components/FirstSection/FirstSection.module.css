@@ -148,6 +148,12 @@
     top: -373px;
     left: -496px;
   }
+  .planetex_tok {
+    right: -30px;
+  }
+  .planetex_tok_stat {
+    right: -30px;
+  }
 }
 
 @media screen and (max-width: 1320px) {

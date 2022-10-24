@@ -44,12 +44,17 @@
 .sale_PrivateSale {
   background-image: url('/images/landing/PrivateSaleMobileBG.svg');
 }
+.sale_NFTSale_divider_wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 52px 0;
+}
 .sale_presale_divider_wrapper {
   display: flex;
   align-items: center;
   width: 100%;
 }
-
 .sale_presale_divider {
   /* width: 2px; */
   /* height: 429px; */
