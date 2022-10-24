@@ -129,6 +129,10 @@
   z-index: 2;
 }
 
+.join_ido_button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 @media screen and (max-width: 1320px) {
   .header {
     width: 100%;

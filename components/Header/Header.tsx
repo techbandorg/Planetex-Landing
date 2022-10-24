@@ -155,9 +155,11 @@ export default function Header() {
                 </a>
               </li>
               <li className={styles.main_nav_li}>
-                <div className={styles.header_join_button_container}>
-                  <JoinIDO_1 />
-                </div>
+                <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
+                  <div className={styles.header_join_button_container}>
+                    <JoinIDO_1 />
+                  </div>
+                </a>
               </li>
             </ul>
           </nav>
