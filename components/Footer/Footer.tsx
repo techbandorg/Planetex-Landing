@@ -10,18 +10,18 @@ export default class Footer extends Component {
         <div className={styles.footer_content}>
           <div className={styles.footer_topHalf}>
             <div className={styles.footer_tothetop}>
-              <div className={styles.footer_tothetop_button}>
-                <a href="#header">
-                  <div className={styles.footer_tothetop_button_arrow}>
-                    <Image 
-                      src="/images/toTopArrow.svg"
-                      width={'100%'}
-                      height={'100%'}
-                      alt="To top arrow"
-                    />
-                  </div>
-                </a>
-              </div>
+              <a href="#header">
+                <div className={styles.footer_tothetop_button}>
+                    <div className={styles.footer_tothetop_button_arrow}>
+                      <Image 
+                        src="/images/toTopArrow.svg"
+                        width={'100%'}
+                        height={'100%'}
+                        alt="To top arrow"
+                      />
+                    </div>
+                </div>
+              </a>
             </div>
             <div className={styles.footer_socials_wrapper}>
               <div className={styles.footer_socials}>
