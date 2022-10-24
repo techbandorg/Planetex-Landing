@@ -80,12 +80,18 @@ export default class Footer extends Component {
                     alt="Telegram icon"
                   />
                 </a>
-                <Image 
-                  src="/images/discordIcon.svg"
-                  width={32}
-                  height={32}
-                  alt="Discord icon"
-                />
+                <a href="https://discord.gg/planetex.io" 
+                  rel="noreferrer" 
+                  target="_blank"
+                  className={styles.footer_social_link}
+                >
+                  <Image 
+                    src="/images/discordIcon.svg"
+                    width={32}
+                    height={32}
+                    alt="Discord icon"
+                  />
+                </a>
               </div>
             </div>
           </div>
