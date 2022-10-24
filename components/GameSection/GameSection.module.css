@@ -65,6 +65,10 @@
   display: none;
 }
 
+.join_ido_button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 @media screen and (max-width: 1507px) {
   .p2egame_section {
     padding: 0 30px;

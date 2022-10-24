@@ -54,7 +54,9 @@ export default class SaleSection extends Component {
                 </div>
               </div>
               <div className={styles.sale_presale_tokensinfo_button}>
-                <Buy_Button_1 />
+                <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
+                  <Buy_Button_1 />
+                </a>
                 {/* <div className={styles.buy_button}>
                   Buy Token
                 </div> */}
@@ -131,7 +133,9 @@ export default class SaleSection extends Component {
             </div>
             <div className={styles.sale_NFTSale_tokensinfo}>
               <div className={styles.sale_presale_tokensinfo_button}>
-                <Buy_Button_2 />
+                <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/nft-sale" target="blank">
+                  <Buy_Button_2 />
+                </a>
                 {/* <div className={styles.buy_button}>
                   Buy Token
                 </div> */}

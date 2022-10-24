@@ -209,9 +209,10 @@
   text-align: center;
   margin: 16px 0 0 0;
 
-
-
   font-size: 15px;
   line-height: 18px;
   margin: 8px 0 0 0;
+}
+.join_ido_button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }

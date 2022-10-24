@@ -28,15 +28,19 @@ export default class ProductSection extends Component {
               algorithm will not leave anyone indifferent.
               </p>
               <div className={styles.desctop_version}>
-                <Buy_Button_1 />
+                <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
+                  <Buy_Button_1 />
+                </a>
               </div>
             </div>
             <div className={styles.mobile_slider}>
               <ProductSlider />
             </div>
             <div className={styles.mobile_version}>
-              <Buy_Button_1 />
-              </div>
+              <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
+                <Buy_Button_1 />
+              </a>
+            </div>
             <div className={styles.product_right_content}>
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
@@ -128,7 +132,9 @@ export default class ProductSection extends Component {
               </div>
             </div>
             <div className={styles.tablet_version}>
-              <Buy_Button_1 />
+              <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
+                <Buy_Button_1 />
+              </a>
             </div>
           </div>
         </div>

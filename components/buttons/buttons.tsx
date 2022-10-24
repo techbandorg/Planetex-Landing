@@ -35,7 +35,7 @@ export class Buy_Button_2 extends Component {
   render() {
     return (
       <div className={styles.buy_button_1}>
-        Mint Nft
+        Mint NFT
       </div>
     );
   }
