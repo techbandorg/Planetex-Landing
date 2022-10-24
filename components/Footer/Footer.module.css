@@ -128,6 +128,10 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.footer_social_link {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 @media screen and (max-width: 1507px) {
   .footer_topHalf {
     margin: 0;
