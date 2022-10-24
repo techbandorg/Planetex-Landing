@@ -140,6 +140,10 @@
   bottom: 30px;
 }
 
+.join_ido_button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+}
+
 @media screen and (max-width: 1507px) {
   .first_section {
     padding: 0 50px;

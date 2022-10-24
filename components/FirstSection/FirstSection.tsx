@@ -76,7 +76,9 @@ export default class FirstSection extends Component {
             </div>
           </div>
           <div className={styles.second_buttons_block}>
+          <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
             <JoinIDO_2 />
+          </a>
             <div className={styles.download_WhitePaper_button}>
               <div className={styles.download_logo}>
                 <Image 
