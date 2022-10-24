@@ -23,7 +23,7 @@ export default class ProductSection extends Component {
           <div className={styles.product_content}>
             <div className={styles.product_left_content}>
               <p className={styles.product_left_text}>
-              Our dex exchange will compete even with top exchanges. Wide 
+              Our DEX exchange will compete even with top exchanges. Wide 
               functionality along with an innovative artificial intelligence 
               algorithm will not leave anyone indifferent.
               </p>
