@@ -327,6 +327,10 @@
   display: none;
 }
 
+.join_ido_button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 @media screen and (max-width: 1320px) {
   .sale_section {
     padding: 0 20px;
