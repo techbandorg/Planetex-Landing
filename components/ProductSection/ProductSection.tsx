@@ -8,7 +8,6 @@ export default class ProductSection extends Component {
   render() {
     return (
       <section className={styles.product_section}>
-        <a id={"productSection"}></a>
         <div className={styles.product_background}>
           <Image 
             src="/images/productSectionBG.svg"
@@ -19,7 +18,7 @@ export default class ProductSection extends Component {
         </div>
         <div className={styles.product_container}>
           <h2 className={styles.section_title}>
-            Enjoy DEX Functionality
+            Enjoy DEX Functionality <a id={"productSection"}></a>
           </h2>
           <div className={styles.product_content}>
             <div className={styles.product_left_content}>

@@ -6,8 +6,6 @@ export default class TokenomicsSection extends Component {
   render() {
     return (
       <section className={styles.tokenomics_section}>
-        <a id={"tokenomics"}></a>
-        
         <div className={styles.tokenomics_container}>
           <div className={styles.tokenomics_img}>
             <Image 
@@ -19,7 +17,7 @@ export default class TokenomicsSection extends Component {
           </div>
         </div>
         <h2 className={styles.section_title}>
-          Tokenomics
+          Tokenomics<a id={"tokenomics"}></a>
         </h2>
       </section>
     );
