@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React, { Component } from "react"
 import Slider from "react-slick"
 import styles from './SaleSlider.module.css'
-import { Buy_Button_1, Soon_Button } from '../buttons/buttons'
+import { Buy_Button_1, Buy_Button_2, Soon_Button } from '../buttons/buttons'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
@@ -80,16 +80,17 @@ export default class SaleSlider extends Component {
               <div className={styles.sale_presale_left}>
                 <h3 className={styles.sale_presale_title}>NFT Sale</h3>
                 <div className={styles.sale_presale_paragr}>
-                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
-                future, Starfish aims to be collaborative, convenient and 
-                communal to build our product suites and become the one-stop-shop 
-                on Astar Network to provide you with DeFi, NFT-Fi and new project 
-                discovery.
+                Echoing Astar Network&apos;s vision to be the heart of the 
+                multi-chain future, Starfish aims to be collaborative, 
+                convenient and communal.
                 </div>
+              </div>
+              <div className={styles.sale_NFTSale_divider_wrapper}>
+                <div className={styles.sale_presale_divider}></div>
               </div>
               <div className={styles.sale_NFTSale_tokensinfo}>
                 <div className={styles.sale_presale_tokensinfo_button}>
-                  <Buy_Button_1 />
+                  <Buy_Button_2 />
                 </div>
               </div>
             </div>
