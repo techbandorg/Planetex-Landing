@@ -33,7 +33,7 @@ export default class CountdownSection extends Component {
                 <h3 className={styles.benefits_text_title}>Planetex NFT</h3>
                 <div>
                   <p className={styles.benefits_text}>
-                  Our nft collection is not just pictures. They are the ticket 
+                  Our NFT collection is not just pictures. They are the ticket 
                   to our game, which will allow you to enjoy an exciting game 
                   and earn money at the same time. Choose your character and 
                   get ready for a space battle.
@@ -47,7 +47,7 @@ export default class CountdownSection extends Component {
                 <h3 className={styles.benefits_text_title}>Planetex DEX</h3>
                 <div>
                   <p className={styles.benefits_text}>
-                  Our dex exchange will delight you not only with wide 
+                  Our DEX exchange will delight you not only with wide 
                   functionality among other exchanges, but also with a 
                   revolutionary algorithm based on AI for the most profitable 
                   and convenient interaction with the platform. Fasten your 
