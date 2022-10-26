@@ -283,15 +283,15 @@
   margin: 10px 0 0 0;
 }
 
-.sale_listing_timer_block {
+/* .sale_listing_timer_block {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 780px;
   margiN: 72px 0 0 0;
-}
+} */
 
-.sale_listing_timer_cell {
+/* .sale_listing_timer_cell {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,9 +309,9 @@
   line-height: 59px;
   letter-spacing: 0.015em;
   color: #D4E5FF;
-}
+} */
 
-.sale_listing_timer_caption {
+/* .sale_listing_timer_caption {
   font-family: 'Montserrat-Medium';
   font-style: normal;
   font-weight: 600;
@@ -321,7 +321,7 @@
   color: #D4E5FF;
   text-align: center;
   margin: 16px 0 0 0;
-}
+} */
 
 .mobile_slider {
   display: none;
@@ -329,6 +329,20 @@
 
 .join_ido_button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.sale_listing_text {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 117px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  background: linear-gradient(91.63deg, #A565AF 8.85%, #D4E5FF 49.64%, #B14BC1 103.02%), #D4E5FF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 @media screen and (max-width: 1320px) {
@@ -446,185 +460,24 @@
     line-height: 39px;
     margin: 0;
   }
-  .sale_listing_timer_block {
-    /* width: 387px; */
+  /* .sale_listing_timer_block {
     width: 560px;
     margin: 60px 0 0 0;
-  }
-  .sale_listing_timer_cell {
-    /* width: 73px;
-    height: 60px; */
+  } */
+  /* .sale_listing_timer_cell {
     width: 110px;
     height: 90px;
     border-radius: 3px;
   
     font-size: 24px;
     line-height: 29px;
-  }
-  .sale_listing_timer_caption {
+  } */
+  /* .sale_listing_timer_caption {
     font-size: 16px;
     line-height: 20px;
     margin: 8px 0 0 0;
-  }
+  } */
 }
-
-/* @media screen and (max-width: 1507px) {
-  .sale_section {
-    padding: 0 25px;
-    margin: 95px 0 0 0;
-  }
-  .section_title {
-    text-align: center;
-    margin: 0;
-    font-size: 48px;
-    line-height: 59px;
-  }
-  .sale_presale {
-    width: 689px;
-    height: 557px;
-    background-image: url('/images/landingTablet/PreSaleTabletBG.svg');
-    padding: 60px 40px;
-    margin: 105px 0 0 0;
-  }
-  .sale_NFTSale {
-    width: 689px;
-    height: 557px;
-    background-image: url('/images/landingTablet/NFTSaleTabletBG.svg');
-    padding: 60px 40px;
-  }
-  .sale_MainSale {
-    width: 689px;
-    height: 557px;
-    background-image: url('/images/landingTablet/MainSaleTabletBG.svg');
-    padding: 60px 40px;
-  }
-  .sale_PrivateSale {
-    width: 689px;
-    height: 557px;
-    background-image: url('/images/landingTablet/PrivateSaleTabletBG.svg');
-    padding: 60px 40px;
-  }
-  .sale_listing {
-    width: 689px;
-    height: 349px;
-    background-image: url('/images/landingTablet/ListingTabletBG.svg');
-    padding: 60px 40px;
-  }
-  .sale_presale_title {
-    font-size: 32px;
-    line-height: 39px;
-  }
-  .sale_presale_left {
-    width: 290px;
-  }
-  .sale_presale_tokensinfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 290px;
-    margin: 65px 0 0 0;
-  }
-  .sale_NFTSale_tokensinfo {
-    width: 290px;
-    display: flex;
-  }
-  .sale_presale_tokensinfo_item {
-      margin: 22px 0;
-  }
-  .sale_presale_name {
-    font-family: 'Montserrat-Medium';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    color: #D4E5FF;
-  }
-  .sale_presale_value {
-    font-family: 'Montserrat-Medium';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.015em;
-    color: #D4E5FF;
-  }
-  .sale_presale_paragr {
-    margin: 45px 0 0 0;
-    font-size: 18px;
-    line-height: 22px;
-  }
-  .sale_presale_divider {
-    height: 262px;
-    border: 1px solid #6A4D9B;
-  }
-  .sale_NFTsale_left {
-    width: 290px;
-    padding: 0 20px 0 0;
-  }
-  .sale_NFTsale_paragr {
-    margin: 40px 0 0 0;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.015em;
-    color: #BDCCEA;
-  }
-  .sale_presale_subtitle {
-    font-size: 20px;
-    line-height: 24px;
-    margin: 30px 0 0 0;
-  }
-  .sale_presale_skills_block {
-    margin: 15px 0 0 0;
-  }
-  .sale_presale_skill {
-    width: 130px;
-    height: 37px;
-    padding: 0 13px;
-  }
-  .sale_presale_damage_img {
-    width: 23px;
-    height: 27px;
-  }
-  .sale_presale_speed_img {
-    width: 26px;
-    height: 26px;
-  }
-  .sale_presale_health_img {
-    width: 39px;
-    height: 20px;
-  }
-  .sale_presale_armor_img {
-    width: 19px;
-    height: 23px;
-  }
-  .sale_presale_skill_text {
-    font-size: 13px;
-    line-height: 16px;
-  }
-  .sale_listing_title {
-    font-size: 32px;
-    line-height: 39px;
-    margin: 0;
-  }
-  .sale_listing_timer_block {
-    width: 387px;
-    margin: 60px 0 0 0;
-  }
-  .sale_listing_timer_cell {
-    width: 73px;
-    height: 60px;
-    border-radius: 3px;
-  
-    font-size: 24px;
-    line-height: 29px;
-  }
-  .sale_listing_timer_caption {
-    font-size: 16px;
-    line-height: 20px;
-    margin: 8px 0 0 0;
-  }
-} */
 
 @media screen and (max-width: 739px) {
   .section_title {

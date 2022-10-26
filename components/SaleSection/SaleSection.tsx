@@ -220,7 +220,7 @@ export default class SaleSection extends Component {
           </div>
           <div className={styles.sale_listing}>
             <h3 className={styles.sale_listing_title}>Listing on DEX</h3>
-            <div className={styles.sale_listing_timer_block}>
+            {/* <div className={styles.sale_listing_timer_block}>
               <div className={styles.sale_listing_timer_item}>
                 <div className={styles.sale_listing_timer_cell}>1</div>
                 <div className={styles.sale_listing_timer_caption}>Days</div>
@@ -237,6 +237,9 @@ export default class SaleSection extends Component {
                 <div className={styles.sale_listing_timer_cell}>11</div>
                 <div className={styles.sale_listing_timer_caption}>Seconds</div>
               </div>
+            </div> */}
+            <div className={styles.sale_listing_text_block}>
+              <p className={styles.sale_listing_text}>Coming Soon</p>
             </div>
           </div>
         </div>

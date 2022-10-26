@@ -179,7 +179,7 @@ export default class SaleSlider extends Component {
           <div className={`${styles.sale_PrivateSale} ${styles.sale_slide}`}>
               <div className={styles.sale_listiong_tokensinfo}>
                 <h3 className={styles.sale_listing_title}>Listing on DEX</h3>
-                <div className={styles.sale_listing_timer_block}>
+                {/* <div className={styles.sale_listing_timer_block}>
                   <div className={styles.sale_listing_timer_item}>
                     <div className={styles.sale_listing_timer_cell}>1</div>
                     <div className={styles.sale_listing_timer_caption}>Days</div>
@@ -196,6 +196,9 @@ export default class SaleSlider extends Component {
                     <div className={styles.sale_listing_timer_cell}>11</div>
                     <div className={styles.sale_listing_timer_caption}>Seconds</div>
                   </div>
+                </div> */}
+                <div className={styles.sale_listing_text_block}>
+                  <p className={styles.sale_listing_text}>Coming Soon</p>
                 </div>
               </div>
             </div>
