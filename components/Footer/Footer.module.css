@@ -63,6 +63,12 @@
   gap: 16px;
 }
 
+.footer_socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .foter_nav_container {
   display: flex;
   align-items: center;
