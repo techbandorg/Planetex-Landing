@@ -46,7 +46,7 @@ export default class FirstSection extends Component {
           <div className={styles.first_right}>
             <div className={styles.first_section_astronaut}>
               <Image 
-                src="/images/astronaut.svg"
+                src="/images/astronaut.png"
                 height={1485}
                 width={1695}
                 alt="Download icon"

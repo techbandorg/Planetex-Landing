@@ -110,7 +110,7 @@
   flex-direction: column;
   width: 100%;
   padding: 0 0 20px 0;
-  margin: 100px;
+  margin: 0px;
 }
 .sale_NFTSale_tokensinfo_cotent {
   width: 100%;
@@ -162,9 +162,8 @@
   letter-spacing: 0.015em;
   color: #D4E5FF;
   margin: 10px 0 0 0;
-
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 22px;
+  line-height: 27px;
   margin: 0;
 }
 .sale_listing_timer_block {
@@ -215,4 +214,18 @@
 }
 .join_ido_button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.sale_listing_text {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 150px 0 0 0;
+  text-align: center;
+  letter-spacing: 0.015em;
+  background: linear-gradient(91.63deg, #A565AF 8.85%, #D4E5FF 49.64%, #B14BC1 103.02%), #D4E5FF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

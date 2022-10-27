@@ -19,8 +19,8 @@ export default class GameSection extends Component {
             </h3>
             <div className={styles.p2egame_image_block_mobile}>
               <Image 
-                src="/images/P2Egame.svg"
-                width={579}
+                src="/images/P2Egame.png"
+                width={597}
                 height={579}
                 alt="P2E game illustration"
               />
@@ -46,8 +46,8 @@ export default class GameSection extends Component {
           </div>
           <div className={styles.p2egame_image_block}>
             <Image 
-              src="/images/P2Egame.svg"
-              width={579}
+              src="/images/P2Egame.png"
+              width={597}
               height={579}
               alt="P2E game illustration"
             />

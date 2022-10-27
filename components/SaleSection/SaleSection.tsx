@@ -132,6 +132,14 @@ export default class SaleSection extends Component {
               <div className={styles.sale_presale_divider}></div>
             </div>
             <div className={styles.sale_NFTSale_tokensinfo}>
+              <div className={styles.sale_NFTSale_img}>
+                <Image 
+                  src="/images/NFTSaleIMG.png"
+                  width={684}
+                  height={680}
+                  alt="Health skill"
+                />
+              </div>
               <div className={styles.sale_presale_tokensinfo_button}>
                 <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/nft-sale" target="blank">
                   <Buy_Button_2 />
@@ -220,7 +228,7 @@ export default class SaleSection extends Component {
           </div>
           <div className={styles.sale_listing}>
             <h3 className={styles.sale_listing_title}>Listing on DEX</h3>
-            <div className={styles.sale_listing_timer_block}>
+            {/* <div className={styles.sale_listing_timer_block}>
               <div className={styles.sale_listing_timer_item}>
                 <div className={styles.sale_listing_timer_cell}>1</div>
                 <div className={styles.sale_listing_timer_caption}>Days</div>
@@ -237,6 +245,9 @@ export default class SaleSection extends Component {
                 <div className={styles.sale_listing_timer_cell}>11</div>
                 <div className={styles.sale_listing_timer_caption}>Seconds</div>
               </div>
+            </div> */}
+            <div className={styles.sale_listing_text_block}>
+              <p className={styles.sale_listing_text}>Coming Soon</p>
             </div>
           </div>
         </div>

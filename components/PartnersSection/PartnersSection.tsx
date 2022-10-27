@@ -13,7 +13,7 @@ export default class PartnersSection extends Component {
           <div className={styles.partners_item}>
             <div className={styles.partners_logo}>
               <Image 
-                src="/images/image195.svg"
+                src="/images/image195.png"
                 height={49}
                 width={49}
                 alt="Partners icon"
