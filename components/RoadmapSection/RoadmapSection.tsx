@@ -11,9 +11,9 @@ export default function RoadmapSection () {
   };
 
   const imagesObj: ImgAdr = {
-    "first" : "/images/quarter1IMG.svg",
+    "first" : "/images/quarter1IMG.png",
     "second" : "/images/quarter2.svg",
-    "third" : "/images/quarter3.svg",
+    "third" : "/images/quarter3.png",
     "fourth" : "/images/quarter4.svg"
   }
 

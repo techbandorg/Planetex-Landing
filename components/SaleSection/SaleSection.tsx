@@ -132,6 +132,14 @@ export default class SaleSection extends Component {
               <div className={styles.sale_presale_divider}></div>
             </div>
             <div className={styles.sale_NFTSale_tokensinfo}>
+              <div className={styles.sale_NFTSale_img}>
+                <Image 
+                  src="/images/NFTSaleIMG.png"
+                  width={684}
+                  height={680}
+                  alt="Health skill"
+                />
+              </div>
               <div className={styles.sale_presale_tokensinfo_button}>
                 <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/nft-sale" target="blank">
                   <Buy_Button_2 />
