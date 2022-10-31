@@ -150,8 +150,8 @@
     margin: 148px 0px 100px 0px;
   }
   .roadmap_quarter {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 26px;
+    line-height: 30px;
     margin: 0 0 14px 0;
   }
 }
@@ -167,6 +167,11 @@
   .roadmap_text {
     font-size: 16px;
     line-height: 20px;
+  }
+  .roadmap_quarter {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 14px 0;
   }
 }
 
@@ -201,7 +206,7 @@
     display: none;
   }
   .roadmap_text_block {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
