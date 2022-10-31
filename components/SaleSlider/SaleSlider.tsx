@@ -69,7 +69,7 @@ export default class SaleSlider extends Component {
                   </div>
                 </div>
                 <div className={styles.sale_presale_tokensinfo_button}>
-                  <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
+                  <a className={styles.join_ido_button} href="https://app.planetex.io/presale" target="blank">
                     <Buy_Button_1 />
                   </a>
                 </div>
@@ -90,7 +90,7 @@ export default class SaleSlider extends Component {
               </div>
               <div className={styles.sale_NFTSale_tokensinfo}>
                 <div className={styles.sale_presale_tokensinfo_button}>
-                  <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/nft-sale" target="blank">
+                  <a className={styles.join_ido_button} href="https://app.planetex.io/nft-sale" target="blank">
                     <Buy_Button_2 />
                   </a>
                 </div>

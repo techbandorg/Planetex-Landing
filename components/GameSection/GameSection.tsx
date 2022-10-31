@@ -40,7 +40,7 @@ export default class GameSection extends Component {
               <br/>
               Get your own card!
             </p>
-            <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/nft-sale" target="blank">
+            <a className={styles.join_ido_button} href="https://app.planetex.io/nft-sale" target="blank">
               <Buy_Button_2 />
             </a>
           </div>
