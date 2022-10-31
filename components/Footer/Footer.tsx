@@ -176,7 +176,7 @@ export default class Footer extends Component {
                       Tokenomics
                     </a>
                   </li>
-                  <li className={styles.footer_nav_li}>
+                  {/* <li className={styles.footer_nav_li}>
                     <a href="#theTeam"
                       //onClick={menuItemHandler}
                       className={styles.footer_nav_a}
@@ -184,7 +184,7 @@ export default class Footer extends Component {
                     >
                       The Team
                     </a>
-                  </li>
+                  </li> */}
                   <li className={styles.footer_nav_li}>
                     <a href="#saleDetails"
                       //onClick={menuItemHandler} 
