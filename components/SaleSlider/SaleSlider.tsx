@@ -42,11 +42,10 @@ export default class SaleSlider extends Component {
               <div className={styles.sale_presale_left}>
                 <h3 className={styles.sale_presale_title}>Pre-Sale</h3>
                 <div className={styles.sale_presale_paragr}>
-                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
-                future, Starfish aims to be collaborative, convenient and 
-                communal to build our product suites and become the one-stop-shop 
-                on Astar Network to provide you with DeFi, NFT-Fi and new project 
-                discovery.
+                Participation in the Pre-Sale will give you the opportunity to 
+                invest in our project at an early stage, get tokens at a lower 
+                price and have an undeniable advantage over other users of the 
+                platform in the future.
                 </div>
               </div>
               <div className={styles.sale_presale_divider_wrapper}>
@@ -82,9 +81,8 @@ export default class SaleSlider extends Component {
               <div className={styles.sale_presale_left}>
                 <h3 className={styles.sale_presale_title}>NFT Sale</h3>
                 <div className={styles.sale_presale_paragr}>
-                Echoing Astar Network&apos;s vision to be the heart of the 
-                multi-chain future, Starfish aims to be collaborative, 
-                convenient and communal.
+                Mint your character and get the opportunity to participate in 
+                our game with an advantage over other players!
                 </div>
               </div>
               <div className={styles.sale_NFTSale_divider_wrapper}>
@@ -104,11 +102,9 @@ export default class SaleSlider extends Component {
               <div className={styles.sale_presale_left}>
                 <h3 className={styles.sale_presale_title}>Main Sale</h3>
                 <div className={styles.sale_presale_paragr}>
-                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
-                future, Starfish aims to be collaborative, convenient and 
-                communal to build our product suites and become the one-stop-shop 
-                on Astar Network to provide you with DeFi, NFT-Fi and new project 
-                discovery.
+                  The Main Sale will be the last chance to invest in our project 
+                  at an early stage before the release of our token on the DEX 
+                  platforms. Better take part!
                 </div>
               </div>
               <div className={styles.sale_presale_divider_wrapper}>
@@ -142,11 +138,10 @@ export default class SaleSlider extends Component {
               <div className={styles.sale_presale_left}>
                 <h3 className={styles.sale_presale_title}>Private Sale</h3>
                 <div className={styles.sale_presale_paragr}>
-                Echoing Astar Network&apos;s vision to be the heart of the multi-chain 
-                future, Starfish aims to be collaborative, convenient and 
-                communal to build our product suites and become the one-stop-shop 
-                on Astar Network to provide you with DeFi, NFT-Fi and new project 
-                discovery.
+                  Private Sale will allow you to invest more significant amounts 
+                  in our project at an attractive price. To participate in the 
+                  Private Sale, you will need to get into the whitelist, which 
+                  will appear during the Main Sale.
                 </div>
               </div>
               <div className={styles.sale_presale_divider_wrapper}>
