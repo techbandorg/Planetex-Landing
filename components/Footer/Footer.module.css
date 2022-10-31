@@ -4,7 +4,8 @@
   align-items: center;
   flex: 1;
   padding: 2rem 0;
-  margin: 130px 0 0 0;
+  /* margin: 130px 0 0 0; */
+  margin: 30px 0 0 0;
   width: 100%;
   padding: 0;
 }
@@ -139,6 +140,10 @@
 }
 
 @media screen and (max-width: 1507px) {
+  .footer {
+    /* margin: 130px 0 0 0; */
+    margin: 30px 0 0 0;
+  }
   .footer_topHalf {
     margin: 0;
     padding: 58px 20px 0 20px;
@@ -147,7 +152,8 @@
 
 @media screen and (max-width: 1320px) {
   .footer {
-    margin: 78px 0 0 0;
+    /* margin: 78px 0 0 0; */
+    margin: 30px 0 0 0;
     padding: 0;
   }
   .footer_content {

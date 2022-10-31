@@ -138,7 +138,7 @@ export default function Header() {
                   Tokenomics
                 </a>
               </li>
-              <li className={styles.main_nav_li}>
+              {/* <li className={styles.main_nav_li}>
                 <a href="#theTeam"
                   onClick={menuItemHandler}
                   className={styles.main_nav_a}
@@ -146,7 +146,7 @@ export default function Header() {
                 >
                   The Team
                 </a>
-              </li>
+              </li> */}
               <li className={styles.main_nav_li}>
                 <a href="#saleDetails"
                   onClick={menuItemHandler} 
