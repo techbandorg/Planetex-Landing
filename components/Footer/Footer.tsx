@@ -199,7 +199,7 @@ export default class Footer extends Component {
                   </li>
                 </ul>
               </nav>
-              <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
+              <a className={styles.join_ido_button} href="https://app.planetex.io/presale" target="blank">
                 <div className={styles.header_join_button_container}>
                   <JoinIDO_1 />
                 </div>

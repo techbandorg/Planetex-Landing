@@ -58,7 +58,7 @@ export default function Header() {
         <div className={styles.header_right}>
           <div className={styles.header_join_button_container_tablet}>
             <div className={styles.header_join_button_container}>
-              <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
+              <a className={styles.join_ido_button} href="https://app.planetex.io/presale" target="blank">
                 <JoinIDO_1 />
               </a>
             </div>
@@ -158,7 +158,7 @@ export default function Header() {
               </li>
               <li className={styles.main_nav_li}>
                 <div className={styles.header_join_button_container}>
-                  <a className={styles.join_ido_button} href="https://planetexapp.vercel.app/presale" target="blank">
+                  <a className={styles.join_ido_button} href="https://app.planetex.io/presale" target="blank">
                     <JoinIDO_1 />
                   </a>
                 </div>
