@@ -51,7 +51,7 @@ export default function Header() {
       <div className={styles.header_content}>
         <div className={styles.logo_container}>
           <Image 
-            src="/images/logo.svg"
+            src="/images/logo.png"
             height={28}
             width={164}
             alt="Plantex logo"
