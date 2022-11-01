@@ -1,11 +1,13 @@
 .section_title {
   position: absolute;
-  left: calc(50% - 220px);
+  left: calc(50% - 265px);
   top: 50px;
   text-align: center;
   margin: 0;
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  /* font-family: 'Montserrat-Bold';
+  font-style: normal; */
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
@@ -40,7 +42,7 @@
     margin: 0;
   }
   .section_title {
-    left: calc(50% - 165px);
+    left: calc(50% - 200px);
     font-size: 48px;
     line-height: 59px;
   }
@@ -87,11 +89,9 @@
     display: block;
   }
   .section_title {
-    left: calc(50% - 116px);
+    left: calc(50% - 135px);
     text-align: center;
     margin: 40px 0 0 0;
-    font-family: 'Montserrat-Bold';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;

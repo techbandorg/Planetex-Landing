@@ -36,13 +36,15 @@
 }
 
 .first_content {
-  width: 661px;
+  /* width: 661px; */
+  width: 750px;
   height: 488px;
 }
 
 .first_title {
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  /* font-family: 'Montserrat-Bold'; */
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 48px;
   line-height: 103.19%;
@@ -230,7 +232,9 @@
     height: 891px;
   }
   .first_title {
-    font-family: 'Montserrat-Bold';
+    /* font-family: 'Montserrat-Bold'; */
+    font-family: 'ZenDots-Regular';
+    font-style: italic;
     margin: 52px 0 0 0;
     font-size: 25px;
     line-height: 103.19%;

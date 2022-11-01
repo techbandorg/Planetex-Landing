@@ -1,8 +1,10 @@
 .section_title {
   text-align: center;
   margin: 0;
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  /* font-family: 'Montserrat-Bold';
+  font-style: normal; */
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
@@ -194,8 +196,6 @@
   .section_title {
     text-align: center;
     margin: 0;
-    font-family: 'Montserrat-Bold';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;

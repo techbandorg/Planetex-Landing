@@ -66,8 +66,8 @@
 }
 .sale_presale_title {
   text-align: center;
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
@@ -155,8 +155,8 @@
 }
 
 .sale_listing_title {
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.015em;
