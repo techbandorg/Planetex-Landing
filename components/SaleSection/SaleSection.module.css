@@ -6,8 +6,10 @@
 .section_title {
   text-align: center;
   margin: 0;
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  /* font-family: 'Montserrat-Bold';
+  font-style: normal; */
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
@@ -67,8 +69,10 @@
 }
 
 .sale_presale_title {
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  /* font-family: 'Montserrat-Bold';
+  font-style: normal; */
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
@@ -289,8 +293,8 @@
 }
 
 .sale_listing_title {
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
@@ -511,8 +515,8 @@
   .section_title {
     text-align: center;
     margin: 0;
-    font-family: 'Montserrat-Bold';
-    font-style: normal;
+    font-family: 'ZenDots-Regular';
+    font-style: italic;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;

@@ -14,8 +14,10 @@
 .section_title {
   text-align: center;
   margin: 0;
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  /* font-family: 'Montserrat-Bold'; */
+  /* font-style: normal; */
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
@@ -70,8 +72,10 @@
 
 .benefits_text_title {
   position:relative;
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  /* font-family: 'Montserrat-Bold';
+  font-style: normal; */
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 40px;
   line-height: 49px;
@@ -248,8 +252,10 @@
   .section_title {
     text-align: center;
     margin: 0;
-    font-family: 'Montserrat-Bold';
-    font-style: normal;
+    /* font-family: 'Montserrat-Bold'; */
+    /* font-style: normal; */
+    font-family: 'ZenDots-Regular';
+    font-style: italic;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;

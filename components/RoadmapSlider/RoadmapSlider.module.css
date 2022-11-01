@@ -99,8 +99,10 @@
   align-items: center;
 }
 .roadmap_text_subtitle {
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  /* font-family: 'Montserrat-Bold';
+  font-style: normal; */
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;

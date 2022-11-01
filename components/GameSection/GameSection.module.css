@@ -1,8 +1,10 @@
 .section_title {
   text-align: center;
   margin: 0;
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  /* font-family: 'Montserrat-Bold';
+  font-style: normal; */
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
@@ -33,8 +35,10 @@
 
 .p2egame_text_title {
   margin: 0;
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
+  /* font-family: 'Montserrat-Bold';
+  font-style: normal; */
+  font-family: 'ZenDots-Regular';
+  font-style: italic;
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
@@ -86,6 +90,16 @@
     line-height: 20px;
     margin: 25px 0px 20px 0px;
   }
+  .section_title {
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+  }
 }
 
 /* @media screen and (max-width: 1507px) {
@@ -122,18 +136,6 @@
 } */
 
 @media screen and (max-width: 739px) {
-  .section_title {
-    text-align: center;
-    margin: 0;
-    font-family: 'Montserrat-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
-    text-align: center;
-    letter-spacing: 0.015em;
-    color: #D4E5FF;
-  }
   .p2egame_section {
     padding: 0 20px;
     /* margin: 178px 0 0 0; */
@@ -153,6 +155,8 @@
     width: 100%;
   }
   .p2egame_text_title {
+    font-size: 36px;
+    line-height: 44px;
     text-align: center;
   }
   .p2egame_text_paragraph {

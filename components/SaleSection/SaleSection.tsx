@@ -63,6 +63,7 @@ export default class SaleSection extends Component {
               </div>
             </div>
           </div>
+          <a id={"mintNFT"}></a>
           <div className={styles.sale_NFTSale}>
             <div className={styles.sale_NFTsale_left}>
               <h3 className={styles.sale_presale_title}>NFT Sale</h3>
