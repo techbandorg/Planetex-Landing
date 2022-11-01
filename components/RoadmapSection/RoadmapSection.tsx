@@ -19,7 +19,6 @@ export default function RoadmapSection () {
 
   function quarterHandler(event: React.MouseEvent): void {
     const target = event.target as HTMLButtonElement;
-    console.log(target.dataset.name);
     if (target.dataset.name) {
       setCurrentQuarter(target.dataset.name);
     }
