@@ -95,6 +95,10 @@
   margin-right: 20px;
 }
 
+.main_nav_li_mobile {
+  display: none;
+}
+
 .main_nav_a {
   text-decoration: none;
   font-family: "Montserrat-Bold";
@@ -202,6 +206,8 @@
     border-bottom: 1px solid #111111;
   }
 
+
+
   .header_join_button_container {
     display: flex;
     align-items: center;
@@ -253,5 +259,11 @@
   } */
   .header_join_button_container_tablet {
     display: none;
+  }
+  .main_nav_li_desktop {
+    display: none;
+  }
+  .main_nav_li_mobile {
+    display: inline-block;
   }
 }

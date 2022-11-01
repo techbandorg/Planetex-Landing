@@ -9,6 +9,8 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItemHandler = (event: React.MouseEvent): void => {
+    event.preventDefault();
+
     const target = event.target as HTMLButtonElement;
     const body: HTMLElement | null = document.querySelector("body");
     let nodeObj: HTMLElement | null;
@@ -155,6 +157,26 @@ export default function Header() {
                 >
                   Sale Details
                 </a>
+              </li>
+              <li className={styles.main_nav_li}>
+                <span className={styles.main_nav_li_desktop}>
+                  <a href="#mintNFT"
+                    onClick={menuItemHandler} 
+                    className={styles.main_nav_a}
+                    data-name={"mintNFT"}
+                  >
+                    Mint NFT
+                  </a>
+                </span>
+                <span className={styles.main_nav_li_mobile}>
+                  <a href="#saleDetails"
+                    onClick={menuItemHandler} 
+                    className={styles.main_nav_a}
+                    data-name={"saleDetails"}
+                  >
+                    Mint NFT
+                  </a>
+                </span>
               </li>
               <li className={styles.main_nav_li}>
                 <div className={styles.header_join_button_container}>

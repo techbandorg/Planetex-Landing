@@ -9,9 +9,9 @@ import ProductSection from '../components/ProductSection/ProductSection'
 import GameSection from '../components/GameSection/GameSection'
 import RoadmapSection from '../components/RoadmapSection/RoadmapSection'
 import TokenomicsSection from '../components/TokenomicsSection/TokenomicsSection'
-import TeamSection from '../components/TeamSection/TeamSection'
+//import TeamSection from '../components/TeamSection/TeamSection'
 import SaleSection from '../components/SaleSection/SaleSection'
-import PartnersSection from '../components/PartnersSection/PartnersSection'
+//import PartnersSection from '../components/PartnersSection/PartnersSection'
 import Footer from '../components/Footer/Footer'
 
 const Home: NextPage = () => {
