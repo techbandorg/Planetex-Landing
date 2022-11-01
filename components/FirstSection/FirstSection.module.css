@@ -37,7 +37,7 @@
 
 .first_content {
   /* width: 661px; */
-  width: 750px;
+  width: 661px;
   height: 488px;
 }
 
@@ -46,12 +46,12 @@
   font-family: 'ZenDots-Regular';
   font-style: italic;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 103.19%;
   /* or 66px */
   letter-spacing: 0.015em;
   color: #D4E5FF;
-  margin: 90px 0 0 0;
+  margin: 110px 0 0 0;
 }
 
 .first_subtitle {
