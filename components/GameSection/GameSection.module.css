@@ -77,6 +77,16 @@
   .p2egame_section {
     padding: 0 30px;
   }
+  .section_title {
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #D4E5FF;
+  }
 }
 
 @media screen and (max-width: 1320px) {
@@ -89,16 +99,6 @@
     font-size: 16px;
     line-height: 20px;
     margin: 25px 0px 20px 0px;
-  }
-  .section_title {
-    text-align: center;
-    margin: 0;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58.51px;
-    text-align: center;
-    letter-spacing: 0.015em;
-    color: #D4E5FF;
   }
 }
 

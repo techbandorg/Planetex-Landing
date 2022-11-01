@@ -15,10 +15,12 @@ export const getProviders = (chainId: number | undefined) => {
 export const getTokenSaleContractAddress = (chainId: number | undefined) => {
   const addresses = {
     //1: '0xbcd9482dE62E7705cC4C70F8314eDA251127C699',
-    1: '0x13b161bCDCfD9850c8DddfFCB90185e4F714A47B',
+    // 1: '0x13b161bCDCfD9850c8DddfFCB90185e4F714A47B',
+    1: '0x003b3012ea7DEC7A539fD1617D7BF3138928dF19',
     5: '0x20f5072712D12C4d3c0f796c34dceCd1f1C59d4B',
     //56: '0xbcd9482dE62E7705cC4C70F8314eDA251127C699',
-    56: '0xC4F3b78036b92AFaC1684b719d8184655978c098',
+    // 56: '0xC4F3b78036b92AFaC1684b719d8184655978c098',
+    56: '0xAF69c3f90EF58c47d43B645b20c8625Ae9426fd7',
     97: '0x42D2278483A4794200F207251d4204879A3412dd',
   }
   return addresses[chainId as keyof typeof addresses] ?? console.error('chainId is undefined')

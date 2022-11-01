@@ -23,7 +23,6 @@ export default function Header() {
 
     if (target.dataset.name) {
       nodeObj = document.getElementById(target.dataset.name);
-      console.log(nodeObj);
       if (nodeObj) {
         nodeObj.scrollIntoView({block: "start", behavior: "smooth"});
       }
