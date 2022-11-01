@@ -141,7 +141,7 @@ export default function Footer() {
         <div className={styles.foter_nav_container}>
           <div className={styles.logo_container}>
             <Image 
-              src="/images/logo.svg"
+              src="/images/logo.png"
               height={28}
               width={164}
               alt="Plantex logo"
