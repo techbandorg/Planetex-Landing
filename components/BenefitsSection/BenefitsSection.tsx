@@ -59,8 +59,10 @@ export default class CountdownSection extends Component {
             <div className={styles.benefits_img_container_first}>
               <Image 
                 src="/images/Group358221.png"
-                width={626}
-                height={746}
+                // width={626}
+                // height={746}
+                width={1062}
+                height={989}
                 alt="Coin"
               />
             </div>

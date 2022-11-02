@@ -28,10 +28,23 @@
 
 .first_section_astronaut {
   position: absolute;
-  width:1220px;
+  /* width:1220px;
   height: 1069px;
   top: -230px;
-  right: -420px;
+  right: -420px; */
+  width:619px;
+  height: 653px;
+  top: -60px;
+  right: -20px;
+  z-index: -2;
+}
+
+.first_section_astronaut_mobile {
+  display: none;
+  position: absolute;
+  width:232px;
+  height: 251px;
+  right: 60px;
   z-index: -2;
 }
 
@@ -170,16 +183,14 @@
     width: 100%;
   }
   .first_section_astronaut {
-    /* top: -440px;
-    right: -600px; */
-    /* top: -250px;
-    right: -400px;
-    width: 1271px;
-    height: 1114px; */
-    top: -30%;
+    /* top: -30%;
     right: -45%;
     width: 1016px;
-    height: 891px;
+    height: 891px; */
+    top: 0%;
+    right: 10%;
+    width: 464px;
+    height: 490px;
   }
   .planetex_tok {
     top: 50px;
@@ -222,14 +233,14 @@
     left: -496px;
   }
   .first_section_astronaut {
-    /* top: -250px;
-    right: -400px;
-    width: 1271px;
-    height: 1114px; */
-    top: -30%;
+    /* top: -30%;
     right: -45%;
     width: 1016px;
-    height: 891px;
+    height: 891px; */
+    top: 0%;
+    right: 10%;
+    width: 464px;
+    height: 490px;
   }
   .first_title {
     /* font-family: 'Montserrat-Bold'; */
@@ -261,14 +272,18 @@
     left: -496px;
   }
   .first_section_astronaut {
-    /* top: -80%;
-    right: -90%;
-    width: 848px;
-    height: 743px; */
-    top: -40%;
+    display: none;
+    /* top: -40%;
     right: -40%;
     width: 542px;
-    height: 475px;
+    height: 475px; */
+    top: 0%;
+    right: 10%;
+    width: 464px;
+    height: 490px;
+  }
+  .first_section_astronaut_mobile {
+    display: flex;
   }
   .first_buttons_block {
     display: none;
