@@ -30,7 +30,7 @@ export default class FirstSection extends Component {
               <a className={styles.join_ido_button} href="https://app.planetex.io/presale" target="blank">
                 <JoinIDO_2 />
               </a>
-              <div className={styles.download_WhitePaper_button}>
+              {/* <div className={styles.download_WhitePaper_button}>
                 <div className={styles.download_logo}>
                   <Image 
                     src="/images/download.svg"
@@ -40,7 +40,7 @@ export default class FirstSection extends Component {
                   />
                 </div>
                 Download WhitePaper
-              </div>
+              </div> */}
             </div>
           </div>
           <div className={styles.first_right}>
@@ -81,7 +81,7 @@ export default class FirstSection extends Component {
           <a className={styles.join_ido_button} href="https://app.planetex.io/presale" target="blank">
             <JoinIDO_2 />
           </a>
-            <div className={styles.download_WhitePaper_button}>
+            {/* <div className={styles.download_WhitePaper_button}>
               <div className={styles.download_logo}>
                 <Image 
                   src="/images/download.svg"
@@ -91,7 +91,7 @@ export default class FirstSection extends Component {
                 />
               </div>
               WhitePaper
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
