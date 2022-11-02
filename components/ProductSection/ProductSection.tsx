@@ -18,7 +18,7 @@ export default class ProductSection extends Component {
         </div>
         <div className={styles.product_container}>
           <h2 className={styles.section_title}>
-            Enjoy DEX Functionality <a id={"productSection"}></a>
+          <a id={"productSection"}></a>Enjoy DEX Functionality
           </h2>
           <div className={styles.product_content}>
             <div className={styles.product_left_content}>
