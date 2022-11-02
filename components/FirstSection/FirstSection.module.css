@@ -44,7 +44,7 @@
 .first_title {
   /* font-family: 'Montserrat-Bold'; */
   font-family: 'ZenDots-Regular';
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 103.19%;
@@ -234,7 +234,7 @@
   .first_title {
     /* font-family: 'Montserrat-Bold'; */
     font-family: 'ZenDots-Regular';
-    font-style: italic;
+    font-style: normal;
     margin: 52px 0 0 0;
     font-size: 25px;
     line-height: 103.19%;
