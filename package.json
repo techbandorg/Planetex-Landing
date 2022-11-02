@@ -8,10 +8,12 @@
     "start": "next start",
     "lint": "next lint",
     "heroku-postbuild": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export": "next export",
+    "export:static": "yarn run build && next export -o _static"
   },
   "engines": {
-    "node": "16.17.1"
+    "node": "16.18.0"
   },
   "dependencies": {
     "@types/react-slick": "^0.23.10",
