@@ -45,10 +45,30 @@ export default class FirstSection extends Component {
           </div>
           <div className={styles.first_right}>
             <div className={styles.first_section_astronaut}>
-              <Image 
+              {/* <Image 
                 src="/images/astronaut.png"
                 height={1485}
                 width={1695}
+                alt="Download icon"
+              /> */}
+              <Image 
+                src="/images/astronaut2.png"
+                height={980}
+                width={929}
+                alt="Download icon"
+              />
+            </div>
+            <div className={styles.first_section_astronaut_mobile}>
+              {/* <Image 
+                src="/images/astronaut.png"
+                height={1485}
+                width={1695}
+                alt="Download icon"
+              /> */}
+              <Image 
+                src="/images/astronautMobile.png"
+                height={502}
+                width={464}
                 alt="Download icon"
               />
             </div>
