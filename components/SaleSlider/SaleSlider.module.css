@@ -67,7 +67,7 @@
 .sale_presale_title {
   text-align: center;
   font-family: 'ZenDots-Regular';
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
@@ -156,7 +156,7 @@
 
 .sale_listing_title {
   font-family: 'ZenDots-Regular';
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.015em;
