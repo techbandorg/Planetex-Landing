@@ -26,22 +26,8 @@
   padding: 0;
 }
 
-/* @media screen and (max-width: 1507px) {
-  .container {
-    width: 744px;
-    margin: 0 auto;
-    background-image: url('/images/landing/mainBGtablet.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
+@media screen and (max-width: 739px) {
+  .landing_wrapper {
+    background-image:none;
   }
 }
-
-@media screen and (max-width: 739px) {
-  .container {
-    width: 390px;
-    margin: 0 auto;
-    background-image: url('/images/landing/mainBGmobile.jpg');
-    background-repeat: no-repeat;
-    background-size: auto;
-  }
-} */
