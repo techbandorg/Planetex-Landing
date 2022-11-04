@@ -61,7 +61,6 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 103.19%;
-  /* or 66px */
   letter-spacing: 0.015em;
   color: #D4E5FF;
   margin: 110px 0 0 0;
@@ -196,15 +195,16 @@
     top: 50px;
     right: 0px;
   }
-  
   .diagram {
     bottom: 0px;
     left: 20px;
   }
-  
   .planetex_tok_stat {
     right: 0px;
     bottom: 30px;
+  }
+  .first_title {
+    text-align: center;
   }
   .first_content {
     display: flex;

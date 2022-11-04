@@ -21,6 +21,7 @@ const Home: NextPage = () => {
         <Head>
           <title>Planetex</title>
           <meta name="description" content="Planetex app" />
+          <title>Planetex | Buy PLTEX Token & NFT</title>
           <link rel="icon" href="/favicon.png" />
         </Head>
         <Header />

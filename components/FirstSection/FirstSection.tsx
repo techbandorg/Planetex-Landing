@@ -18,8 +18,8 @@ export default class FirstSection extends Component {
           </div>
           <div className={styles.first_content}>
             <h1 className={styles.first_title}>
-              Meet Planetex - world&#39;s<br /> 
-              first artificial intelligence<br /> 
+              Meet Planetex - new<br /> 
+              generation of GameFi<br /> 
               decentralized ecosystem
             </h1>
             <p className={styles.first_subtitle}>
