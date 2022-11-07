@@ -19,8 +19,10 @@ const Home: NextPage = () => {
     <div className={styles.landing_wrapper}>
       <div className={styles.container}>
         <Head>
-          <title>Planetex</title>
-          <meta name="description" content="Planetex app" />
+          <meta charSet="UTF-8" key="1"/>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" key="2"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" key="3"/>
+          <meta name="description" content="Planetex app" key="4"/>
           <title>Planetex | Buy PLTEX Token & NFT</title>
           <link rel="icon" href="/favicon.png" />
         </Head>

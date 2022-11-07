@@ -36,6 +36,8 @@
 
 .product_content {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 68px 0 0 0;
 }
 
@@ -66,10 +68,11 @@
 .product_right_content {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
   row-gap: 30px;
   column-gap: 25px;
+  max-width: 700px;
 }
 
 .product_right_item {
@@ -139,7 +142,8 @@
     justify-content: center;
     row-gap: 25px;
     column-gap: 20px;
-    max-width: 680px;
+    /* max-width: 680px; */
+    max-width: 600px;
   }
   .product_right_item {
     width: 153px;

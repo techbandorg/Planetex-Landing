@@ -75,7 +75,7 @@ export default class ProductSection extends Component {
                 </div>
                 <p className={styles.product_right_caption}>Pools&Farms</p>
               </div>
-              <div className={styles.product_right_item}>
+              {/* <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
                     src="/images/governance.svg"
@@ -85,7 +85,7 @@ export default class ProductSection extends Component {
                   />
                 </div>
                 <p className={styles.product_right_caption}>Governance</p>
-              </div>
+              </div> */}
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
@@ -97,7 +97,7 @@ export default class ProductSection extends Component {
                 </div>
                 <p className={styles.product_right_caption}>Marketplace</p>
               </div>
-              <div className={styles.product_right_item}>
+              {/* <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
                     src="/images/lottery.svg"
@@ -107,7 +107,7 @@ export default class ProductSection extends Component {
                   />
                 </div>
                 <p className={styles.product_right_caption}>Lottery</p>
-              </div>
+              </div> */}
               <div className={styles.product_right_item}>
                 <div className={styles.product_right_icon}>
                   <Image 
