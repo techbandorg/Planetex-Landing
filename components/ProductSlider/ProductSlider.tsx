@@ -59,7 +59,7 @@ export default class ProductSlider extends Component {
               <p className={styles.product_right_caption}>Pools&Farms</p>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
+          {/* <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
             <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
               <div className={styles.product_right_icon}>
                 <Image 
@@ -71,7 +71,7 @@ export default class ProductSlider extends Component {
               </div>
               <p className={styles.product_right_caption}>Governance</p>
             </div>
-          </div>
+          </div> */}
           <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
             <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
               <div className={styles.product_right_icon}>
@@ -85,7 +85,7 @@ export default class ProductSlider extends Component {
               <p className={styles.product_right_caption}>Marketplace</p>
             </div>
           </div>
-          <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
+          {/* <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
             <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
               <div className={styles.product_right_icon}>
                 <Image 
@@ -97,7 +97,7 @@ export default class ProductSlider extends Component {
               </div>
               <p className={styles.product_right_caption}>Lottery</p>
             </div>
-          </div>
+          </div> */}
           <div className={styles.product_right_item_mobile} style={{"width": "220px", "height": "178px"}}>
             <div className={styles.product_right_item_content} style={{"width": "195px", "height": "178px"}}>
               <div className={styles.product_right_icon}>
