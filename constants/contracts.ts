@@ -2,6 +2,26 @@ import { AbiItem } from 'web3-utils';
 import saleContractAbi from '../constants/saleContractAbi.json'
 import Web3 from 'web3';
 
+export const checkRPC = async(chainId: number | undefined) => {
+  let setNumber = 1
+  let httpProvider: string = "0"
+  let rpc: object | boolean = false
+
+  while (setNumber < 6) {
+    if (rpc) {
+      break;
+    }
+    try {
+      httpProvider = await getProviders(chainId, setNumber)
+      rpc = await fetch(httpProvider)
+    } catch (error) {
+      setNumber = setNumber + 1
+    }
+  }
+
+  return httpProvider
+}
+
 export const getProviders = async (chainId: number | undefined, setNumber: number) => {
   const providers = {
         5: 'https://eth-goerli.nodereal.io/v1/8a4432e42df94dcca2814fde8aea2a2e',
@@ -59,21 +79,7 @@ export const getTokenSaleContractAddress = (chainId: number | undefined) => {
 };
 
 export const getTokenSaleContract = async(chainId: number | undefined) => {
-  let setNumber = 1
-  let httpProvider: string = "0"
-  let rpc: object | boolean = false
-
-  while (setNumber < 6) {
-    if (rpc) {
-      break;
-    }
-    try {
-      httpProvider = await getProviders(chainId, setNumber)
-      rpc = await fetch(httpProvider);
-    } catch (error) {
-      setNumber = setNumber + 1
-    }
-  }
+  const httpProvider: string = await checkRPC(chainId)
   
   const web3 = new Web3(new Web3.providers.HttpProvider(httpProvider))
   return new web3.eth.Contract(saleContractAbi as AbiItem[], getTokenSaleContractAddress(chainId))
