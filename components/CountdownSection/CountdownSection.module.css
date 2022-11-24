@@ -71,6 +71,7 @@
 }
 
 .win_countdown_progress_caption {
+  float: right;
   font-family: 'Montserrat-Bold';
   font-style: normal;
   font-weight: 700;

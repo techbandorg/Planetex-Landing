@@ -45,7 +45,7 @@ function CountdownSection() {
           </div>
           <div className={styles.win_countdown_progress_initial}>
             <div className={styles.win_countdown_progress_initial_caption}>
-              Initial sales amount:
+              {/* Initial sales amount: */}
             </div>
             <div className={styles.win_countdown_progress_initial_amount}>
               0,04$ per token
@@ -60,14 +60,12 @@ function CountdownSection() {
             </div>
           </div>
 
-          <div className={styles.win_countdown_progress_bar}>
-            {/*@ts-ignore*/}
+          {/* <div className={styles.win_countdown_progress_bar}>
             <progress className={styles.amount_progress} value={roundAmounts?.totalSold > 1000000 ? roundAmounts?.totalSold : roundAmounts?.totalSold + 500000} max={roundAmounts?.totalAmount}/>
           </div>
 
           <div className={styles.win_countdown_progress_range}>
             <div className={styles.win_countdown_progress_range_left}>
-              {/*@ts-ignore*/}
               <div>{(roundAmounts?.totalSold)?.toLocaleString()}</div>
               <div className={styles.win_countdown_progress_picon}>
                 <Image
@@ -79,7 +77,6 @@ function CountdownSection() {
               </div>
             </div>
             <div className={styles.win_countdown_progress_range_right}>
-              {/*@ts-ignore*/}
               <div>{(roundAmounts?.totalAmount)?.toLocaleString()}</div>
               <div className={styles.win_countdown_progress_picon}>
                 <Image
@@ -90,7 +87,7 @@ function CountdownSection() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>
