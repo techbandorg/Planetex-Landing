@@ -3,7 +3,6 @@ import { getTokenSaleContract } from './contracts';
 export const getRoundEndTime = async () => {
   const chainId = 1;
   const contract = await getTokenSaleContract(chainId);
-  console.log('contract -->', contract);
   return await contract.methods.getRoundEndTime(1).call();
 };
 
