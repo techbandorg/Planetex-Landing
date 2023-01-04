@@ -173,7 +173,7 @@ export default class SaleSection extends Component {
                 </div>
                 <div className={styles.sale_presale_tokensinfo_item}>
                   <div className={styles.sale_presale_name}>Price in USDT</div>
-                  <div className={styles.sale_presale_value}>$0.07</div>
+                  <div className={styles.sale_presale_value}>$0.05</div>
                 </div>
                 <div className={styles.sale_presale_tokensinfo_item}>
                   <div className={styles.sale_presale_value}>[Min 25$]</div>
@@ -222,7 +222,7 @@ export default class SaleSection extends Component {
                 </div>
                 <div className={styles.sale_presale_tokensinfo_item}>
                   <div className={styles.sale_presale_name}>Price in USDT</div>
-                  <div className={styles.sale_presale_value}>$0.05</div>
+                  <div className={styles.sale_presale_value}>$0.07</div>
                 </div>
                 <div className={styles.sale_presale_tokensinfo_item}>
                   <div className={styles.sale_presale_value}>[Min 100$]</div>
