@@ -16,8 +16,8 @@ function CountdownSection() {
   useEffect(() => {
     // @ts-ignore
     getFormattedRoundAmounts().then(res => setRoundAmounts(res));
-    // @ts-ignore
     getRoundEndTime().then(res =>
+      // @ts-ignore
       setRoundEndTimestamp(new Date(+res * 1000).toISOString().slice(0, 19))
     );
   }, []);
@@ -70,7 +70,7 @@ function CountdownSection() {
               {/* Initial sales amount: */}
             </div>
             <div className={styles.win_countdown_progress_initial_amount}>
-              0,04$ per token
+              0,05$ per token
             </div>
           </div>
           <div className={styles.win_countdown_progress_networks}>
